@@ -21,7 +21,6 @@ public class UseGsonAndSpringBoot {
         Document document = Jsoup.connect(url)
             .userAgent("Iphone")
             .get();
-        System.out.println(document);
         Elements elements = document.select("div.css-vurnku");
         List<Binance> binances = new ArrayList<>();
         for (Element element : elements) {
