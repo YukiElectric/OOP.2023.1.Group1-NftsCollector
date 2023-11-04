@@ -24,7 +24,7 @@ public class AppController implements Initializable{
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        String imageUrl = "https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/386399127_6986504418079350_6084006873254665818_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=813123&_nc_ohc=Nc1fBQ0E9oEAX_6UWle&_nc_ht=scontent.fsgn2-4.fna&cb_e2o_trans=q&oh=00_AfBoytUE_xpiXc0RQT8uZX348qKq40fic4yUFcbr0UPCXg&oe=652D48F0";
+        String imageUrl = "https://ecdn.game4v.com/g4v-content/uploads/2022/09/25083529/Gojo-2-game4v-1664069728-55.jpg";
 
         try {
             URL url = new URL(imageUrl);

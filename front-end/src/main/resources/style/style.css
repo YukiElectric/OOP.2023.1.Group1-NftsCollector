@@ -1,0 +1,25 @@
+/* style.css */
+
+.hbox-with-border {
+    -fx-border-color: black; 
+    -fx-border-width: 0 0 1 0; 
+    -fx-border-style: solid; 
+}
+.tg
+{
+    -fx-background-color : transparent;
+    -fx-border-color:black;
+    -fx-border-width:0 0 2.5 0;
+    -fx-text-fill : black;
+}
+.tg:hover
+{
+    -fx-cursor: hand;
+}
+
+.tg:selected
+{
+    -fx-border-color : white;
+    -fx-border-width: 0 0 2.5 0;
+}
+
