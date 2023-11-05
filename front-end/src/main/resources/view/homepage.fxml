@@ -9,13 +9,12 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.control.ToggleGroup?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="hbox-with-border" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.frontend.controller.HomeController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="hbox-with-border" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.frontend.controller.HomeController">
    <left>
       <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
          <children>
@@ -40,7 +39,7 @@
    <top>
       <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="600.0" styleClass="hbox-with-border" BorderPane.alignment="CENTER">
          <children>
-            <FontAwesomeIconView glyphName="HOME" size="40">
+            <FontAwesomeIconView glyphName="HOME" onMouseClicked="#returnHome" size="40">
                <HBox.margin>
                   <Insets left="35.0" />
                </HBox.margin>
@@ -52,36 +51,27 @@
       </HBox>
    </top>
    <center>
-      <TabPane fx:id="tab_bar" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+      <TabPane fx:id="tabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
         <tabs>
             <Tab text="HOME">
                <content>
-                  <BorderPane>
-                     <center>
-                        <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-                          <content>
-                            <AnchorPane minHeight="0.0" minWidth="0.0">
-                                 <children>
-                                    <ImageView fitHeight="199.0" fitWidth="247.0" pickOnBounds="true" preserveRatio="true" />
-                                 </children>
-                              </AnchorPane>
-                          </content>
-                        </ScrollPane>
-                     </center>
-                  </BorderPane>
+                  <BorderPane fx:id="homeView" />
                </content>
             </Tab>
           <Tab text="POST">
                <content>
                   <BorderPane>
                      <top>
-                        <HBox prefHeight="43.0" prefWidth="500.0" spacing="10.0" BorderPane.alignment="CENTER">
+                        <HBox prefHeight="29.0" prefWidth="490.0" spacing="10.0" BorderPane.alignment="CENTER">
                            <children>
-                              <JFXTextField promptText="search:" />
-                              <FontAwesomeIconView glyphName="SEARCH" size="30" />
+                              <JFXTextField prefHeight="25.0" prefWidth="275.0" promptText="search:" />
+                              <FontAwesomeIconView glyphName="SEARCH" size="30">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor></FontAwesomeIconView>
                            </children>
                            <BorderPane.margin>
-                              <Insets left="10.0" top="10.0" />
+                              <Insets bottom="5.0" left="5.0" top="5.0" />
                            </BorderPane.margin>
                         </HBox>
                      </top>

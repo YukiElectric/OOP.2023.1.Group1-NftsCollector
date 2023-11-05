@@ -3,6 +3,7 @@ module oop.frontend {
     requires javafx.fxml;
     requires com.jfoenix;
     requires de.jensd.fx.glyphs.fontawesome;
+    requires javafx.web;
             
         requires org.controlsfx.controls;
                         requires org.kordamp.bootstrapfx.core;
