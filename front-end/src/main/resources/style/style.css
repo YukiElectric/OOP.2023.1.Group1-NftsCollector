@@ -58,3 +58,40 @@
     -fx-background-radius: 5em;
 }
 
+.material-combo-box .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.material-combo-box .arrow-button .arrow {
+    -fx-background-color: #0097a7;
+}
+
+.material-combo-box .list-cell {
+    -fx-text-fill: #FFFFFF;
+}
+
+.material-combo-box .list-cell {
+    -fx-background-color: #0097a7;
+}
+
+.material-combo-box .list-cell:hover {
+    -fx-background-color: #00556b;
+}
+
+.material-combo-box {
+    -fx-background-color: #0097a7;
+    -fx-border-color: #006d80;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+}
+
+.material-combo-box .list-view {
+    -fx-background-color: transparent;
+}
+
+.material-combo-box .list-view .list-cell {
+    -fx-padding: 4px 8px;
+}
+
+

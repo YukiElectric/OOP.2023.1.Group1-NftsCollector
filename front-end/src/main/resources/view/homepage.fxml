@@ -4,6 +4,8 @@
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
@@ -11,6 +13,7 @@
 <?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
@@ -30,10 +33,14 @@
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="TRENDING" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="TOP" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="ANALYZE" toggleGroup="$menu" />
+            <ToggleButton disable="true" mnemonicParsing="false" text="ToggleButton" toggleGroup="$menu" visible="false" />
          </children>
          <BorderPane.margin>
             <Insets />
          </BorderPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
       </VBox>
    </left>
    <top>
@@ -62,7 +69,7 @@
                <content>
                   <BorderPane>
                      <top>
-                        <HBox prefHeight="29.0" prefWidth="490.0" spacing="10.0" BorderPane.alignment="CENTER">
+                        <HBox prefWidth="490.0" spacing="10.0" BorderPane.alignment="CENTER">
                            <children>
                               <JFXTextField prefHeight="25.0" prefWidth="275.0" promptText="search:" />
                               <FontAwesomeIconView glyphName="SEARCH" size="30">
@@ -71,44 +78,230 @@
                                  </cursor></FontAwesomeIconView>
                            </children>
                            <BorderPane.margin>
-                              <Insets bottom="5.0" left="5.0" top="5.0" />
+                              <Insets bottom="5.0" top="5.0" />
                            </BorderPane.margin>
                         </HBox>
                      </top>
                      <center>
-                        <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
-                          <content>
-                            <AnchorPane />
-                          </content>
+                        <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                           <content>
+                              <VBox fx:id="postView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
                         </ScrollPane>
                      </center>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
                   </BorderPane>
                </content>
           </Tab>
           <Tab text="HOT TAGS">
                <content>
-                  <BorderPane />
+                  <BorderPane>
+                     <center>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" vgap="20.0" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                        </FlowPane>
+                     </center>
+                     <top>
+                        <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
+                           <children>
+                              <ComboBox fx:id="comboBox" onAction="#setSelection" prefWidth="200.0" styleClass="material-combo-box">
+                                 <padding>
+                                    <Insets left="45.0" />
+                                 </padding>
+                              </ComboBox>
+                              <Label text="Sort by :" textFill="#fffdfd">
+                                 <HBox.margin>
+                                    <Insets left="-195.0" />
+                                 </HBox.margin>
+                              </Label>
+                           </children>
+                           <BorderPane.margin>
+                              <Insets bottom="5.0" />
+                           </BorderPane.margin>
+                        </HBox>
+                     </top>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding></BorderPane>
                </content>
           </Tab>
             <Tab text="TRENDING">
                <content>
                   <BorderPane>
                      <left>
-                        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+                        <VBox prefHeight="277.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
                            <children>
-                              <ToggleButton mnemonicParsing="false" text="ToggleButton" />
-                              <ToggleButton mnemonicParsing="false" text="ToggleButton" />
-                              <ToggleButton mnemonicParsing="false" text="ToggleButton" />
-                              <ToggleButton mnemonicParsing="false" text="ToggleButton" />
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuTrending" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuTrending" />
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuTrending">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTrending" />
                            </children>
+                           <BorderPane.margin>
+                              <Insets left="15.0" right="5.0" />
+                           </BorderPane.margin>
                         </VBox>
                      </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="trendingTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                <tabs>
+                                  <Tab text="Opensea">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                  <Tab text="Binance">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                    <Tab text="Nifty">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                    <Tab text="Rarible">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </center>
+                           <top>
+                              <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ComboBox fx:id="trendingComboBox" onAction="#setSelection" prefWidth="200.0" styleClass="material-combo-box">
+                                       <padding>
+                                          <Insets left="45.0" />
+                                       </padding>
+                                    </ComboBox>
+                                    <Label text="Sort by :" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets left="-195.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </top>
+                        </BorderPane>
+                     </center>
                   </BorderPane>
                </content>
             </Tab>
             <Tab text="TOP">
                <content>
-                  <BorderPane />
+                  <BorderPane>
+                     <left>
+                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuTop" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuTop">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuTop">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTop">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <BorderPane.margin>
+                              <Insets left="15.0" right="5.0" />
+                           </BorderPane.margin>
+                        </VBox>
+                     </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="topTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                <tabs>
+                                  <Tab text="Opensea">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                  <Tab text="Binance">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                    </content>
+                                  </Tab>
+                                    <Tab text="Nifty">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                    <Tab text="Rarible">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                                      </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </center>
+                           <top>
+                              <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ComboBox fx:id="topComboBox" onAction="#setSelection" prefWidth="200.0" styleClass="material-combo-box">
+                                       <padding>
+                                          <Insets left="45.0" />
+                                       </padding>
+                                    </ComboBox>
+                                    <Label text="Sort by :" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets left="-195.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" />
+                                 </BorderPane.margin>
+                              </HBox>
+                           </top>
+                        </BorderPane>
+                     </center></BorderPane>
                </content>
             </Tab>
             <Tab text="ANALYZE">
