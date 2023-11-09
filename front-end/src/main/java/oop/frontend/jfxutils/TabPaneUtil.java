@@ -39,16 +39,29 @@ public class TabPaneUtil {
         }));
     }
 
-    public static void setViewChange(ToggleGroup toggleGroup, VBox vBox) {
+    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, int index) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
                 ToggleButton selectedButton = (ToggleButton) toggleGroup.getSelectedToggle();
                 int selectedIndex = toggleGroup.getToggles().indexOf(selectedButton);
-                switch (selectedIndex) {
-                    case 0:
-                        VboxViewUtil.setViewViewVBox(vBox, Constants.API_URL, "");
-                        break;
-                }
+                if (index == 0)
+                    switch (selectedIndex) {
+                        case 0 -> VboxViewUtil.setViewViewVBox(postView, Constants.API_URL, "");
+                        case 1 -> VboxViewUtil.setViewViewVBox(hotTagView, Constants.API_URL, "");
+                        case 2 -> VboxViewUtil.setViewViewVBox(trendingView, Constants.API_URL, "");
+                        case 3 -> VboxViewUtil.setViewViewVBox(topView, Constants.API_URL, "");
+                        default -> {
+                        }
+                    }
+                else
+                    switch (selectedIndex) {
+                        case 0 -> VboxViewUtil.setViewViewVBox(postView, Constants.API_URL, "");
+                        case 1 -> VboxViewUtil.setViewViewVBox(hotTagView, Constants.API_URL, "");
+                        case 2 -> VboxViewUtil.setViewViewVBox(trendingView, Constants.API_URL, "");
+                        case 3 -> VboxViewUtil.setViewViewVBox(topView, Constants.API_URL, "");
+                        default -> {
+                        }
+                    }
             }
         });
     }

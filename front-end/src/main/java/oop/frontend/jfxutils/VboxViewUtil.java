@@ -2,7 +2,11 @@ package oop.frontend.jfxutils;
 
 import javafx.application.Platform;
 import javafx.scene.control.ProgressIndicator;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.VBox;
+import oop.frontend.App;
+import oop.frontend.common.Constants;
 import oop.frontend.controller.PostItemController;
 
 import java.io.IOException;
@@ -28,6 +32,12 @@ public class VboxViewUtil {
         });
         taskUtil.setOnFailed(event -> {
             taskUtil.getException().printStackTrace();
+            vBox.getChildren().clear();
+            try {
+                vBox.getChildren().add(new ImageView(new Image(App.class.getResource(Constants.APP_ERROR).openStream())));
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         });
 
         ProgressIndicator progressIndicator = new ProgressIndicator(-1);

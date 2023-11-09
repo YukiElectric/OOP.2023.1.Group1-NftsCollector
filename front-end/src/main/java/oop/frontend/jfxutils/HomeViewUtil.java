@@ -6,8 +6,10 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.BorderPane;
 import oop.frontend.App;
+import oop.frontend.common.Constants;
 
 import java.io.File;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class HomeViewUtil {
@@ -24,7 +26,7 @@ public class HomeViewUtil {
     }
 
     public static void setWebView(BorderPane borderPane) throws Exception {
-        Image image = new Image(App.class.getResource("/image/img.png").openStream());
+        Image image = new Image(Objects.requireNonNull(App.class.getResource(Constants.HOME_IMAGE_VIEW)).openStream());
         ImageView imageView = new ImageView(image);
         ScrollPane scrollPane = new ScrollPane();
         scrollPane.setContent(imageView);

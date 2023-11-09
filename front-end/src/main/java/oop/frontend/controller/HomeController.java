@@ -1,5 +1,6 @@
 package oop.frontend.controller;
 
+import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -12,6 +13,7 @@ import javafx.scene.layout.VBox;
 import oop.frontend.jfxutils.ComboBoxUtil;
 import oop.frontend.jfxutils.HomeViewUtil;
 import oop.frontend.jfxutils.TabPaneUtil;
+import oop.frontend.jfxutils.TextFieldSearchUtil;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -52,6 +54,36 @@ public class HomeController implements Initializable {
     private VBox postView;
 
     @FXML
+    private VBox hotTagsView;
+
+    @FXML
+    private VBox openseaTrendingView;
+
+    @FXML
+    private VBox binanceTrendingView;
+
+    @FXML
+    private VBox niftyTrendingView;
+
+    @FXML
+    private VBox rariableTrendingView;
+
+    @FXML
+    private VBox openseaTopView;
+
+    @FXML
+    private VBox binanceTopView;
+
+    @FXML
+    private VBox niftyTopView;
+
+    @FXML
+    private VBox rariableTopView;
+
+    @FXML
+    private JFXTextField search;
+
+    @FXML
     void returnHome(MouseEvent event) {
         tabPane.getSelectionModel().select(0);
         menu.getToggles().get(5).setSelected(true);
@@ -59,7 +91,31 @@ public class HomeController implements Initializable {
 
     @FXML
     void setSelection(ActionEvent event) {
+        ComboBoxUtil.setViewByComboBox(comboBox,hotTagsView);
+        switch (menuTrending.getToggles().indexOf(menuTrending.getSelectedToggle())) {
+            case 0 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, openseaTrendingView);
+            case 1 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, binanceTrendingView);
+            case 2 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, niftyTrendingView);
+            case 3 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, rariableTrendingView);
+            default -> {}
+        }
+        switch (menuTop.getToggles().indexOf(menuTop.getSelectedToggle())) {
+            case 0 -> ComboBoxUtil.setViewByComboBox(topComboBox, openseaTopView);
+            case 1 -> ComboBoxUtil.setViewByComboBox(topComboBox, binanceTopView);
+            case 2 -> ComboBoxUtil.setViewByComboBox(topComboBox, niftyTopView);
+            case 3 -> ComboBoxUtil.setViewByComboBox(topComboBox, rariableTopView);
+            default -> {}
+        }
+    }
 
+    @FXML
+    void onSearch(ActionEvent event) {
+        TextFieldSearchUtil.onSearchAction(search, postView);
+    }
+
+    @FXML
+    void searchByHasTag(MouseEvent event) {
+        TextFieldSearchUtil.onSearchAction(search, postView);
     }
 
     @Override
@@ -68,7 +124,9 @@ public class HomeController implements Initializable {
         TabPaneUtil.setSelection(menuTrending, trendingTabPane);
         TabPaneUtil.setSelection(menuTop, topTabPane);
         TabPaneUtil.resetIndexTabPane(menu, menuTop, menuTrending);
-        TabPaneUtil.setViewChange(menu, postView);
+        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, 0);
+        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, rariableTrendingView, 1);
+        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, rariableTopView, 1);
         ComboBoxUtil.setItem(comboBox);
         ComboBoxUtil.setItem(topComboBox);
         ComboBoxUtil.setItem(trendingComboBox);

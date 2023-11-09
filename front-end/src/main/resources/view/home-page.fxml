@@ -4,6 +4,9 @@
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.AreaChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
@@ -11,9 +14,7 @@
 <?import javafx.scene.control.TabPane?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.control.ToggleGroup?>
-<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.FlowPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
@@ -71,8 +72,8 @@
                      <top>
                         <HBox prefWidth="490.0" spacing="10.0" BorderPane.alignment="CENTER">
                            <children>
-                              <JFXTextField prefHeight="25.0" prefWidth="275.0" promptText="search:" />
-                              <FontAwesomeIconView glyphName="SEARCH" size="30">
+                              <JFXTextField fx:id="search" onAction="#onSearch" prefHeight="25.0" prefWidth="275.0" promptText="search:" />
+                              <FontAwesomeIconView glyphName="SEARCH" onMouseClicked="#searchByHasTag" size="30">
                                  <cursor>
                                     <Cursor fx:constant="HAND" />
                                  </cursor></FontAwesomeIconView>
@@ -105,13 +106,6 @@
           <Tab text="HOT TAGS">
                <content>
                   <BorderPane>
-                     <center>
-                        <FlowPane alignment="CENTER" columnHalignment="CENTER" vgap="20.0" BorderPane.alignment="CENTER">
-                           <BorderPane.margin>
-                              <Insets />
-                           </BorderPane.margin>
-                        </FlowPane>
-                     </center>
                      <top>
                         <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
                            <children>
@@ -133,7 +127,18 @@
                      </top>
                      <padding>
                         <Insets left="10.0" />
-                     </padding></BorderPane>
+                     </padding>
+                     <center>
+                        <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+                           <content>
+                              <VBox fx:id="hotTagsView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </center></BorderPane>
                </content>
           </Tab>
             <Tab text="TRENDING">
@@ -169,24 +174,56 @@
                               <TabPane fx:id="trendingTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
                                 <tabs>
                                   <Tab text="Opensea">
-                                    <content>
-                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                    </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="openseaTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                   </Tab>
                                   <Tab text="Binance">
-                                    <content>
-                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                    </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="binanceTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                   </Tab>
                                     <Tab text="Nifty">
-                                      <content>
-                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                      </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="niftyTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                     </Tab>
                                     <Tab text="Rarible">
-                                      <content>
-                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                      </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="rariableTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                     </Tab>
                                 </tabs>
                               </TabPane>
@@ -259,24 +296,56 @@
                               <TabPane fx:id="topTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
                                 <tabs>
                                   <Tab text="Opensea">
-                                    <content>
-                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                    </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="openseaTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                   </Tab>
                                   <Tab text="Binance">
-                                    <content>
-                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                    </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="binanceTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                   </Tab>
                                     <Tab text="Nifty">
-                                      <content>
-                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                      </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="niftyTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                     </Tab>
                                     <Tab text="Rarible">
-                                      <content>
-                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                                      </content>
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="rariableTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
                                     </Tab>
                                 </tabs>
                               </TabPane>
@@ -306,7 +375,24 @@
             </Tab>
             <Tab text="ANALYZE">
                <content>
-                  <BorderPane />
+                  <BorderPane>
+                     <center>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </BorderPane.margin>
+                           <content>
+                              <AreaChart>
+                                <xAxis>
+                                  <CategoryAxis side="BOTTOM" />
+                                </xAxis>
+                                <yAxis>
+                                  <NumberAxis side="LEFT" />
+                                </yAxis>
+                              </AreaChart>
+                           </content>
+                        </ScrollPane>
+                     </center></BorderPane>
                </content>
             </Tab>
         </tabs>
