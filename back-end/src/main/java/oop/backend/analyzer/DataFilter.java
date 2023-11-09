@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 //Lớp này dùng để lọc dữ liệu lỗi (có các thuộc tính rỗng, lặp lại,...)
-//TODO Ở đây dùng lại model Binance nếu sau này có thay một model dùng chung cho NFT data thì sửa lại
+//TODO Thay lại Binance thành NFTObject nếu để Binance kế thừa NFTObject
 
 public class DataFilter {
-    // Method để loại bỏ các đối tượng trùng lặp (khi update hoặc lưu trữ data) dựa trên một thuộc tính
+    // Method để loại bỏ các đối tượng trùng lặp (dùng khi update hoặc lưu trữ data) dựa trên một thuộc tính
     public void filterDuplicated(List<Binance> dataList) {
         List<String> uniqueNames = new ArrayList<>();
         List<Binance> tempList = new ArrayList<>();     //Tạo cái này vì java không cho vừa duyệt vừa chỉnh sửa list
@@ -31,7 +31,7 @@ public class DataFilter {
         List<Binance> tempList = new ArrayList<>();
         for (Binance o: dataList){
             if (o.getName() != null && o.getVolume() != null
-                && !o.getName().isEmpty()&& !o.getVolume().isEmpty()){
+                && !o.getName().isEmpty()){
                 tempList.add(o);
             }
         }

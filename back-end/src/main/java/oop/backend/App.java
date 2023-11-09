@@ -1,12 +1,12 @@
 package oop.backend;
 
+import oop.backend.analyzer.DataCorrelation;
 import oop.backend.analyzer.DataFilter;
 import oop.backend.storage.CSVDataStorage;
 import oop.backend.storage.JSONDataStorage;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.io.IOException;
 import java.util.List;
 
 @SpringBootApplication
@@ -28,5 +28,15 @@ public class App {
 
         CSVDataStorage csv = new CSVDataStorage("binance");
         csv.storeDataInCSVFile(binanceData);
+
+        //TODO: list twitterData = new getDataFromTwitter()
+
+        // Test DataCorrelation
+        for (Binance o : binanceData){
+            String name = o.getName();
+
+            DataCorrelation item = new DataCorrelation();
+        }
+
     }
 }
