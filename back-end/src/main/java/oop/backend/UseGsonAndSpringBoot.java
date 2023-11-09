@@ -16,7 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping("data") // đây là đường link dẫn đến api trả về json thường nếu ko chỉnh port thì chỉ cần truy cập https:://localhost:8080/data là xem được
 public class UseGsonAndSpringBoot {
-    private List<Binance> getBinaceData() throws Exception{  //Ví dụ lấy data ở trả về của trang binance ở đây data bị html mã hóa lên jsoup không lấy được nếu muôn lấy có thể dùng cách lấy GetDataIfNeedApi
+    public List<Binance> getBinaceData() throws Exception{  //Ví dụ lấy data ở trả về của trang binance ở đây data bị html mã hóa lên jsoup không lấy được nếu muôn lấy có thể dùng cách lấy GetDataIfNeedApi
         String url = "https://www.binance.com/en/nft/home";
         Document document = Jsoup.connect(url)
             .userAgent("Iphone")
