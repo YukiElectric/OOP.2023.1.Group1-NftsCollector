@@ -5,8 +5,8 @@ module oop.frontend {
     requires de.jensd.fx.glyphs.fontawesome;
     requires javafx.web;
     requires com.google.gson;
-            
-        requires org.controlsfx.controls;
+
+    requires org.controlsfx.controls;
                         requires org.kordamp.bootstrapfx.core;
             
     opens oop.frontend to javafx.fxml;

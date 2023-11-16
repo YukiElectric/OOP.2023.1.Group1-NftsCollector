@@ -5,6 +5,7 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
+import oop.frontend.controller.PostItemController;
 
 public class TabPaneUtil {
     private static void setTabPane(ToggleGroup menu, TabPane tabPane, int index) {
@@ -46,19 +47,19 @@ public class TabPaneUtil {
                 int selectedIndex = toggleGroup.getToggles().indexOf(selectedButton);
                 if (index == 0)
                     switch (selectedIndex) {
-                        case 0 -> VboxViewUtil.setViewViewVBox(postView, Constants.API_URL, "");
-                        case 1 -> VboxViewUtil.setViewViewVBox(hotTagView, Constants.API_URL, "");
-                        case 2 -> VboxViewUtil.setViewViewVBox(trendingView, Constants.API_URL, "");
-                        case 3 -> VboxViewUtil.setViewViewVBox(topView, Constants.API_URL, "");
+                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", PostItemController.class);
+                        case 1 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "", PostItemController.class);
+                        case 2 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "", PostItemController.class);
+                        case 3 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "", PostItemController.class);
                         default -> {
                         }
                     }
                 else
                     switch (selectedIndex) {
-                        case 0 -> VboxViewUtil.setViewViewVBox(postView, Constants.API_URL, "");
-                        case 1 -> VboxViewUtil.setViewViewVBox(hotTagView, Constants.API_URL, "");
-                        case 2 -> VboxViewUtil.setViewViewVBox(trendingView, Constants.API_URL, "");
-                        case 3 -> VboxViewUtil.setViewViewVBox(topView, Constants.API_URL, "");
+                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", PostItemController.class);
+                        case 1 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "", PostItemController.class);
+                        case 2 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "", PostItemController.class);
+                        case 3 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "", PostItemController.class);
                         default -> {
                         }
                     }

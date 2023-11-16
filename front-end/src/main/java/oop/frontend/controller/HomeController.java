@@ -4,16 +4,14 @@ import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.chart.LineChart;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
-import oop.frontend.jfxutils.ComboBoxUtil;
-import oop.frontend.jfxutils.HomeViewUtil;
-import oop.frontend.jfxutils.TabPaneUtil;
-import oop.frontend.jfxutils.TextFieldSearchUtil;
+import oop.frontend.jfxutils.*;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -27,7 +25,7 @@ public class HomeController implements Initializable {
     private TabPane tabPane;
 
     @FXML
-    private BorderPane homeView;
+    private ScrollPane homeView;
 
     @FXML
     private ComboBox<String> comboBox;
@@ -84,6 +82,9 @@ public class HomeController implements Initializable {
     private JFXTextField search;
 
     @FXML
+    private LineChart<Number, Number> lineChart;
+
+    @FXML
     void returnHome(MouseEvent event) {
         tabPane.getSelectionModel().select(0);
         menu.getToggles().get(5).setSelected(true);
@@ -135,10 +136,12 @@ public class HomeController implements Initializable {
         ComboBoxUtil.resetComboBoxItem(topComboBox, menuTop);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menu);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menuTrending);
+        LineChartUtil.createChart(lineChart);
         try {
-            HomeViewUtil.setWebView(homeView);
+            homeView.setContent(WebViewUtil.setView("/html/GioiThieu.txt"));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }
+
 }

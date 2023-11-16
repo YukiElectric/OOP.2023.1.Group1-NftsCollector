@@ -4,8 +4,8 @@
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.chart.AreaChart?>
 <?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
@@ -63,7 +63,14 @@
         <tabs>
             <Tab text="HOME">
                <content>
-                  <BorderPane fx:id="homeView" />
+                  <BorderPane>
+                     <center>
+                        <ScrollPane fx:id="homeView" fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="5.0" />
+                           </BorderPane.margin>
+                        </ScrollPane>
+                     </center></BorderPane>
                </content>
             </Tab>
           <Tab text="POST">
@@ -382,14 +389,14 @@
                               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                            </BorderPane.margin>
                            <content>
-                              <AreaChart>
+                              <LineChart fx:id="lineChart">
                                 <xAxis>
-                                  <CategoryAxis side="BOTTOM" />
+                                  <NumberAxis side="BOTTOM" />
                                 </xAxis>
                                 <yAxis>
                                   <NumberAxis side="LEFT" />
                                 </yAxis>
-                              </AreaChart>
+                              </LineChart>
                            </content>
                         </ScrollPane>
                      </center></BorderPane>
