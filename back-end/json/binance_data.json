@@ -1,0 +1,578 @@
+[
+  {
+    "img": "https://bin.bnbstatic.com/image/julia/nft/marketplace/first_iii.png",
+    "name": "Bored Ape Yacht Club",
+    "volume": "934.88 ETH",
+    "floor_price": "30.29 ETH"
+  },
+  {
+    "img": "https://bin.bnbstatic.com/image/julia/nft/marketplace/second_iii.png",
+    "name": "The Captainz",
+    "volume": "620.19 ETH",
+    "floor_price": "4.88 ETH"
+  },
+  {
+    "img": "https://bin.bnbstatic.com/image/julia/nft/marketplace/third_iii.png",
+    "name": "Mutant Ape Yacht Club",
+    "volume": "390.54 ETH",
+    "floor_price": "5.68 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/5966121f53a842f793d02d24cf196e1c_64x64.webp",
+    "name": "Moonbirds",
+    "volume": "232.52 ETH",
+    "floor_price": "2.1 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/303d4787c96242a1bb000136dd57f405_64x64.webp",
+    "name": "Azuki",
+    "volume": "185.75 ETH",
+    "floor_price": "6.37 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/9e9d1ca1a76847418c3a10ac13c627db_64x64.webp",
+    "name": "Pudgy Penguins",
+    "volume": "172.85 ETH",
+    "floor_price": "5.39 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1680315311520_bbkd4ll4i5ylykbam34twi0omc736x8p_64x64.webp",
+    "name": "DeGods",
+    "volume": "142.47 ETH",
+    "floor_price": "3.28 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/b4bf0e0b2b9a406eaa4787f21a5b2706_64x64.webp",
+    "name": "The Potatoz",
+    "volume": "133.01 ETH",
+    "floor_price": "1.87 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1677963638412_n6d6sbjcnms4ou02i5lmutg4t0ye4vau_64x64.webp",
+    "name": "Wrapped Cryptopunks",
+    "volume": "115.24 ETH",
+    "floor_price": "60.16 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1675283444435_8rk4rf7qr2170x7jki1mbmduoz7asjo9_64x64.webp",
+    "name": "YOU THE REAL MVP",
+    "volume": "111.62 ETH",
+    "floor_price": "106.86 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/b8b7c6ac4743492db019ce26f7347462_64x64.webp",
+    "name": "CLONE X - X TAKASHI MURAKAMI",
+    "volume": "105.3 ETH",
+    "floor_price": "1.37 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1689566900605_frdc23351j48m7gts0o4hy7kymy1z59x_64x64.webp",
+    "name": "Parallel Avatars",
+    "volume": "102.28 ETH",
+    "floor_price": "0.68 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1683357610517_52taqzmdem01tmeo1gxy7mfo4314q37o_64x64.webp",
+    "name": "TOPIA Worlds",
+    "volume": "96.54 ETH",
+    "floor_price": "1.5 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1691124371107_scjwjpzl08fxtxxprfehdxhcm4pkars2_64x64.webp",
+    "name": "Velocity Series: Velocity Pass",
+    "volume": "87.34 ETH",
+    "floor_price": "0.56 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667801173679_6osf0fmr4zgqsgotq5zt40pzdm8njn3g_64x64.webp",
+    "name": "Otherdeed for Otherside",
+    "volume": "79.11 ETH",
+    "floor_price": "0.63 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/54a3dd84e14d487e9a1bdd23166e4778_64x64.webp",
+    "name": "Nouns",
+    "volume": "63.62 ETH",
+    "floor_price": "68.98 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/40d30afcdd6a49939e89bb124e4cf85c_64x64.webp",
+    "name": "Doodles",
+    "volume": "63.04 ETH",
+    "floor_price": "2.19 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667874736142_4iimvwacp4r3v0khr6j8sr2tlzyxs8zr_64x64.webp",
+    "name": "Milady Maker",
+    "volume": "60.7 ETH",
+    "floor_price": "2.75 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/4c5089f3346940d3aa9b9fe6b0b922f2_64x64.webp",
+    "name": "Matr1x 2061",
+    "volume": "55.6 ETH",
+    "floor_price": "1.82 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/5bc971125c4640b0be2ddb6f08ee1367_64x64.webp",
+    "name": "Meebits",
+    "volume": "44.75 ETH",
+    "floor_price": "1.42 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1687932850971_35r93kq25q763r0zvu5o5lg7id729hej_64x64.webp",
+    "name": "Azuki Elementals",
+    "volume": "39.71 ETH",
+    "floor_price": "0.63 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667833269373_dg25y9sujcyv3fni4aqpdm90wf22rgae_64x64.webp",
+    "name": "CryptoPunks V1 (wrapped)",
+    "volume": "32.67 ETH",
+    "floor_price": "4.25 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667801182515_w2evj8h6omdvfgozzfyru7oqwpfjr3tm_64x64.webp",
+    "name": "Bored Ape Kennel Club",
+    "volume": "32.58 ETH",
+    "floor_price": "1.76 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1685540770605_unr91be0qjnnib2d4zpgk0b7eco6sma8_64x64.webp",
+    "name": "The Grapes",
+    "volume": "31.2 ETH",
+    "floor_price": "1.82 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1674158452400_vx3wp10xif320ent425wm1a378f7hr77_64x64.webp",
+    "name": "Opepen Edition",
+    "volume": "28.18 ETH",
+    "floor_price": "0.44 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667801191325_338ee699dzk7uo3meez6rkttidw9tvfc_64x64.webp",
+    "name": "BEANZ Official",
+    "volume": "28.16 ETH",
+    "floor_price": "0.34 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1671538727863_qtij3ornjpwcekfcj5scq96jy0fgctoy_64x64.webp",
+    "name": "Pixelmon - Generation 1",
+    "volume": "27.69 ETH",
+    "floor_price": "0.8 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1680758170366_wmcb8c1tmjosv0n67f3wkhpng5hho7ib_64x64.webp",
+    "name": "Otherside Koda",
+    "volume": "22.76 ETH",
+    "floor_price": "3 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1678261197262_an96jigwq039okugxmqdh4gjlqyrz9ch_64x64.webp",
+    "name": "Redacted Remilio Babies",
+    "volume": "21.53 ETH",
+    "floor_price": "0.48 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/res/0ac510b4d43d490eb847787c7f67b4c2.jpeg",
+    "name": "Azuki Elemental Beans",
+    "volume": "21.09 ETH",
+    "floor_price": "0.9 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/5332395a05fc4826b6b19c87118f90eb_64x64.webp",
+    "name": "mfers",
+    "volume": "19.72 ETH",
+    "floor_price": "0.76 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/6afa75b151d54176b839e05038f589db_64x64.webp",
+    "name": "World of Women",
+    "volume": "16.59 ETH",
+    "floor_price": "1.07 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/448fce1fabc24a46b4a1cba661fec292_64x64.webp",
+    "name": "Lil Pudgys",
+    "volume": "16.18 ETH",
+    "floor_price": "0.39 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/res/nft-cex/S3/1667540453931_5h5wt7irw7q7fs2uld5v206y93dey114.webp",
+    "name": "My Pet Hooligan",
+    "volume": "15.9 ETH",
+    "floor_price": "0.57 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1685642530493_5vccjl2p8zf4olfz4lhpa27bskb5avlr_64x64.webp",
+    "name": "Sproto Gremlins",
+    "volume": "15.73 ETH",
+    "floor_price": "0.71 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1671535712090_31mm1deppy16n8syg9hfiy6p5du35eav_64x64.webp",
+    "name": "OnChainMonkey",
+    "volume": "14.6 ETH",
+    "floor_price": "1.97 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667542059838_3hroxtrh283yvhqwq8qf5iydga25dpk9_64x64.webp",
+    "name": "Sappy Seals",
+    "volume": "13.99 ETH",
+    "floor_price": "0.37 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/61ca8908746a49518229060820474f2e_64x64.webp",
+    "name": "Mocaverse",
+    "volume": "13.98 ETH",
+    "floor_price": "1.83 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1680745570357_kwuoqkwgcwdqu2fobh7erh298y7lz43m_64x64.webp",
+    "name": "Otherdeed Expanded",
+    "volume": "13.38 ETH",
+    "floor_price": "0.32 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1689566901298_gsgllydx488c9gvs2tgud6zn7aq456ib_64x64.webp",
+    "name": "Ether Avatar",
+    "volume": "13.31 ETH",
+    "floor_price": "0.13 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1675852223820_w5amaa3vrimv452ral6oekwcu3p0uhi9_64x64.webp",
+    "name": "Oh Ottie!",
+    "volume": "12.5 ETH",
+    "floor_price": "0.7 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1678798951772_mg0wbx0v4jd1k5xjoh4876pg6nhbdxwf_64x64.webp",
+    "name": "The Sandbox",
+    "volume": "11.96 ETH",
+    "floor_price": "0.24 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667541228447_y8fhr21xebb4bpgba5m1jxvwxgjwaxjv_64x64.webp",
+    "name": "Forgotten Runes Wizards Cult",
+    "volume": "10.37 ETH",
+    "floor_price": "0.65 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667541030366_d35qwj7v9lp5ybyp240ud5a5r5gnqjr8_64x64.webp",
+    "name": "RENGA",
+    "volume": "9.92 ETH",
+    "floor_price": "0.24 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/d1591836d6d44daf80b61960cda79893_64x64.webp",
+    "name": "Cool Cats NFT",
+    "volume": "9.72 ETH",
+    "floor_price": "0.9 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1673834410745_8lovx1dxjo5q5cj04jt4ibuzkvhnbujw_64x64.webp",
+    "name": "a KID called BEAST",
+    "volume": "8.79 ETH",
+    "floor_price": "0.25 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1674160231524_iprtxuwr3k0i4mkau3lhk8ig6nd4hvkv_64x64.webp",
+    "name": "Kanpai Pandas",
+    "volume": "8.18 ETH",
+    "floor_price": "0.78 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1679504422444_vjcv41ljfw58vjy9hkcyarbkxjus3u2d_64x64.webp",
+    "name": "Nakamigos",
+    "volume": "7.6 ETH",
+    "floor_price": "0.17 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/f7ee36e70ca04dd997cad3d8b2c7e534_64x64.webp",
+    "name": "PROOF Collective",
+    "volume": "7.43 ETH",
+    "floor_price": "4.08 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1679119212971_ierz71v7hr85vsq18cwp0er8smv3hmel_64x64.webp",
+    "name": "Synthetic Dreams by Refik Anadol",
+    "volume": "6.76 ETH",
+    "floor_price": "2.48 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667542357388_1a0lol3zi9ypwlopfc30u4dmuc56g0ic_64x64.webp",
+    "name": "rektguy",
+    "volume": "6.59 ETH",
+    "floor_price": "0.56 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1680744730441_4lg38ehc0z91k4qmw66teiz4xj5f9ozz_64x64.webp",
+    "name": "Otherside Vessels",
+    "volume": "6.26 ETH",
+    "floor_price": "0.17 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1685060163884_io1oopp51qqv3j8ed6sc0do65zxowqty_64x64.webp",
+    "name": "GeoMetric Pepes",
+    "volume": "5.97 ETH",
+    "floor_price": "11.69 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667913883343_wtzv4cg0pywu4ldf6fgery1tzvgomugp_64x64.webp",
+    "name": "0N1 Force",
+    "volume": "5.95 ETH",
+    "floor_price": "0.83 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/6e65e562c4fb4af7ab45c563738d356c_64x64.webp",
+    "name": "DigiDaigaku Genesis",
+    "volume": "5.88 ETH",
+    "floor_price": "3.65 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667541281007_gxntqq1c79jlnpmn8q4sdkd2qjj8bad4_64x64.webp",
+    "name": "IO: Imaginary Ones",
+    "volume": "5.67 ETH",
+    "floor_price": "0.8 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1692365531057_2z3awfb5zpawbjv9pzlcpfgip3qrhjz1_64x64.webp",
+    "name": "KartParty-YKZ",
+    "volume": "5.58 ETH",
+    "floor_price": "0.81 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1675972819139_2xn9g201kq42u28p72fcuqib9sht9927_64x64.webp",
+    "name": "OCM Karma",
+    "volume": "5.54 ETH",
+    "floor_price": "0.2 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1674811822202_rdvghudrq31gxvv9kme6rq2xttxr6yzy_64x64.webp",
+    "name": "RarePass: Genesis",
+    "volume": "5.44 ETH",
+    "floor_price": "0.99 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1674138631321_7n0vy9gzk8gqvktsxx11vozqhactw2f6_64x64.webp",
+    "name": "DeFi Apes",
+    "volume": "5.23 ETH",
+    "floor_price": "0.6 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1674162026371_r6meix177whxwbk4syb3119bzswb3vy7_64x64.webp",
+    "name": "RTFKT Animus Egg 🥚",
+    "volume": "5.16 ETH",
+    "floor_price": "0.35 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1675453531326_yqqcobcvkpdip0vl002zyldjt8njyhkl_64x64.webp",
+    "name": "JOYWORLD JOYs",
+    "volume": "5.06 ETH",
+    "floor_price": "9 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1692659770288_1qoqg5x4vge5rq6jrx1brcxj5es1nh9g_64x64.webp",
+    "name": "San FranTokyo Genesis Pass",
+    "volume": "4.46 ETH",
+    "floor_price": "0.34 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1676884510955_uu0ecmurm7osqcakpqosv2hhbxc54xjc_64x64.webp",
+    "name": "Azra Games - The Hopeful",
+    "volume": "4.13 ETH",
+    "floor_price": "0.4 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/323acc1e414d438095fe3fd960953e4b_64x64.webp",
+    "name": "Chimpers",
+    "volume": "4.07 ETH",
+    "floor_price": "0.33 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1686228370483_83oasnbqvb6j8w9042p7ln4cn74f01li_64x64.webp",
+    "name": "Carpetdiem",
+    "volume": "4.02 ETH",
+    "floor_price": "0.63 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1678262857944_q2bjhho502idivlx33h0f9a9jzvt2jgx_64x64.webp",
+    "name": "The Weirdo Ghost Gang",
+    "volume": "4.01 ETH",
+    "floor_price": "0.53 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1681869730442_bymgfw4y6pvn16qmwk15jtfw3k02fd5l_64x64.webp",
+    "name": "NFT Worlds Genesis Avatars",
+    "volume": "4 ETH",
+    "floor_price": "0.11 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1678923010526_splge3rvc3uwgok6mvdm56xog6e42fg3_64x64.webp",
+    "name": "HV-MTL",
+    "volume": "3.7 ETH",
+    "floor_price": "0.24 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1677715221731_gqzrlwvv3w7y0yx7dqklqaz7fuxbc6td_64x64.webp",
+    "name": "The Baby Bears",
+    "volume": "3.63 ETH",
+    "floor_price": "6.9 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/4fc992104dd54f9385155c58033f45ed_64x64.webp",
+    "name": "Murakami.Flowers Official",
+    "volume": "3.57 ETH",
+    "floor_price": "0.37 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/23448054f45d48f18baf2f9b1193db53_64x64.webp",
+    "name": "Alpha Prestige - Fusionist",
+    "volume": "3.24 ETH",
+    "floor_price": "3.3 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1689095770901_eyo8qbr1lp22p6xq20fwm33kp7z4i0sk_64x64.webp",
+    "name": "Station3 Patron",
+    "volume": "3.03 ETH",
+    "floor_price": "1.28 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1691763370479_g02uw3ycsu4di1trj4det9m1bezi6uas_64x64.webp",
+    "name": "10KTF G Tags",
+    "volume": "3.03 ETH",
+    "floor_price": "0.23 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1690471930487_4yeiz5r9chlop58v59ekxku3w3j0y1i3_64x64.webp",
+    "name": "Library Onchain",
+    "volume": "2.92 ETH",
+    "floor_price": "1.1 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1672816580476_glax7i9b1b0n2k5jiczlro0gsscsdv0p_64x64.webp",
+    "name": "Kubz",
+    "volume": "2.85 ETH",
+    "floor_price": "0.3 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1671535720067_a50u1cq672idn14dlq4sx9i6va4ou3t7_64x64.webp",
+    "name": "CyberBrokers",
+    "volume": "2.84 ETH",
+    "floor_price": "0.27 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1675816222089_mj1ao16acgxqjkaewsn9kwd7jki50ym4_64x64.webp",
+    "name": "This Thing Of Ours - The NFT Gaming Collective",
+    "volume": "2.69 ETH",
+    "floor_price": "0.46 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1681740130406_bdnmn45q953f1tztdpnlrnptbs4ptugi_64x64.webp",
+    "name": "ASM AIFA All-Stars",
+    "volume": "2.68 ETH",
+    "floor_price": "0.03 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1676953825438_qzacnffx3w0cski1k33485ttzu8zy32a_64x64.webp",
+    "name": "Hedz by Matt Furie",
+    "volume": "2.67 ETH",
+    "floor_price": "1.9 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1673834413975_66tumrmx9me89vhy57veg2l1w5qf49fu_64x64.webp",
+    "name": "Checks - VV Edition",
+    "volume": "2.62 ETH",
+    "floor_price": "0.48 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1673009652524_fjwmm63uod0xwcjpqm22yo660hw7g9di_64x64.webp",
+    "name": "Valhalla",
+    "volume": "2.62 ETH",
+    "floor_price": "0.16 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1689946330913_hi8avbupzoisif73e7zjtr3t1x7r8rib_64x64.webp",
+    "name": "Skyborne - Nexian Gems",
+    "volume": "2.57 ETH",
+    "floor_price": "0.1 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1686986170314_2dwmmbqb9cuwl0hfwy7ftzi9087u3cvk_64x64.webp",
+    "name": "ORBS by Tristan Rettich",
+    "volume": "2.51 ETH",
+    "floor_price": "0.55 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1680945370445_r0lapuye4u0s8o44o2mfog2i6fwyoiqh_64x64.webp",
+    "name": "Timeless Characters",
+    "volume": "2.4 ETH",
+    "floor_price": "0.22 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1691155930912_37908cf4n0qlypk9kz6mm6sw60ibm68u_64x64.webp",
+    "name": "Sparkle Book of Destiny",
+    "volume": "2.38 ETH",
+    "floor_price": "0.4 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1687245370408_oew9cjz1365d5qhovo0i0tmzp5ogog49_64x64.webp",
+    "name": "SuperCreators - Gen Z",
+    "volume": "2.37 ETH",
+    "floor_price": "0.61 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667877189894_u7ygmd1rdggcybdliw5v3xjmr4q9c7lk_64x64.webp",
+    "name": "Genuine Undead",
+    "volume": "2.34 ETH",
+    "floor_price": "0.1 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1667541052115_gnp9ih8fn60e3g6u42qccdukigamspxi_64x64.webp",
+    "name": "Treeverse Plots",
+    "volume": "2.21 ETH",
+    "floor_price": "0.4 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/6d29b3b8bc4f449ba4a6d93ba8319647_64x64.webp",
+    "name": "Block Legends",
+    "volume": "0.1148 BTC",
+    "floor_price": "0.0014 BTC"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1686561370418_n6evhji8ijdhxbl49plo48ycx2i42ysw_64x64.webp",
+    "name": "Highrise LAND",
+    "volume": "2.03 ETH",
+    "floor_price": "0.19 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-extdata-loader/S3/1691946130450_29ip759xio81267ch6b2lmdcf1rioyfx_64x64.webp",
+    "name": "SquiggleDAO Membership",
+    "volume": "2.01 ETH",
+    "floor_price": "0.87 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1676776523822_s7tep3fmg9r7y598gogtt8qb28eh09v8_64x64.webp",
+    "name": "DeepBlack",
+    "volume": "1.96 ETH",
+    "floor_price": "1.07 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1678162938013_czqi6f7vkntl720g9qvg30dwhp3jzg8x_64x64.webp",
+    "name": "Ordinal Kubz",
+    "volume": "1.92 ETH",
+    "floor_price": "0.17 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1680388212264_7cdiwnym5j6hbrz5846repg0k1gs3dld_64x64.webp",
+    "name": "MidnightBreeze",
+    "volume": "1.91 ETH",
+    "floor_price": "0.15 ETH"
+  },
+  {
+    "img": "https://public.nftstatic.com/static/nft/webp/nft-cex/S3/1680214508850_as6khrl83vl23e3szli5mgpccg7vppjx_64x64.webp",
+    "name": "The Plooshies",
+    "volume": "1.79 ETH",
+    "floor_price": "0.11 ETH"
+  }
+]

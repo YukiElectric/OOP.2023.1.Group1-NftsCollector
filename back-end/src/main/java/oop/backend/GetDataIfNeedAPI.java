@@ -27,8 +27,7 @@ public class GetDataIfNeedAPI {
         WebElement usernameInput = driver.findElement(  // Tìm đến phần tử có thẻ input và có 2 thuộc tính autocomplete và name
             By.cssSelector("input[autocomplete='username'][name='text']"));
         usernameInput.sendKeys("yukiElectric72"); //Set cho phần tử đó có giá trị là tài khoản đăng nhập
-        usernameInput.sendKeys(Keys.ENTER);     //Ấn Enter để chuyển trang tùy vào trang có thể là ấn Enter có thể là button ấn nhưng 90% là enter
-        
+        usernameInput.sendKeys(Keys.ENTER);     //Ấn Enter để chuyển trang tùy vào trang có thể là ấn Enter có thể là button ấn nhưng 90% là enter;
         Thread.sleep(5000);
         
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10)); // Đợi 10s load web trong trường hợp web có js ẩn div hoặc các element khác

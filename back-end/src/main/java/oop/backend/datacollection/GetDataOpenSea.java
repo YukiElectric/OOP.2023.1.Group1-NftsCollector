@@ -1,6 +1,9 @@
-package oop.backend;
+package oop.backend.datacollection;
 
-import com.google.gson.Gson;
+import oop.backend.attributesgetter.AttrGetter;
+import oop.backend.attributesgetter.GetAttrOpenSea;
+import oop.backend.dtos.OpenSeaDTO;
+import oop.backend.utils.JsonHandlerUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -9,29 +12,32 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Component
 @RestController
-@RequestMapping("binance")
-public class GetDataBinance {
-    private List<Binance> getData() throws Exception {
+@RequestMapping("opensea")
+public class GetDataOpenSea {
+    @Value("${PATH_OPEN_SEA}")
+    private String PATH_OPEN_SEA;
+    private final AttrGetter<OpenSeaDTO> openSeaAttr = new GetAttrOpenSea();
+    private List<OpenSeaDTO> getData() throws Exception {
+        String url = "https://opensea.io/rankings";
         FirefoxOptions options = new FirefoxOptions();
         options.addArguments("--headless");
-        
+
         System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-        
+
         WebDriver driver = new FirefoxDriver(options);
-        
-        driver.get("https://www.binance.com/en/nft/ranking?tab=collection");
-        
+        driver.get(url);
         Thread.sleep(3000);
-        
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         long pageHeight = (long) jsExecutor.executeScript("return Math.max( document.body.scrollHeight"
             + ", document.body.offsetHeight, document.documentElement.clientHeight,"
@@ -40,37 +46,27 @@ public class GetDataBinance {
         int steps = 10;
         long delayBetweenStepsInMillis = 1000;
         long scrollStep = pageHeight / steps;
-        for (int i = 0; i < steps; i++) {
+        
+        List<OpenSeaDTO> openSeas = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            String html = (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
+            Document document = Jsoup.parse(html);
+            Elements elements = document.select("div.sc-e7b51c31-0");
+            for (Element element : elements) {
+                OpenSeaDTO openSea = openSeaAttr.attrGet(element);
+                openSeas.add(openSea);
+            }
             long yOffset = i * scrollStep;
             jsExecutor.executeScript("window.scrollTo(0, " + yOffset + ")");
             Thread.sleep(delayBetweenStepsInMillis);
         }
-        
-        String html = (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
-        
         driver.quit();
-        
-        Document document = Jsoup.parse(html);
-        
-        Elements elements = document.select("div.css-vurnku");
-
-        List<Binance> binances = new ArrayList<>();
-        for (Element element : elements) {
-            Binance binance = new Binance();
-            binance.setImg(element.select("img").attr("src"));
-            binance.setName(element.select("div.css-31460s").text());
-            Elements priceElements = element.select("div.css-9w1gf");
-            boolean isExists = priceElements.size() == 2;
-            binance.setVolume(isExists ? priceElements.get(0).text() : "");
-            binance.setFloorPrice(isExists ? priceElements.get(1).text() : "");
-            if(isExists) binances.add(binance);
-        }
-        return binances;
+        return openSeas;
     }
     
+    private final JsonHandlerUtil<OpenSeaDTO> jsonHandler = new JsonHandlerUtil<>(PATH_OPEN_SEA);
     @GetMapping("")
-    public ResponseEntity<?> getDataFromBinance() throws Exception {
-        Gson gson = new Gson();
-        return ResponseEntity.ok(gson.toJson(getData()));
+    public ResponseEntity<?> getDataFromOpenSea() {
+        return jsonHandler.handleJsonOperation(() -> getData());
     }
 }
