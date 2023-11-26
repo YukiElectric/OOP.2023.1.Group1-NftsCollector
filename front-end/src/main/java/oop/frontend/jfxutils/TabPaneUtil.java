@@ -6,9 +6,18 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
 import oop.frontend.controller.PostItemController;
-
+/**
+ * Các phương thức tiện ích để quản lý TabPane trong ứng dụng JavaFX.
+ */
 public class TabPaneUtil {
-    private static void setTabPane(ToggleGroup menu, TabPane tabPane, int index) {
+
+    /**
+     * Thiết lập chức năng cho TabPane khi chọn các mục trong ToggleGroup.
+     *
+     * @param menu    ToggleGroup chứa các nút để chọn Tab.
+     * @param tabPane TabPane cần được điều khiển.
+     * @param index   Chỉ số ban đầu của TabPane.
+     */    private static void setTabPane(ToggleGroup menu, TabPane tabPane, int index) {
         menu.selectedToggleProperty().addListener((obsVal, oldVal, newVal) -> {
             if (newVal == null)
                 oldVal.setSelected(true);

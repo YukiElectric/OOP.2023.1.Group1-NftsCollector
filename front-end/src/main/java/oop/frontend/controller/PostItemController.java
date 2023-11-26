@@ -27,7 +27,11 @@ public class PostItemController extends VBox {
 
     @FXML
     private Label body;
-
+    /**
+     * Thiết lập các thành phần giao diện với dữ liệu từ Map.
+     *
+     * @param data Dữ liệu của bài đăng để hiển thị.
+     */
     private void setElements(Map<String , String> data) {
         postID.setText(data.get("postId"));
         id.setText(data.get("id"));
@@ -35,7 +39,12 @@ public class PostItemController extends VBox {
         email.setText(data.get("email"));
         body.setText(data.get("body"));
     }
-
+    /**
+     * Constructor của Controller.
+     *
+     * @param data Dữ liệu của bài đăng để hiển thị.
+     * @throws IOException Nếu có lỗi khi tải FXML.
+     */
     public PostItemController(Map<String , String> data) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(Constants.POST_ITEM_SOURCE));
         fxmlLoader.setController(this);

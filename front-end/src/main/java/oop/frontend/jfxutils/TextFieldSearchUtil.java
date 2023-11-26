@@ -8,7 +8,7 @@ import oop.frontend.controller.PostItemController;
 public class TextFieldSearchUtil {
     public static void onSearchAction(JFXTextField search, VBox view){
         boolean check = !(search.getText().isEmpty() || search.getText().isBlank());
-        if(check) VboxViewUtil.setViewVBox(view, Constants.API_URL, "", PostItemController.class);
+        if(check) VboxViewUtil.setViewVBox(view, Constants.API_URL, search.getText(), PostItemController.class);
         search.clear();
     }
 }
