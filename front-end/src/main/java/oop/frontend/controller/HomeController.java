@@ -17,6 +17,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class HomeController implements Initializable {
+    // Các field được chú thích trong JavaDoc để biểu diễn các thành phần tương ứng trong giao diện
 
     @FXML
     private ToggleGroup menu;
@@ -118,7 +119,12 @@ public class HomeController implements Initializable {
     void searchByHasTag(MouseEvent event) {
         TextFieldSearchUtil.onSearchAction(search, postView);
     }
-
+    /**
+     * Phương thức khởi tạo giao diện trang chủ khi FXML được load.
+     *
+     * @param url            Đường dẫn URL của FXML được load.
+     * @param resourceBundle ResourceBundle được sử dụng.
+     */
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         TabPaneUtil.setSelection(menu, tabPane, 1);

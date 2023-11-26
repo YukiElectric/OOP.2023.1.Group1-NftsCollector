@@ -10,6 +10,15 @@ import java.util.List;
 import java.util.Map;
 
 public class VboxViewUtil {
+    /**
+     * Hiển thị dữ liệu từ API trong VBox.
+     *
+     * @param vBox            VBox để hiển thị dữ liệu.
+     * @param apiUrl          Đường dẫn API để lấy dữ liệu.
+     * @param apiRequest      Tham số yêu cầu từ API (nếu có).
+     * @param controllerClass Lớp điều khiển (controller) để hiển thị dữ liệu.
+     * @param <T>             Kiểu dữ liệu của lớp điều khiển.
+     */
     public static <T> void setViewVBox(VBox vBox, String apiUrl, String apiRequest, Class<T> controllerClass){
         TaskRequest taskRequest = new TaskRequest(apiUrl,apiRequest);
         taskRequest.setOnSucceeded(event -> {

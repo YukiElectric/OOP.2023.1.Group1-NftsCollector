@@ -35,11 +35,22 @@ public class TabPaneUtil {
         menu.getToggles().get(0).setSelected(true);
         setTabPane(menu, tabPane, 0);
     }
-
+    /**
+     * Thiết lập chọn mặc định cho TabPane và ToggleGroup.
+     *
+     * @param menu    ToggleGroup chứa các nút để chọn Tab.
+     * @param tabPane TabPane cần được điều khiển.
+     */
     public static void setSelection(ToggleGroup menu, TabPane tabPane, int index) {
         setTabPane(menu, tabPane, index);
     }
-
+    /**
+     * Thiết lập lại chỉ số của TabPane khi chọn mục trong ToggleGroup.
+     *
+     * @param menu        ToggleGroup chứa các nút để chọn Tab.
+     * @param topMenu     ToggleGroup chứa các nút trong phần Top menu.
+     * @param trendingMenu ToggleGroup chứa các nút trong phần Trending menu.
+     */
     public static void resetIndexTabPane(ToggleGroup menu, ToggleGroup topMenu, ToggleGroup trendingMenu) {
         menu.selectedToggleProperty().addListener(((observable, oldValue, newValue) -> {
             if (newValue != null) {
@@ -48,7 +59,16 @@ public class TabPaneUtil {
             }
         }));
     }
-
+    /**
+     * Thiết lập sự thay đổi giao diện khi chọn mục trong ToggleGroup.
+     *
+     * @param toggleGroup   ToggleGroup chứa các nút để chọn Tab.
+     * @param postView      VBox hiển thị danh sách bài đăng.
+     * @param hotTagView    VBox hiển thị danh sách hot tags.
+     * @param trendingView  VBox hiển thị danh sách nổi bật.
+     * @param topView       VBox hiển thị danh sách top.
+     * @param index         Chỉ số ban đầu của TabPane.
+     */
     public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, int index) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
