@@ -14,30 +14,27 @@ import java.util.Map;
  */
 public class PostItemController extends VBox {
     @FXML
-    private Label postID;
+    private Label floorPrice;
 
     @FXML
-    private Label id;
+    private Label img;
+
 
     @FXML
     private Label name;
 
     @FXML
-    private Label email;
-
-    @FXML
-    private Label body;
+    private Label volume;
     /**
      * Thiết lập các thành phần giao diện với dữ liệu từ Map.
      *
      * @param data Dữ liệu của bài đăng để hiển thị.
      */
     private void setElements(Map<String , String> data) {
-        postID.setText(data.get("postId"));
-        id.setText(data.get("id"));
+        floorPrice.setText(data.get("floorPrice"));
+        img.setText(data.get("img"));
         name.setText(data.get("name"));
-        email.setText(data.get("email"));
-        body.setText(data.get("body"));
+        volume.setText(data.get("volume"));
     }
     /**
      * Constructor của Controller.
