@@ -9,7 +9,9 @@ import oop.frontend.common.Constants;
 
 import java.io.IOException;
 import java.util.Map;
-
+/**
+ * tạo lớp PostItemController để quản lý một mục hiển thị thông tin bài đăng.
+ */
 public class PostItemController extends VBox {
     @FXML
     private Label postID;
