@@ -13,8 +13,9 @@ public class GetAttrRarible implements AttrGetter<RaribleDTO> {
         Elements priceElements = element.select("span.sc-ktEKTO");
         boolean isExists = priceElements.size() == 2;
         rarible.setVolume(isExists ? priceElements.get(1).text() : "");
-        rarible.setFloor_price(isExists ? priceElements.get(0).text() : "");
-        if(isExists)return rarible;
+        rarible.setFloorPrice(isExists ? priceElements.get(0).text() : "");
+        if (isExists)
+            return rarible;
         return null;
     }
 }

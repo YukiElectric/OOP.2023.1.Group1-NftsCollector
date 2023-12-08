@@ -13,8 +13,9 @@ public class GetAttrBinance implements AttrGetter<BinanceDTO> {
         Elements priceElements = element.select("div.css-9w1gf");
         boolean isExists = priceElements.size() == 2;
         binance.setVolume(isExists ? priceElements.get(0).text() : "");
-        binance.setFloor_price(isExists ? priceElements.get(1).text() : "");
-        if(isExists) return binance;
+        binance.setFloorPrice(isExists ? priceElements.get(1).text() : "");
+        if (isExists)
+            return binance;
         return null;
     }
 }

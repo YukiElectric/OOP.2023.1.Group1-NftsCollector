@@ -18,7 +18,7 @@ public class BaseDTO {
     @JsonProperty("volume")
     private String volume;
     
-    @JsonProperty("floor_price")
-    private String floor_price;
+    @JsonProperty("floorPrice")
+    private String floorPrice;
 }
 

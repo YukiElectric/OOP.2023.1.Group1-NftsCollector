@@ -17,7 +17,8 @@ public class GetAttrTwitter implements AttrGetter<TwitterDTO> {
         twitter.setUser(name);
         twitter.setHashtag(element.select("div.r-18u37iz").select("a[href^=/hashtag/]").text());
         twitter.setContent(element.select("div[data-testid='tweetText']").text());
-        if (!twitter.getUser().isEmpty()) return twitter;
+        if (!twitter.getUser().isEmpty())
+            return twitter;
         return null;
     }
 }

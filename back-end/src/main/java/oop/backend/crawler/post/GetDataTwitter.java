@@ -1,9 +1,12 @@
-package oop.backend.datacollection;
+package oop.backend.crawler.post;
 
+import oop.backend.App;
 import oop.backend.attributesgetter.AttrGetter;
 import oop.backend.attributesgetter.GetAttrTwitter;
+import oop.backend.crawler.DataCrawler;
 import oop.backend.dtos.TwitterDTO;
 import oop.backend.utils.JsonHandlerUtil;
+import oop.backend.utils.PathFixUtil;
 import oop.backend.utils.TwitterLoginUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -16,28 +19,36 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
 import java.util.ArrayList;
 import java.util.List;
+
 @Component
 @RestController
-@RequestMapping("${api.v1}/twitter")
-public class GetDataTwitter implements DataCrawler{
+@RequestMapping("${api.v1}/post")
+public class GetDataTwitter implements DataCrawler {
     @Value("${twitter.login}")
     private String twitterLink;
+    
     private String username = "Fuon141204";
-    private String password ="phuongct1412";
+    
+    private String password = "phuongct1412";
+    
     private final AttrGetter<TwitterDTO> twitterAttr = new GetAttrTwitter();
-    @Value("${PATH_TWITTER}")
-    private String  PATH_TWITTER;
-    public List<TwitterDTO> getData() throws Exception {
-        WebDriver driver = TwitterLoginUtil.loginAndNavigate(twitterLink,username,password);
+    
+    private String PATH_TWITTER = PathFixUtil.fix(App.class.getResource("/json/twitter_data.json").getPath());
+    
+    private String url = "https://twitter.com/search?q=%23nft&src=typed_query&f=live";
+    
+    public List<TwitterDTO> getData(String request) throws Exception {
+        WebDriver driver = TwitterLoginUtil.loginAndNavigate(twitterLink, url, username, password);
         
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         long pageHeight = (long) jsExecutor.executeScript("return Math.max( document.body.scrollHeight"
             + ", document.body.offsetHeight, document.documentElement.clientHeight,"
             + " document.documentElement.scrollHeight,"
             + " document.documentElement.offsetHeight )");
-        int steps =1;
+        int steps = 1;
         long delayBetweenStepsInMillis = 1000;
         long scrollStep = pageHeight / steps;
         
@@ -49,7 +60,8 @@ public class GetDataTwitter implements DataCrawler{
             Elements elements = document.select("div[data-testid='cellInnerDiv']");
             for (Element element : elements) {
                 TwitterDTO twitter = twitterAttr.attrGet(element);
-                if(twitter != null) twitters.add(twitter);
+                if (twitter != null)
+                    twitters.add(twitter);
             }
             long yOffset = i * scrollStep;
             jsExecutor.executeScript("window.scrollTo(0, " + yOffset + ")");
@@ -58,10 +70,12 @@ public class GetDataTwitter implements DataCrawler{
         driver.quit();
         return twitters;
     }
+    
     private final JsonHandlerUtil<TwitterDTO> jsonHandler = new JsonHandlerUtil<>(PATH_TWITTER);
+    
     @GetMapping("")
     public ResponseEntity<?> getDataFromTwitter() {
-        return jsonHandler.handleJsonOperation(() -> getData());
+        return jsonHandler.handleJsonOperation(() -> getData(""));
     }
 }
 

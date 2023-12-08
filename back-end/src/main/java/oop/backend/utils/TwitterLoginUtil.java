@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class TwitterLoginUtil extends ScrollUtil {
-    public static WebDriver loginAndNavigate(String twitterLink, String username, String password)
+    public static WebDriver loginAndNavigate(String twitterLink,String navigate ,String username, String password)
         throws InterruptedException {
         WebDriver driver = ScrollUtil.setUp(twitterLink);
         Thread.sleep(3000);
@@ -29,7 +29,7 @@ public class TwitterLoginUtil extends ScrollUtil {
         
         Thread.sleep(5000);
         
-        driver.navigate().to("https://twitter.com/search?q=%23nft&src=typed_query&f=live");
+        driver.navigate().to(navigate);
         
         Thread.sleep(5000);
         

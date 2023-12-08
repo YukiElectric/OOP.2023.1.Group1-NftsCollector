@@ -14,8 +14,9 @@ public class GetAttrOpenSea implements AttrGetter<OpenSeaDTO> {
             element.select("div.dYQlaY").select("span[data-id='TextBody']").select("div.axQXd");
         boolean isExists = priceElements.size() == 2;
         openSea.setVolume(isExists ? priceElements.get(0).text() : "");
-        openSea.setFloor_price(isExists ? priceElements.get(1).text() : "");
-        if (openSea != null) return openSea;
+        openSea.setFloorPrice(isExists ? priceElements.get(1).text() : "");
+        if (openSea != null)
+            return openSea;
         return null;
     }
 }

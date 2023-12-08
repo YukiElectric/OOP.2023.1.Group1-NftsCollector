@@ -1,9 +1,11 @@
-package oop.backend.datacollection;
+package oop.backend.crawler.top;
 
+import oop.backend.App;
 import oop.backend.attributesgetter.AttrGetter;
 import oop.backend.attributesgetter.GetAttrOpenSea;
 import oop.backend.dtos.OpenSeaDTO;
 import oop.backend.utils.JsonHandlerUtil;
+import oop.backend.utils.PathFixUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -12,7 +14,6 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,10 +24,9 @@ import java.util.ArrayList;
 import java.util.List;
 @Component
 @RestController
-@RequestMapping("opensea")
+@RequestMapping("${api.v1}/top")
 public class GetDataOpenSea {
-    @Value("${PATH_OPEN_SEA}")
-    private String PATH_OPEN_SEA;
+    private String PATH_OPEN_SEA= PathFixUtil.fix(App.class.getResource("/json/open_sea_data.json").getPath());
     private final AttrGetter<OpenSeaDTO> openSeaAttr = new GetAttrOpenSea();
     private List<OpenSeaDTO> getData() throws Exception {
         String url = "https://opensea.io/rankings";
@@ -65,7 +65,7 @@ public class GetDataOpenSea {
     }
     
     private final JsonHandlerUtil<OpenSeaDTO> jsonHandler = new JsonHandlerUtil<>(PATH_OPEN_SEA);
-    @GetMapping("")
+    @GetMapping("/opensea/{selection}")
     public ResponseEntity<?> getDataFromOpenSea() {
         return jsonHandler.handleJsonOperation(() -> getData());
     }
