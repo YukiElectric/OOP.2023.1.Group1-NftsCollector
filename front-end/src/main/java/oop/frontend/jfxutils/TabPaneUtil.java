@@ -40,7 +40,7 @@ public class TabPaneUtil {
         }));
     }
 
-    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, int index) {
+    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, int index) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
                 ToggleButton selectedButton = (ToggleButton) toggleGroup.getSelectedToggle();
@@ -48,9 +48,10 @@ public class TabPaneUtil {
                 if (index == 0)
                     switch (selectedIndex) {
                         case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", PostItemController.class);
-                        case 1 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "", PostItemController.class);
-                        case 2 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "", PostItemController.class);
-                        case 3 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "", PostItemController.class);
+                        case 1 -> VboxViewUtil.setViewVBox(blogView, Constants.API_URL, "", PostItemController.class);
+                        case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "", PostItemController.class);
+                        case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "", PostItemController.class);
+                        case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "", PostItemController.class);
                         default -> {
                         }
                     }

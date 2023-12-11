@@ -28,7 +28,7 @@ public class HomeController implements Initializable {
     private ScrollPane homeView;
 
     @FXML
-    private ComboBox<String> comboBox;
+    private VBox blogView;
 
     @FXML
     private ComboBox<String> trendingComboBox;
@@ -87,12 +87,11 @@ public class HomeController implements Initializable {
     @FXML
     void returnHome(MouseEvent event) {
         tabPane.getSelectionModel().select(0);
-        menu.getToggles().get(5).setSelected(true);
+        menu.getToggles().get(6).setSelected(true);
     }
 
     @FXML
     void setSelection(ActionEvent event) {
-        ComboBoxUtil.setViewByComboBox(comboBox,hotTagsView);
         switch (menuTrending.getToggles().indexOf(menuTrending.getSelectedToggle())) {
             case 0 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, openseaTrendingView);
             case 1 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, binanceTrendingView);
@@ -125,13 +124,11 @@ public class HomeController implements Initializable {
         TabPaneUtil.setSelection(menuTrending, trendingTabPane);
         TabPaneUtil.setSelection(menuTop, topTabPane);
         TabPaneUtil.resetIndexTabPane(menu, menuTop, menuTrending);
-        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, 0);
-        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, rariableTrendingView, 1);
-        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, rariableTopView, 1);
-        ComboBoxUtil.setItem(comboBox);
+        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, blogView,0);
+        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, rariableTrendingView, null,1);
+        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, rariableTopView, null,1);
         ComboBoxUtil.setItem(topComboBox);
         ComboBoxUtil.setItem(trendingComboBox);
-        ComboBoxUtil.resetComboBoxItem(comboBox, menu);
         ComboBoxUtil.resetComboBoxItem(topComboBox, menu);
         ComboBoxUtil.resetComboBoxItem(topComboBox, menuTop);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menu);

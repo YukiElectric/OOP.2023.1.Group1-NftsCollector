@@ -4,7 +4,6 @@
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.chart.CategoryAxis?>
 <?import javafx.scene.chart.LineChart?>
 <?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.ComboBox?>
@@ -30,6 +29,7 @@
                   <ToggleGroup fx:id="menu" />
                </toggleGroup>
             </ToggleButton>
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="BLOG" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="HOT TAGS" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="TRENDING" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="TOP" toggleGroup="$menu" />
@@ -110,28 +110,29 @@
                   </BorderPane>
                </content>
           </Tab>
+            <Tab text="HOME">
+               <content>
+                  <BorderPane>
+                     <center>
+                        <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="5.0" />
+                           </BorderPane.margin>
+                           <content>
+                              <VBox fx:id="blogView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </center>
+                  </BorderPane>
+               </content>
+            </Tab>
           <Tab text="HOT TAGS">
                <content>
                   <BorderPane>
-                     <top>
-                        <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
-                           <children>
-                              <ComboBox fx:id="comboBox" onAction="#setSelection" prefWidth="200.0" styleClass="material-combo-box">
-                                 <padding>
-                                    <Insets left="45.0" />
-                                 </padding>
-                              </ComboBox>
-                              <Label text="Sort by :" textFill="#fffdfd">
-                                 <HBox.margin>
-                                    <Insets left="-195.0" />
-                                 </HBox.margin>
-                              </Label>
-                           </children>
-                           <BorderPane.margin>
-                              <Insets bottom="5.0" />
-                           </BorderPane.margin>
-                        </HBox>
-                     </top>
                      <padding>
                         <Insets left="10.0" />
                      </padding>
@@ -171,7 +172,7 @@
                               <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTrending" />
                            </children>
                            <BorderPane.margin>
-                              <Insets left="15.0" right="5.0" />
+                              <Insets left="5.0" right="5.0" />
                            </BorderPane.margin>
                         </VBox>
                      </left>
@@ -293,7 +294,7 @@
                               <Insets />
                            </opaqueInsets>
                            <BorderPane.margin>
-                              <Insets left="15.0" right="5.0" />
+                              <Insets left="5.0" right="5.0" />
                            </BorderPane.margin>
                         </VBox>
                      </left>
