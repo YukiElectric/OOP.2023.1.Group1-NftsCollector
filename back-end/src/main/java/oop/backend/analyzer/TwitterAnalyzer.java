@@ -1,6 +1,6 @@
 package oop.backend.analyzer;
 
-import oop.backend.dtos.TwitterDTO;
+import oop.backend.dtos.post.TwitterDTO;
 
 import java.util.Hashtable;
 import java.util.List;

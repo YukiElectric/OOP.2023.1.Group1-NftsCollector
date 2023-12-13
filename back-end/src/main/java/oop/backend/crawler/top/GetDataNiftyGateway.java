@@ -2,12 +2,12 @@ package oop.backend.crawler.top;
 
 import oop.backend.App;
 import oop.backend.attributesgetter.AttrGetter;
-import oop.backend.attributesgetter.GetAttrNiftyGateway;
+import oop.backend.attributesgetter.nftexchange.GetAttrNiftyGateway;
 import oop.backend.crawler.DataCrawler;
 import oop.backend.crawler.RequestList;
-import oop.backend.dtos.NiftyGatewayDTO;
+import oop.backend.dtos.nftexchange.NiftyGatewayDTO;
 import oop.backend.utils.JsonHandlerUtil;
-import oop.backend.utils.PathFixUtil;
+import oop.backend.utils.fix.PathFixUtil;
 import oop.backend.utils.sort.NiftyGatewaySortUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -25,7 +25,7 @@ import java.util.ArrayList;
 @RequestMapping("${api.v1}/top")
 public class GetDataNiftyGateway extends RequestList implements DataCrawler {
     private String PATH_NIFTY_GATEWAY =
-        PathFixUtil.fix(App.class.getResource("/json/nifty_gateway_data.json").getPath());
+        PathFixUtil.fix(App.class.getResource("/json/top/nifty_gateway_data.json").getPath());
     
     private String url = "https://www.niftygateway.com/rankings";
     
@@ -64,5 +64,6 @@ public class GetDataNiftyGateway extends RequestList implements DataCrawler {
             return ResponseEntity.badRequest().body("Invalid selection");
         }
     }
-    
+
+
 }

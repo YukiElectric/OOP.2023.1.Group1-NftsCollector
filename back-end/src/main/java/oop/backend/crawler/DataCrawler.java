@@ -7,5 +7,5 @@ import java.util.List;
 * Interface cho các class lấy data
 * */
 public interface DataCrawler<T> {
-    List<T> getData(@PathVariable("request") String request) throws Exception;
+    List<T> getData( String request) throws Exception;
 }

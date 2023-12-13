@@ -9,8 +9,6 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BaseDTO {
-    @JsonProperty("img")
-    private String img;
     
     @JsonProperty("name")
     private String name;
@@ -20,5 +18,11 @@ public class BaseDTO {
     
     @JsonProperty("floorPrice")
     private String floorPrice;
+
+    @JsonProperty("items")
+    private String items;
+
+    @JsonProperty("owners")
+    private String owners;
 }
 
