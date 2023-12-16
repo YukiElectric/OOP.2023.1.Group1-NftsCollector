@@ -22,7 +22,8 @@ public class BinanceTrendingUtil {
         }
         Thread.sleep(500);
 
-        Document pageDocument = ScrollUtil.scrollHTML(driver);
+        Document pageDocument = ScrollUtil.scrollAndGetDoc(driver);
+        driver.quit();
         return String.valueOf(pageDocument);
     }
 }

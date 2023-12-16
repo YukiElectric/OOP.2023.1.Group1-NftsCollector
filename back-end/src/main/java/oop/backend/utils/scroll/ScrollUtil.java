@@ -26,8 +26,7 @@ public class ScrollUtil {
         return driver;
     }
 
-    public static Document scrollHTML(WebDriver driver) throws Exception {
-        Document masterDocument = null;
+    public static String scrollHTML(WebDriver driver) throws Exception {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
         long pageHeight = (long) jsExecutor.executeScript("return Math.max( document.body.scrollHeight"
                 + ", document.body.offsetHeight, document.documentElement.clientHeight,"
@@ -41,18 +40,7 @@ public class ScrollUtil {
             jsExecutor.executeScript("window.scrollTo(0, " + yOffset + ")");
             Thread.sleep(delayBetweenStepsInMillis);
         }
-        String html = (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
-        Document pageDocument = Jsoup.parse(html);
-        if (masterDocument == null) {
-            masterDocument = pageDocument.clone();
-        } else {
-            Elements bodyElements = pageDocument.body().children();
-            for(Element element : bodyElements){
-                masterDocument.body().appendChild(element);
-            }
-        }
-        driver.quit();
-        return masterDocument;
+        return (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
     }
 
     public static Document scrollAndGetDoc(WebDriver driver) throws Exception {

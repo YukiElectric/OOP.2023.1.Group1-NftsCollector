@@ -16,7 +16,7 @@ public class GetAttrNiftyGatewayTrending implements AttrGetter<NiftyGatewayTrend
             niftyGateway.setCreator(isExist ? niftyElements.get(0).text() : "");
             niftyGateway.setEdition(isExist ? niftyElements.get(1).text() : "");
         }
-        niftyGateway.setLikes(element.select("span.jss2341").text());
+        niftyGateway.setLikes(element.select("span.jss304").text());
         niftyGateway.setFloorPrice(element.select("p.css-1fiixjq").select("span").first().text());
         if(!niftyGateway.getName().isEmpty()) return niftyGateway;
         return null;
