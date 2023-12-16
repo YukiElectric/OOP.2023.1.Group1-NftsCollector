@@ -5,14 +5,13 @@ import oop.backend.attributesgetter.AttrGetter;
 import oop.backend.attributesgetter.post.GetAttrTwitter;
 import oop.backend.crawler.crawlermethod.GetTwitter;
 import oop.backend.dtos.post.TwitterDTO;
-import oop.backend.utils.JsonHandlerUtil;
+import oop.backend.utils.jsonhandler.JsonHandlerUtil;
 import oop.backend.utils.fix.PathFixUtil;
 import oop.backend.utils.fix.QueryFixUtil;
-import oop.backend.utils.sort.post.TwitterSearchUtil;
+import oop.backend.utils.scroll.post.TwitterSearchUtil;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -30,7 +29,9 @@ public class GetDataTwitter extends GetTwitter {
     private String PATH_TWITTER = PathFixUtil.fix(App.class.getResource("/json/post/twitter_data.json").getPath());
 
     public List<TwitterDTO> getData(String selection) throws Exception {
-        String request = "%23"+QueryFixUtil.fix(selection);
+        String request = "";
+        if(selection != null) {
+            request = "%23"+QueryFixUtil.fix(selection);}
         List<TwitterDTO> twitters = new ArrayList<>();
         final AttrGetter<TwitterDTO> twitterAttr = new GetAttrTwitter();
         Document document = TwitterSearchUtil.getByTag(request);
