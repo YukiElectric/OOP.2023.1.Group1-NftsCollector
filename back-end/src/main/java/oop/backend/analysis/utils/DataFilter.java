@@ -1,18 +1,17 @@
-package oop.backend.analyzer;
+package oop.backend.analysis.utils;
 
 import oop.backend.dtos.BaseDTO;
 
 import java.util.ArrayList;
 import java.util.List;
 
-//Lớp này dùng để lọc dữ liệu lỗi (có các thuộc tính rỗng, lặp lại,...)
-//TODO Thay lại Binance thành NFTObject nếu để Binance kế thừa NFTObject
+/** Lớp này dùng để lọc dữ liệu lỗi (có các thuộc tính rỗng, lặp lại,...) **/
 
 public class DataFilter {
     // Method để loại bỏ các đối tượng trùng lặp (dùng khi update hoặc lưu trữ data) dựa trên một thuộc tính
     public void filterDuplicated(List<BaseDTO> dataList) {
         List<String> uniqueNames = new ArrayList<>();
-        List<BaseDTO> tempList = new ArrayList<>();     //Tạo cái này vì java không cho vừa duyệt vừa chỉnh sửa list
+        List<BaseDTO> tempList = new ArrayList<>();
 
         for (BaseDTO o : dataList) {
             if (!uniqueNames.contains(o.getName())) {
@@ -20,6 +19,7 @@ public class DataFilter {
                 tempList.add(o);
             } else {
                 tempList.remove(o);
+                System.out.println(o.getName());
             }
         }
         dataList.clear();

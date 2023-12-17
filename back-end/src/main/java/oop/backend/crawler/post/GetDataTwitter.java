@@ -32,6 +32,7 @@ public class GetDataTwitter extends GetTwitter {
         String request = "";
         if(selection != null) {
             request = "%23"+QueryFixUtil.fix(selection);}
+        else request = "%23nft";
         List<TwitterDTO> twitters = new ArrayList<>();
         final AttrGetter<TwitterDTO> twitterAttr = new GetAttrTwitter();
         Document document = TwitterSearchUtil.getByTag(request);

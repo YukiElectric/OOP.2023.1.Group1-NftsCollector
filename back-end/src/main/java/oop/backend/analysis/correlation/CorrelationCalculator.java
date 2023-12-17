@@ -1,42 +1,67 @@
-package oop.backend.analyzer;
+package oop.backend.analysis.correlation;
 
-import oop.backend.dtos.BaseDTO;
+import oop.backend.analysis.Analyzer;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import java.util.stream.Collectors;
 
 import java.util.*;
 
 import static java.lang.Math.abs;
 
 
-/** Lớp này sẽ phân tích sự tương quan theo nhiều cách:
-    - makeCorrelationData() nhận vào một đối tượng NFT (chứa thông tin trên các sàn nft) và một đối tượng TwitterAnalyzer
-    và trả về một danh sách các DataCorrelation. Có thể duyệt bảng này để hiển thị trực quan bằng biểu đồ.
-    - tính toán hệ số tương quan theo 2 cách Pearson và Spearman. Có thể thấy được độ tương quan dữ liệu qua hệ số
+/** Tính toán hệ số tương quan theo 2 cách Pearson và Spearman. Có thể thấy được độ tương quan dữ liệu qua hệ số
     tương quan nằm trong khoảng -1 đến 1.
  **/
-public class CorrelationViewer {
-    public List<DataCorrelation> makeCorrelationData(List<BaseDTO> baseData, Hashtable<String, Integer> twitterData){
+@Component
+@RestController
+@RequestMapping("${api.v1}/analysis")
+public class CorrelationCalculator extends Analyzer{
 
-        List<DataCorrelation> corList = new ArrayList<>();
-        for (BaseDTO o : baseData){
-            String hashtag = o.getName();
-            if (twitterData.containsKey(hashtag))               // Gán dữ liệu về giá nft và số lượng hashtag của 1 loại nft vào cùng 1 đối tượng
-                corList.add(                                    // Tạo và thêm các đối tượng tương quan vào list
-                        new DataCorrelation(
-                                hashtag,
-                                Integer.parseInt(o.getVolume()),
-                                twitterData.get(hashtag)));
-        }
+    /* List<DataElement> loadData() ... */
+
+    @Override
+    public List<?> handleData() throws Exception {
+        List<MarketplaceStatistics> corList = new ArrayList<>();
+        TopGetter topGetter = new TopGetter();
+        List<DataElement> topData = topGetter.handleData();
+
+
+        Map<String, List<DataElement>> groupedMarketplace = topData.stream().collect(Collectors.groupingBy(DataElement::getMarketplace));
+        groupedMarketplace.forEach((marketplace, dataElements) -> {
+            System.out.println(marketplace);
+            List<DataElement> dataset = new ArrayList<>();
+            dataElements.forEach(dataElement -> {
+                dataset.add(dataElement);
+            });
+            double spearman = calSpearman(dataset);
+            double pearson = calPearson(dataset);
+            corList.add(new MarketplaceStatistics(marketplace, spearman, pearson));
+        });
         return corList;
     }
 
+    @GetMapping("/correlation")
+    public ResponseEntity<?> response() {
+        try {
+            return ResponseEntity.ok(handleData());
+        } catch (Exception e) {
+            e.printStackTrace();
+            return ResponseEntity.badRequest().body("Error");
+        }
+    }
+
     // Pearson correlation coefficient:  r = ((∑ XY)-(∑X)(∑Y)) / sqrt [n(∑X^2)-(∑X)^2)*(n(∑Y^2)-(∑Y)^2]
-    public double calPearson(List<DataCorrelation> corList) {
+    private double calPearson(List<DataElement> corList) {
         double coefPearson = 0.0;
         double sumX = 0.0, sumY = 0.0, sumXY = 0.0, sumX2 = 0.0, sumY2 = 0.0;
         int n = corList.size();
-        for (DataCorrelation o : corList) {
-            double x = o.getNftData();
-            double y = o.getTweetData();
+        for (DataElement o : corList) {
+            double x = o.getVolume();
+            double y = o.getContentList().size();
             sumX += x;
             sumY += y;
             sumXY += x * y;
@@ -53,7 +78,7 @@ public class CorrelationViewer {
 
 
     // Spearman correlation coefficient: r = 1 - (6*∑di^2)/ (n*(n^2-1))
-    public double calSpearman(List<DataCorrelation> corList){
+    private double calSpearman(List<DataElement> corList){
         double coefSpearman = 0.0;
         int n = corList.size();
         double[] arrNFT = new double[corList.size()];
@@ -61,9 +86,9 @@ public class CorrelationViewer {
 
 
         int i = 0;
-        for (DataCorrelation o : corList){
-            arrNFT[i] = o.getNftData();
-            arrTweet[i] = o.getTweetData();
+        for (DataElement o : corList){
+            arrNFT[i] = o.getVolume();
+            arrTweet[i] = o.getContentList().size();
             i++;
         }
 
@@ -113,4 +138,6 @@ public class CorrelationViewer {
 
         return ranks;
     }
+
+
 }
