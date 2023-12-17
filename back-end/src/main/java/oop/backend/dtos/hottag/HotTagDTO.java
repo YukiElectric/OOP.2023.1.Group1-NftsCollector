@@ -9,8 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @Data
 public class HotTagDTO {
-    @JsonProperty("has_tag")
-    private String hasTag;
+    @JsonProperty("hashtag")
+    private String hashtag;
     
     @JsonProperty("freq")
     private int freq;

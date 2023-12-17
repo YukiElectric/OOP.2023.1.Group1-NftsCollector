@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BlogDTO {
-    @JsonProperty("link_blog")
+    @JsonProperty("linkBlog")
     private String linkBlog;
     
     @JsonProperty("image")

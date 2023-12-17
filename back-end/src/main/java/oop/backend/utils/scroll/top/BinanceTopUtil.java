@@ -1,5 +1,6 @@
 package oop.backend.utils.scroll.top;
 
+import oop.backend.config.Url;
 import oop.backend.utils.scroll.ScrollUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,8 +12,7 @@ import org.openqa.selenium.WebElement;
 
 public class BinanceTopUtil {
     public static String scrollAndGet( String request) throws Exception {
-        String url = "https://www.binance.com/en/nft/ranking?tab=collection&chain=ALL";
-        WebDriver driver = ScrollUtil.setUp(url);
+        WebDriver driver = ScrollUtil.setUp(Url.URL_BINANCE_TOP);
         WebElement skipButton = driver.findElement(By.xpath("//button[@data-bn-type='button' and contains(@class, 'css-1s94759')]"));
         skipButton.click();
         if(!request.equals("24H")) {
