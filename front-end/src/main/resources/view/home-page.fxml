@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="hbox-with-border" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.frontend.controller.HomeController">
+   <left>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+         <children>
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="POST">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <toggleGroup>
+                  <ToggleGroup fx:id="menu" />
+               </toggleGroup>
+            </ToggleButton>
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="BLOG" toggleGroup="$menu" />
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="HOT TAGS" toggleGroup="$menu" />
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="TRENDING" toggleGroup="$menu" />
+            <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="TOP" toggleGroup="$menu" />
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="ANALYZE" toggleGroup="$menu" />
+            <ToggleButton disable="true" mnemonicParsing="false" text="ToggleButton" toggleGroup="$menu" visible="false" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </left>
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="56.0" prefWidth="600.0" styleClass="hbox-with-border" BorderPane.alignment="CENTER">
+         <children>
+            <FontAwesomeIconView glyphName="HOME" onMouseClicked="#returnHome" size="40">
+               <HBox.margin>
+                  <Insets left="35.0" />
+               </HBox.margin>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </FontAwesomeIconView>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <TabPane fx:id="tabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+            <Tab text="HOME">
+               <content>
+                  <BorderPane>
+                     <center>
+                        <ScrollPane fx:id="homeView" fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="5.0" />
+                           </BorderPane.margin>
+                        </ScrollPane>
+                     </center></BorderPane>
+               </content>
+            </Tab>
+          <Tab text="POST">
+               <content>
+                  <BorderPane>
+                     <top>
+                        <HBox prefWidth="490.0" spacing="10.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <JFXTextField fx:id="search" onAction="#onSearch" prefHeight="25.0" prefWidth="275.0" promptText="search:" />
+                              <FontAwesomeIconView glyphName="SEARCH" onMouseClicked="#searchByHasTag" size="30">
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor></FontAwesomeIconView>
+                           </children>
+                           <BorderPane.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </BorderPane.margin>
+                        </HBox>
+                     </top>
+                     <center>
+                        <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                           <content>
+                              <VBox fx:id="postView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </center>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </BorderPane>
+               </content>
+          </Tab>
+            <Tab text="HOME">
+               <content>
+                  <BorderPane>
+                     <center>
+                        <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets left="5.0" />
+                           </BorderPane.margin>
+                           <content>
+                              <VBox fx:id="blogView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </center>
+                  </BorderPane>
+               </content>
+            </Tab>
+          <Tab text="HOT TAGS">
+               <content>
+                  <BorderPane>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                     <center>
+                        <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
+                           <content>
+                              <VBox fx:id="hotTagsView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                        </ScrollPane>
+                     </center></BorderPane>
+               </content>
+          </Tab>
+            <Tab text="TRENDING">
+               <content>
+                  <BorderPane>
+                     <left>
+                        <VBox prefHeight="277.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuTrending" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuTrending" />
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuTrending">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTrending" />
+                           </children>
+                           <BorderPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </BorderPane.margin>
+                        </VBox>
+                     </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="trendingTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                <tabs>
+                                  <Tab text="Opensea">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="openseaTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                  </Tab>
+                                  <Tab text="Binance">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="binanceTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                  </Tab>
+                                    <Tab text="Nifty">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="niftyTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Rarible">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="rariableTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </center>
+                           <top>
+                              <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ComboBox fx:id="trendingComboBox" onAction="#setSelection" prefWidth="200.0" styleClass="material-combo-box">
+                                       <padding>
+                                          <Insets left="45.0" />
+                                       </padding>
+                                    </ComboBox>
+                                    <Label text="Sort by :" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets left="-195.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </top>
+                        </BorderPane>
+                     </center>
+                  </BorderPane>
+               </content>
+            </Tab>
+            <Tab text="TOP">
+               <content>
+                  <BorderPane>
+                     <left>
+                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuTop" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuTop">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuTop">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTop">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <BorderPane.margin>
+                              <Insets left="5.0" right="5.0" />
+                           </BorderPane.margin>
+                        </VBox>
+                     </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="topTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                <tabs>
+                                  <Tab text="Opensea">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="openseaTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                  </Tab>
+                                  <Tab text="Binance">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="binanceTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                  </Tab>
+                                    <Tab text="Nifty">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="niftyTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Rarible">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="rariableTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </center>
+                           <top>
+                              <HBox alignment="CENTER_LEFT" BorderPane.alignment="CENTER">
+                                 <children>
+                                    <ComboBox fx:id="topComboBox" onAction="#setSelection" prefWidth="200.0" styleClass="material-combo-box">
+                                       <padding>
+                                          <Insets left="45.0" />
+                                       </padding>
+                                    </ComboBox>
+                                    <Label text="Sort by :" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets left="-195.0" />
+                                       </HBox.margin>
+                                    </Label>
+                                 </children>
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" />
+                                 </BorderPane.margin>
+                              </HBox>
+                           </top>
+                        </BorderPane>
+                     </center></BorderPane>
+               </content>
+            </Tab>
+            <Tab text="ANALYZE">
+               <content>
+                  <BorderPane>
+                     <center>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+                           <BorderPane.margin>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </BorderPane.margin>
+                           <content>
+                              <LineChart fx:id="lineChart">
+                                <xAxis>
+                                  <NumberAxis side="BOTTOM" />
+                                </xAxis>
+                                <yAxis>
+                                  <NumberAxis side="LEFT" />
+                                </yAxis>
+                              </LineChart>
+                           </content>
+                        </ScrollPane>
+                     </center></BorderPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </center>
+</BorderPane>
