@@ -7,35 +7,33 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class BinanceTopUtil {
-    public static String scrollAndGet( String request) throws Exception {
-        WebDriver driver = ScrollUtil.setUp(Url.URL_BINANCE_TOP);
-        WebElement skipButton = driver.findElement(By.xpath("//button[@data-bn-type='button' and contains(@class, 'css-1s94759')]"));
-        skipButton.click();
-        if(!request.equals("24H")) {
-            String xpathExpression =
-                String.format("//div[@class='css-11cvlnv' and text()='%s']", request);
-            WebElement sortButton = driver.findElement(
-                By.xpath(xpathExpression));
+public class NiftyTopUtil {
+    public static Document scrollAndGet( String request) throws Exception {
+        WebDriver driver = ScrollUtil.setUp(Url.URL_NIFTY_TOP);
+        if (!request.equals("Day")) {
+            String xpathExpression = String.format("//div[text()='%s']", request);
+            WebElement sortButton = driver.findElement(By.xpath(xpathExpression));
             sortButton.click();
         }
-        Thread.sleep(500);
+        
+        Thread.sleep(1000);
         Document masterDocument = null;
         int count = 0;
         
         while (true) {
-            Thread.sleep(1000);
-
-            WebElement nextButton = driver.findElement(By.xpath("//*[@id='next-page']"));
+            WebElement nextButton = driver.findElement(By.cssSelector("button.css-jh7xkz[title='Next Page']"));
+            
             if (nextButton.equals(null))
                 break;
             if (count == 5)
                 break;
 
-            String html = ScrollUtil.scrollHTML(driver);
+            JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+            String html = (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
             Document pageDocument = Jsoup.parse(html);
             if (masterDocument == null) {
                 masterDocument = pageDocument.clone();
@@ -45,12 +43,11 @@ public class BinanceTopUtil {
                     masterDocument.body().appendChild(element);
                 }
             }
-
             nextButton.click();
+            Thread.sleep(1000);
             count++;
         }
-        
         driver.quit();
-        return String.valueOf(masterDocument);
+        return masterDocument;
     }
 }

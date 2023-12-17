@@ -1,6 +1,6 @@
 package oop.backend.utils.scroll.tag;
 
-import oop.backend.crawler.hottag.GetDataHotTag;
+import oop.backend.crawler.hottag.HotTagCrawler;
 import oop.backend.utils.scroll.ScrollUtil;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -40,6 +40,12 @@ public class HotTagUtil {
                     + " document.documentElement.scrollHeight,"
                     + " document.documentElement.offsetHeight )");
             int i = 0;
+            try{
+                WebElement noItem= driver.findElement(By.xpath("//h2[text()= 'No items found']"));
+                if(noItem.isDisplayed()) return null;
+            }
+            catch(Exception ignored){
+            }
             while (true) {
                 long height = pageHeight * i;
                 jsExecutor.executeScript("window.scrollTo(0, " + height + ");");
@@ -64,7 +70,7 @@ public class HotTagUtil {
             }
             String html = (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
             Document newDocument = Jsoup.parse(html);
-            synchronized (GetDataHotTag.class) {
+            synchronized (HotTagCrawler.class) {
                 if (document == null) {
                     document = newDocument.clone();
                 } else {
