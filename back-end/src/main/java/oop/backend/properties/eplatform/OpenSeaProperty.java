@@ -11,10 +11,16 @@ public class OpenSeaProperty implements PropertyGetter<OpenSeaDTO> {
         OpenSeaDTO openSea = new OpenSeaDTO();
         openSea.setCollection(element.select("span[data-id='TextBody']").select("div.bguyED").text());
         Elements priceElements =
-            element.select("div.dYQlaY").select("span[data-id='TextBody']").select("div.axQXd");
-        boolean isExists = priceElements.size() == 2;
-        openSea.setVolume(isExists ? priceElements.get(0).text() : "");
-        openSea.setFloorPrice(isExists ? priceElements.get(1).text() : "");
+            element.select("span[data-id='TextBody']").select("div.axQXd");
+        boolean isExists = priceElements.size() == 7;
+        openSea.setVolume(isExists ? priceElements.get(1).text() : "");
+        openSea.setVolumeChange(isExists ? priceElements.get(2).text() : "");
+        openSea.setFloorPrice(isExists ? priceElements.get(3).text() : "");
+        openSea.setSales(isExists ? priceElements.get(4).text() : "");
+        Elements uniqueElements = element.select("span.sc-aabd2602-1");
+        boolean ifExists = uniqueElements.size() == 3;
+        openSea.setOwners(ifExists ? uniqueElements.get(1).text() : "");
+        openSea.setItems(ifExists ? uniqueElements.get(2).text() : "");
         return openSea;
     }
 }

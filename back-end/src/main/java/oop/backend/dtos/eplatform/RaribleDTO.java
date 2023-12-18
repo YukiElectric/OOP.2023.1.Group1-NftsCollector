@@ -17,4 +17,10 @@ public class RaribleDTO extends BaseDTO {
 
     @JsonProperty("owners")
     private String owners;
+
+    @JsonProperty("volumeChange")
+    private String volumeChange;
+
+    @JsonProperty("floorChange")
+    private String floorChange;
 }

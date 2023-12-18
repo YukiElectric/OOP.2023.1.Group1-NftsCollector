@@ -16,6 +16,10 @@ public class RaribleProperty implements PropertyGetter<RaribleDTO> {
         rarible.setFloorPrice(isExists ? priceElements.get(0).text() : "");
         rarible.setItems(element.select("div.ggUcdJ").text());
         rarible.setOwners(element.select("div.keSOtI").text());
+        Elements changeElements = element.select("span.sc-jkqKDt");
+        boolean ifExists = changeElements.size() == 2;
+        rarible.setFloorChange(ifExists ? changeElements.get(0).text() : "");
+        rarible.setVolumeChange(ifExists ? changeElements.get(1).text() : "");
         if (isExists)
             return rarible;
         return null;

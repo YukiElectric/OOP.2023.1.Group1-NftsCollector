@@ -38,7 +38,7 @@ public class BinanceTrendingCrawler extends GetBinance {
             final PropertyGetter<BinanceDTO> binanceAttr = new BinanceProperty();
             for (Element element : elements) {
                 BinanceDTO binance = binanceAttr.attrGet(element);
-                if (binance != null)
+                if (binance != null && !binances.contains(binance))
                     binances.add(binance);
             }
         }

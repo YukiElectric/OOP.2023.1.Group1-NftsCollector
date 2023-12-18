@@ -18,6 +18,10 @@ public class BinanceProperty implements PropertyGetter<BinanceDTO> {
         boolean ifExists = countElements.size() == 2;
         binance.setItems(ifExists ? countElements.get(0).text() : "");
         binance.setOwners(ifExists ? countElements.get(1).text() : "");
+        Elements changeElements = element.select("div.css-1g8p7ho");
+        boolean exists = changeElements.size() == 2;
+        binance.setVolumeChange((exists ? changeElements.get(0).text() : "")+"%");
+        binance.setFloorChange((exists ? changeElements.get(1).text() : "")+"%");
         if (isExists)
             return binance;
         return null;

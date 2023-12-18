@@ -15,5 +15,11 @@ public class BinanceDTO extends BaseDTO {
 
     @JsonProperty("owners")
     private String owners;
+
+    @JsonProperty("volumeChange")
+    private String volumeChange;
+
+    @JsonProperty("floorChange")
+    private String floorChange;
 }
 

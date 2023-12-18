@@ -44,8 +44,8 @@ public class NiftyTopCrawler extends RequestList implements DataCrawler {
             
             for (Element element : elements) {
                 NiftyTopDTO niftyGateway = niftyGatewayAttr.attrGet(element);
-                
-                if (niftyGateway != null)
+
+                if (niftyGateway != null && !niftyGateways.contains(niftyGateway))
                     niftyGateways.add(niftyGateway);
             }
         }

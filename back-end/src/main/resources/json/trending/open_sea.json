@@ -1,2812 +1,902 @@
 [
   {
-    "collection": "Balthazar raW Pass",
-    "volume": "49 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "Lil Pudgys",
-    "volume": "183 ETH",
-    "floorPrice": "0.98 ETH"
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "volume": "987 ETH",
-    "floorPrice": "5.22 ETH"
-  },
-  {
-    "collection": "DeGods",
-    "volume": "589 ETH",
-    "floorPrice": "2.79 ETH"
-  },
-  {
-    "collection": "ethv",
-    "volume": "5 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Skyborne - Nexian Gems",
-    "volume": "213 ETH",
-    "floorPrice": "0.70 ETH"
-  },
-  {
-    "collection": "Parallel Planetfall",
-    "volume": "30 ETH",
-    "floorPrice": "0.79 PRIME"
-  },
-  {
+    "items": "142 of 5,600",
+    "owners": "2,461 owners",
+    "volumeChange": "+66%",
+    "sales": "334",
     "collection": "Poglin: Nycra",
-    "volume": "71 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "KOKODI",
-    "volume": "69 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "EternalSoul",
-    "volume": "6 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "The Ant Republic",
-    "volume": "16 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Balthazar raW Pass",
-    "volume": "49 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "Lil Pudgys",
-    "volume": "183 ETH",
-    "floorPrice": "0.98 ETH"
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "volume": "987 ETH",
-    "floorPrice": "5.22 ETH"
-  },
-  {
-    "collection": "DeGods",
-    "volume": "589 ETH",
-    "floorPrice": "2.79 ETH"
-  },
-  {
-    "collection": "ethv",
-    "volume": "5 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Skyborne - Nexian Gems",
-    "volume": "213 ETH",
-    "floorPrice": "0.70 ETH"
-  },
-  {
-    "collection": "Parallel Planetfall",
-    "volume": "30 ETH",
-    "floorPrice": "0.79 PRIME"
-  },
-  {
-    "collection": "Poglin: Nycra",
-    "volume": "71 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "KOKODI",
-    "volume": "69 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "EternalSoul",
-    "volume": "6 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "The Ant Republic",
-    "volume": "16 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Balthazar raW Pass",
-    "volume": "49 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "Ether",
-    "volume": "23 ETH",
-    "floorPrice": "0.20 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "Lil Pudgys",
-    "volume": "183 ETH",
-    "floorPrice": "0.98 ETH"
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "volume": "987 ETH",
-    "floorPrice": "5.22 ETH"
-  },
-  {
-    "collection": "DeGods",
-    "volume": "589 ETH",
-    "floorPrice": "2.79 ETH"
-  },
-  {
-    "collection": "ethv",
-    "volume": "5 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Skyborne - Nexian Gems",
-    "volume": "213 ETH",
-    "floorPrice": "0.70 ETH"
-  },
-  {
-    "collection": "Parallel Planetfall",
-    "volume": "30 ETH",
-    "floorPrice": "0.79 PRIME"
-  },
-  {
-    "collection": "Poglin: Nycra",
-    "volume": "71 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "KOKODI",
-    "volume": "69 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "EternalSoul",
-    "volume": "6 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "The Ant Republic",
-    "volume": "16 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Balthazar raW Pass",
-    "volume": "49 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "y00ts",
-    "volume": "44 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "ALTAVA Second Skin Metamorphosis",
-    "volume": "5 ETH",
-    "floorPrice": "0.05 ETH"
-  },
-  {
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "7 ETH",
-    "floorPrice": "0.09 ETH"
-  },
-  {
-    "collection": "Shrapnel Operators Collection",
-    "volume": "19 ETH",
-    "floorPrice": "0.26 ETH"
-  },
-  {
-    "collection": "KPR",
-    "volume": "12 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Ether",
-    "volume": "23 ETH",
-    "floorPrice": "0.20 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "Lil Pudgys",
-    "volume": "183 ETH",
-    "floorPrice": "0.98 ETH"
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "volume": "987 ETH",
-    "floorPrice": "5.22 ETH"
-  },
-  {
-    "collection": "DeGods",
-    "volume": "589 ETH",
-    "floorPrice": "2.79 ETH"
-  },
-  {
-    "collection": "ethv",
-    "volume": "5 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Skyborne - Nexian Gems",
-    "volume": "213 ETH",
-    "floorPrice": "0.70 ETH"
-  },
-  {
-    "collection": "Parallel Planetfall",
-    "volume": "30 ETH",
-    "floorPrice": "0.79 PRIME"
-  },
-  {
-    "collection": "Poglin: Nycra",
-    "volume": "71 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "KOKODI",
-    "volume": "69 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "EternalSoul",
-    "volume": "6 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "The Ant Republic",
-    "volume": "16 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Balthazar raW Pass",
-    "volume": "49 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "ALTAVA Second Skin Metamorphosis",
-    "volume": "5 ETH",
-    "floorPrice": "0.05 ETH"
-  },
-  {
-    "collection": "Shrapnel Operators Collection",
-    "volume": "19 ETH",
-    "floorPrice": "0.26 ETH"
-  },
-  {
-    "collection": "FarCats",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Trademark by Jack Butcher",
-    "volume": "10 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Azuki Elementals",
-    "volume": "37 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Opepen Edition",
-    "volume": "30 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "ALTS by adidas",
-    "volume": "7 ETH",
-    "floorPrice": "0.11 ETH"
-  },
-  {
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "7 ETH",
-    "floorPrice": "0.09 ETH"
-  },
-  {
-    "collection": "y00ts",
-    "volume": "44 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "KPR",
-    "volume": "12 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Ether",
-    "volume": "23 ETH",
-    "floorPrice": "0.20 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "Lil Pudgys",
-    "volume": "183 ETH",
-    "floorPrice": "0.98 ETH"
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "volume": "987 ETH",
-    "floorPrice": "5.22 ETH"
-  },
-  {
-    "collection": "DeGods",
-    "volume": "589 ETH",
-    "floorPrice": "2.79 ETH"
-  },
-  {
-    "collection": "ethv",
-    "volume": "5 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Skyborne - Nexian Gems",
-    "volume": "213 ETH",
-    "floorPrice": "0.70 ETH"
-  },
-  {
-    "collection": "Parallel Planetfall",
-    "volume": "30 ETH",
-    "floorPrice": "0.79 PRIME"
-  },
-  {
-    "collection": "Poglin: Nycra",
-    "volume": "71 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "KOKODI",
-    "volume": "69 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "EternalSoul",
-    "volume": "6 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Balthazar raW Pass",
-    "volume": "49 ETH",
-    "floorPrice": "0.21 ETH"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "ALTAVA Second Skin Metamorphosis",
-    "volume": "5 ETH",
-    "floorPrice": "0.05 ETH"
-  },
-  {
-    "collection": "FarCats",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "First First NFTs",
-    "volume": "8 ETH",
-    "floorPrice": "0.15 ETH"
-  },
-  {
-    "collection": "Genuine Undead",
-    "volume": "6 ETH",
-    "floorPrice": "0.10 ETH"
-  },
-  {
-    "collection": "Milady Maker",
-    "volume": "154 ETH",
-    "floorPrice": "2.69 ETH"
-  },
-  {
-    "collection": "Doodles Original Collection",
-    "volume": "95 ETH",
-    "floorPrice": "1.90 ETH"
-  },
-  {
-    "collection": "a KID called BEAST",
-    "volume": "17 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Everai",
-    "volume": "8 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "Trademark by Jack Butcher",
-    "volume": "10 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Azuki Elementals",
-    "volume": "37 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Opepen Edition",
-    "volume": "30 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Shrapnel Operators Collection",
-    "volume": "19 ETH",
-    "floorPrice": "0.26 ETH"
-  },
-  {
-    "collection": "ALTS by adidas",
-    "volume": "7 ETH",
-    "floorPrice": "0.11 ETH"
-  },
-  {
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "7 ETH",
-    "floorPrice": "0.09 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "y00ts",
-    "volume": "44 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "KPR",
-    "volume": "12 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Ether",
-    "volume": "23 ETH",
-    "floorPrice": "0.20 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "Lil Pudgys",
-    "volume": "183 ETH",
-    "floorPrice": "0.98 ETH"
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "volume": "987 ETH",
-    "floorPrice": "5.22 ETH"
-  },
-  {
-    "collection": "DeGods",
-    "volume": "589 ETH",
-    "floorPrice": "2.79 ETH"
-  },
-  {
-    "collection": "Parallel Planetfall",
-    "volume": "30 ETH",
-    "floorPrice": "0.79 PRIME"
-  },
-  {
-    "collection": "THE WHITE RABBIT",
-    "volume": "15 ETH",
-    "floorPrice": "0.02 ETH"
-  },
-  {
-    "collection": "ALTAVA Second Skin Metamorphosis",
-    "volume": "5 ETH",
-    "floorPrice": "0.05 ETH"
-  },
-  {
-    "collection": "First First NFTs",
-    "volume": "8 ETH",
-    "floorPrice": "0.15 ETH"
-  },
-  {
-    "collection": "Milady Maker",
-    "volume": "154 ETH",
-    "floorPrice": "2.69 ETH"
-  },
-  {
-    "collection": "Pixelmon - Generation 1",
-    "volume": "99 ETH",
-    "floorPrice": "2 ETH"
-  },
-  {
-    "collection": "Azuki Elemental Beans",
-    "volume": "31 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Quirkies Originals",
-    "volume": "26 ETH",
-    "floorPrice": "0.72 ETH"
-  },
-  {
-    "collection": "Nakamigos",
-    "volume": "11 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "BEANZ Official",
-    "volume": "24 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Doodles Original Collection",
-    "volume": "95 ETH",
-    "floorPrice": "1.90 ETH"
-  },
-  {
-    "collection": "Genuine Undead",
-    "volume": "6 ETH",
-    "floorPrice": "0.10 ETH"
-  },
-  {
-    "collection": "a KID called BEAST",
-    "volume": "17 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Everai",
-    "volume": "8 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "FarCats",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Trademark by Jack Butcher",
-    "volume": "10 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Azuki Elementals",
-    "volume": "37 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Opepen Edition",
-    "volume": "30 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Shrapnel Operators Collection",
-    "volume": "19 ETH",
-    "floorPrice": "0.26 ETH"
-  },
-  {
-    "collection": "ALTS by adidas",
-    "volume": "7 ETH",
-    "floorPrice": "0.11 ETH"
-  },
-  {
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "7 ETH",
-    "floorPrice": "0.09 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "y00ts",
-    "volume": "44 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "KPR",
-    "volume": "12 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Ether",
-    "volume": "23 ETH",
-    "floorPrice": "0.20 ETH"
-  },
-  {
-    "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "Moonbirds",
-    "volume": "243 ETH",
-    "floorPrice": "1.77 ETH"
-  },
-  {
-    "collection": "JUUNI Zodia",
-    "volume": "8 ETH",
-    "floorPrice": "0.06 ETH"
-  },
-  {
-    "collection": "Azuki",
-    "volume": "839 ETH",
-    "floorPrice": "5.79 ETH"
-  },
-  {
-    "collection": "OVERWORLD INCARNA",
-    "volume": "284 ETH",
-    "floorPrice": "2.02 ETH"
-  },
-  {
-    "collection": "Anonthology",
-    "volume": "5 ETH",
-    "floorPrice": "0.04 ETH"
-  },
-  {
-    "collection": "ALTAVA Second Skin Metamorphosis",
-    "volume": "5 ETH",
-    "floorPrice": "0.05 ETH"
-  },
-  {
-    "collection": "First First NFTs",
-    "volume": "8 ETH",
-    "floorPrice": "0.15 ETH"
-  },
-  {
-    "collection": "Milady Maker",
-    "volume": "154 ETH",
-    "floorPrice": "2.69 ETH"
-  },
-  {
-    "collection": "Azuki Elemental Beans",
-    "volume": "31 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Creepz by OVERLORD",
-    "volume": "149 ETH",
-    "floorPrice": "3.50 ETH"
-  },
-  {
-    "collection": "Bored Ape Kennel Club",
     "volume": "68 ETH",
-    "floorPrice": "1.62 ETH"
+    "floorPrice": "0.21 ETH"
   },
   {
-    "collection": "Otherdeed Expanded",
-    "volume": "20 ETH",
-    "floorPrice": "0.29 ETH"
+    "items": "527 of 21,402",
+    "owners": "7,543 owners",
+    "volumeChange": "+12%",
+    "sales": "200",
+    "collection": "Lil Pudgys",
+    "volume": "180 ETH",
+    "floorPrice": "0.94 ETH"
   },
   {
-    "collection": "Pudgy Penguins",
-    "volume": "370 ETH",
-    "floorPrice": "9.34 ETH"
+    "items": "309 of 19,485",
+    "owners": "11,289 owners",
+    "volumeChange": "+111%",
+    "sales": "191",
+    "collection": "Mutant Ape Yacht Club",
+    "volume": "981 ETH",
+    "floorPrice": "5.33 ETH"
   },
   {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "volume": "63 ETH",
-    "floorPrice": "1.27 ETH"
-  },
-  {
-    "collection": "Nakamigos",
-    "volume": "11 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "Trump Digital Trading Cards",
-    "volume": "7 ETH",
-    "floorPrice": "0.16 ETH"
-  },
-  {
-    "collection": "Quirkies Originals",
-    "volume": "26 ETH",
-    "floorPrice": "0.72 ETH"
-  },
-  {
-    "collection": "Pixelmon - Generation 1",
-    "volume": "99 ETH",
-    "floorPrice": "2 ETH"
-  },
-  {
-    "collection": "BEANZ Official",
-    "volume": "24 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Doodles Original Collection",
-    "volume": "95 ETH",
-    "floorPrice": "1.90 ETH"
-  },
-  {
-    "collection": "Genuine Undead",
-    "volume": "6 ETH",
-    "floorPrice": "0.10 ETH"
-  },
-  {
-    "collection": "a KID called BEAST",
-    "volume": "17 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Everai",
-    "volume": "8 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "FarCats",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Trademark by Jack Butcher",
-    "volume": "10 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Azuki Elementals",
-    "volume": "37 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Opepen Edition",
-    "volume": "30 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Shrapnel Operators Collection",
-    "volume": "19 ETH",
-    "floorPrice": "0.26 ETH"
-  },
-  {
-    "collection": "ALTS by adidas",
-    "volume": "7 ETH",
-    "floorPrice": "0.11 ETH"
-  },
-  {
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "7 ETH",
-    "floorPrice": "0.09 ETH"
-  },
-  {
-    "collection": "BlockGames Dice",
-    "volume": "52 ETH",
-    "floorPrice": "0.45 ETH"
-  },
-  {
-    "collection": "y00ts",
-    "volume": "44 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "KPR",
-    "volume": "12 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Ether",
-    "volume": "23 ETH",
-    "floorPrice": "0.20 ETH"
-  },
-  {
+    "items": "148 of 6,134",
+    "owners": "1,022 owners",
+    "volumeChange": "+82%",
+    "sales": "126",
     "collection": "Sugartown Oras by Zynga",
-    "volume": "60 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Kitaro World",
-    "volume": "35 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "ALTAVA Second Skin Metamorphosis",
-    "volume": "5 ETH",
-    "floorPrice": "0.05 ETH"
-  },
-  {
-    "collection": "First First NFTs",
-    "volume": "8 ETH",
-    "floorPrice": "0.15 ETH"
-  },
-  {
-    "collection": "Azuki Elemental Beans",
-    "volume": "31 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Creepz by OVERLORD",
-    "volume": "149 ETH",
-    "floorPrice": "3.50 ETH"
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "volume": "370 ETH",
-    "floorPrice": "9.34 ETH"
-  },
-  {
-    "collection": "Otherdeed for Otherside",
-    "volume": "30 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "The Sandbox",
-    "volume": "11 ETH",
-    "floorPrice": "0.28 ETH"
-  },
-  {
-    "collection": "RTFKT SKIN VIAL: EVO X",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Terraforms by Mathcastles",
-    "volume": "44 ETH",
-    "floorPrice": "1.46 ETH"
-  },
-  {
-    "collection": "Ultiverse - Electric Sheep",
-    "volume": "64 ETH",
-    "floorPrice": "1.70 ETH"
-  },
-  {
-    "collection": "Bored Ape Kennel Club",
-    "volume": "68 ETH",
-    "floorPrice": "1.62 ETH"
-  },
-  {
-    "collection": "Otherdeed Expanded",
-    "volume": "20 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "volume": "63 ETH",
-    "floorPrice": "1.27 ETH"
-  },
-  {
-    "collection": "Nakamigos",
-    "volume": "11 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "Trump Digital Trading Cards",
-    "volume": "7 ETH",
-    "floorPrice": "0.16 ETH"
-  },
-  {
-    "collection": "Quirkies Originals",
-    "volume": "26 ETH",
-    "floorPrice": "0.72 ETH"
-  },
-  {
-    "collection": "Milady Maker",
-    "volume": "154 ETH",
-    "floorPrice": "2.69 ETH"
-  },
-  {
-    "collection": "Pixelmon - Generation 1",
-    "volume": "99 ETH",
-    "floorPrice": "2 ETH"
-  },
-  {
-    "collection": "BEANZ Official",
-    "volume": "24 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Doodles Original Collection",
-    "volume": "95 ETH",
-    "floorPrice": "1.90 ETH"
-  },
-  {
-    "collection": "Genuine Undead",
-    "volume": "6 ETH",
-    "floorPrice": "0.10 ETH"
-  },
-  {
-    "collection": "a KID called BEAST",
-    "volume": "17 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Everai",
-    "volume": "8 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "FarCats",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Trademark by Jack Butcher",
-    "volume": "10 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Azuki Elementals",
-    "volume": "37 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Opepen Edition",
-    "volume": "30 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Shrapnel Operators Collection",
-    "volume": "19 ETH",
-    "floorPrice": "0.26 ETH"
-  },
-  {
-    "collection": "ALTS by adidas",
-    "volume": "7 ETH",
-    "floorPrice": "0.11 ETH"
-  },
-  {
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "7 ETH",
-    "floorPrice": "0.09 ETH"
-  },
-  {
-    "collection": "KPR",
-    "volume": "12 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "First First NFTs",
-    "volume": "8 ETH",
-    "floorPrice": "0.15 ETH"
-  },
-  {
-    "collection": "Azuki Elemental Beans",
-    "volume": "31 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "volume": "370 ETH",
-    "floorPrice": "9.34 ETH"
-  },
-  {
-    "collection": "The Sandbox",
-    "volume": "11 ETH",
-    "floorPrice": "0.28 ETH"
-  },
-  {
-    "collection": "Yogapetz",
-    "volume": "23 ETH",
-    "floorPrice": "0.67 ETH"
-  },
-  {
-    "collection": "Pixels - Farm Land",
-    "volume": "43 ETH",
-    "floorPrice": "1.65 ETH"
-  },
-  {
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "34 ETH",
-    "floorPrice": "1.68 ETH"
-  },
-  {
-    "collection": "My Curio Cards",
-    "volume": "6 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "goblintown.wtf",
-    "volume": "5 ETH",
-    "floorPrice": "0.19 ETH"
-  },
-  {
-    "collection": "RTFKT SKIN VIAL: EVO X",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Otherdeed for Otherside",
-    "volume": "30 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Terraforms by Mathcastles",
-    "volume": "44 ETH",
-    "floorPrice": "1.46 ETH"
-  },
-  {
-    "collection": "Ultiverse - Electric Sheep",
-    "volume": "64 ETH",
-    "floorPrice": "1.70 ETH"
-  },
-  {
-    "collection": "Creepz by OVERLORD",
-    "volume": "149 ETH",
-    "floorPrice": "3.50 ETH"
-  },
-  {
-    "collection": "Bored Ape Kennel Club",
-    "volume": "68 ETH",
-    "floorPrice": "1.62 ETH"
-  },
-  {
-    "collection": "Otherdeed Expanded",
-    "volume": "20 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "volume": "63 ETH",
-    "floorPrice": "1.27 ETH"
-  },
-  {
-    "collection": "Nakamigos",
-    "volume": "11 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "Trump Digital Trading Cards",
-    "volume": "7 ETH",
-    "floorPrice": "0.16 ETH"
-  },
-  {
-    "collection": "Quirkies Originals",
-    "volume": "26 ETH",
-    "floorPrice": "0.72 ETH"
-  },
-  {
-    "collection": "Milady Maker",
-    "volume": "154 ETH",
-    "floorPrice": "2.69 ETH"
-  },
-  {
-    "collection": "Pixelmon - Generation 1",
-    "volume": "99 ETH",
-    "floorPrice": "2 ETH"
-  },
-  {
-    "collection": "BEANZ Official",
-    "volume": "24 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Doodles Original Collection",
-    "volume": "95 ETH",
-    "floorPrice": "1.90 ETH"
-  },
-  {
-    "collection": "Genuine Undead",
-    "volume": "6 ETH",
-    "floorPrice": "0.10 ETH"
-  },
-  {
-    "collection": "a KID called BEAST",
-    "volume": "17 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Everai",
-    "volume": "8 ETH",
-    "floorPrice": "0.12 ETH"
-  },
-  {
-    "collection": "FarCats",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Trademark by Jack Butcher",
-    "volume": "10 ETH",
-    "floorPrice": "0.14 ETH"
-  },
-  {
-    "collection": "Azuki Elementals",
-    "volume": "37 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Opepen Edition",
-    "volume": "30 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Azuki Elemental Beans",
-    "volume": "31 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "volume": "370 ETH",
-    "floorPrice": "9.34 ETH"
-  },
-  {
-    "collection": "The Sandbox",
-    "volume": "11 ETH",
-    "floorPrice": "0.28 ETH"
-  },
-  {
-    "collection": "Pixels - Farm Land",
-    "volume": "43 ETH",
-    "floorPrice": "1.65 ETH"
-  },
-  {
-    "collection": "Checks - VV Edition",
-    "volume": "14 ETH",
-    "floorPrice": "0.59 ETH"
-  },
-  {
-    "collection": "Sappy Seals",
-    "volume": "15 ETH",
-    "floorPrice": "0.65 ETH"
-  },
-  {
-    "collection": "ChronoForge",
-    "volume": "7 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "Mittaria Genesis",
-    "volume": "17 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Checks - VV Originals",
-    "volume": "20 ETH",
-    "floorPrice": "0.25 ETH"
-  },
-  {
-    "collection": "My Curio Cards",
-    "volume": "6 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "SERAPH Priority Pass Official",
-    "volume": "51 ETH",
-    "floorPrice": "2.53 ETH"
-  },
-  {
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "34 ETH",
-    "floorPrice": "1.68 ETH"
-  },
-  {
-    "collection": "Yogapetz",
-    "volume": "23 ETH",
-    "floorPrice": "0.67 ETH"
-  },
-  {
-    "collection": "goblintown.wtf",
-    "volume": "5 ETH",
-    "floorPrice": "0.19 ETH"
-  },
-  {
-    "collection": "RTFKT SKIN VIAL: EVO X",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Otherdeed for Otherside",
-    "volume": "30 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Terraforms by Mathcastles",
-    "volume": "44 ETH",
-    "floorPrice": "1.46 ETH"
-  },
-  {
-    "collection": "Ultiverse - Electric Sheep",
-    "volume": "64 ETH",
-    "floorPrice": "1.70 ETH"
-  },
-  {
-    "collection": "Creepz by OVERLORD",
-    "volume": "149 ETH",
-    "floorPrice": "3.50 ETH"
-  },
-  {
-    "collection": "Bored Ape Kennel Club",
-    "volume": "68 ETH",
-    "floorPrice": "1.62 ETH"
-  },
-  {
-    "collection": "Otherdeed Expanded",
-    "volume": "20 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "volume": "63 ETH",
-    "floorPrice": "1.27 ETH"
-  },
-  {
-    "collection": "Nakamigos",
-    "volume": "11 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "Trump Digital Trading Cards",
-    "volume": "7 ETH",
-    "floorPrice": "0.16 ETH"
-  },
-  {
-    "collection": "Quirkies Originals",
-    "volume": "26 ETH",
-    "floorPrice": "0.72 ETH"
-  },
-  {
-    "collection": "Milady Maker",
-    "volume": "154 ETH",
-    "floorPrice": "2.69 ETH"
-  },
-  {
-    "collection": "Pixelmon - Generation 1",
-    "volume": "99 ETH",
-    "floorPrice": "2 ETH"
-  },
-  {
-    "collection": "BEANZ Official",
-    "volume": "24 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Doodles Original Collection",
-    "volume": "95 ETH",
-    "floorPrice": "1.90 ETH"
-  },
-  {
-    "collection": "Genuine Undead",
-    "volume": "6 ETH",
-    "floorPrice": "0.10 ETH"
-  },
-  {
-    "collection": "a KID called BEAST",
-    "volume": "17 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Azuki Elemental Beans",
-    "volume": "31 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "volume": "370 ETH",
-    "floorPrice": "9.34 ETH"
-  },
-  {
-    "collection": "Pixels - Farm Land",
-    "volume": "43 ETH",
-    "floorPrice": "1.65 ETH"
-  },
-  {
-    "collection": "Checks - VV Edition",
-    "volume": "14 ETH",
-    "floorPrice": "0.59 ETH"
-  },
-  {
-    "collection": "Mittaria Genesis",
-    "volume": "17 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Bored Ape Yacht Club",
-    "volume": "572 ETH",
-    "floorPrice": "25.97 ETH"
-  },
-  {
-    "collection": "ENS: Ethereum Name Service",
-    "volume": "8 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "Pirate Nation - Founder\u0027s Pirates",
-    "volume": "8 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Meebits",
-    "volume": "27 ETH",
-    "floorPrice": "1.18 ETH"
-  },
-  {
-    "collection": "Treeverse Plots",
-    "volume": "16 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Sappy Seals",
-    "volume": "15 ETH",
-    "floorPrice": "0.65 ETH"
-  },
-  {
-    "collection": "ChronoForge",
-    "volume": "7 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "Checks - VV Originals",
-    "volume": "20 ETH",
-    "floorPrice": "0.25 ETH"
-  },
-  {
-    "collection": "My Curio Cards",
-    "volume": "6 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "SERAPH Priority Pass Official",
-    "volume": "51 ETH",
-    "floorPrice": "2.53 ETH"
-  },
-  {
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "34 ETH",
-    "floorPrice": "1.68 ETH"
-  },
-  {
-    "collection": "The Sandbox",
-    "volume": "11 ETH",
-    "floorPrice": "0.28 ETH"
-  },
-  {
-    "collection": "Yogapetz",
-    "volume": "23 ETH",
-    "floorPrice": "0.67 ETH"
-  },
-  {
-    "collection": "goblintown.wtf",
-    "volume": "5 ETH",
-    "floorPrice": "0.19 ETH"
-  },
-  {
-    "collection": "RTFKT SKIN VIAL: EVO X",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Otherdeed for Otherside",
-    "volume": "30 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Terraforms by Mathcastles",
-    "volume": "44 ETH",
-    "floorPrice": "1.46 ETH"
-  },
-  {
-    "collection": "Ultiverse - Electric Sheep",
-    "volume": "64 ETH",
-    "floorPrice": "1.70 ETH"
-  },
-  {
-    "collection": "Creepz by OVERLORD",
-    "volume": "149 ETH",
-    "floorPrice": "3.50 ETH"
-  },
-  {
-    "collection": "Bored Ape Kennel Club",
-    "volume": "68 ETH",
-    "floorPrice": "1.62 ETH"
-  },
-  {
-    "collection": "Otherdeed Expanded",
-    "volume": "20 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "volume": "63 ETH",
-    "floorPrice": "1.27 ETH"
-  },
-  {
-    "collection": "Nakamigos",
-    "volume": "11 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "Trump Digital Trading Cards",
-    "volume": "7 ETH",
-    "floorPrice": "0.16 ETH"
-  },
-  {
-    "collection": "Quirkies Originals",
-    "volume": "26 ETH",
-    "floorPrice": "0.72 ETH"
-  },
-  {
-    "collection": "BEANZ Official",
-    "volume": "24 ETH",
-    "floorPrice": "0.40 ETH"
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "volume": "370 ETH",
-    "floorPrice": "9.34 ETH"
-  },
-  {
-    "collection": "Pixels - Farm Land",
-    "volume": "43 ETH",
-    "floorPrice": "1.65 ETH"
-  },
-  {
-    "collection": "Mittaria Genesis",
-    "volume": "17 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "ENS: Ethereum Name Service",
-    "volume": "8 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "RTFKT Animus Egg 🥚",
-    "volume": "5 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "Kubz",
-    "volume": "7 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Redacted Remilio Babies",
-    "volume": "11 ETH",
+    "volume": "59 ETH",
     "floorPrice": "0.53 ETH"
   },
   {
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "11 ETH",
-    "floorPrice": "0.56 ETH"
+    "items": "156 of 6,000",
+    "owners": "2,274 owners",
+    "volumeChange": "-51%",
+    "sales": "115",
+    "collection": "OVERWORLD INCARNA",
+    "volume": "228 ETH",
+    "floorPrice": "2.07 ETH"
   },
   {
-    "collection": "0N1 Force",
+    "items": "310 of 7,777",
+    "owners": "2,137 owners",
+    "volumeChange": "+95%",
+    "sales": "109",
+    "collection": "Kitaro World",
+    "volume": "32 ETH",
+    "floorPrice": "0.29 ETH"
+  },
+  {
+    "items": "",
+    "owners": "",
+    "volumeChange": "",
+    "sales": "",
+    "collection": "THE WHITE RABBIT",
+    "volume": "",
+    "floorPrice": ""
+  },
+  {
+    "items": "144 of 10,000",
+    "owners": "4,173 owners",
+    "volumeChange": "-42%",
+    "sales": "136",
+    "collection": "Azuki",
+    "volume": "781 ETH",
+    "floorPrice": "5.79 ETH"
+  },
+  {
+    "items": "110 of 10,000",
+    "owners": "5,749 owners",
+    "volumeChange": "+425%",
+    "sales": "192",
+    "collection": "Moonbirds",
+    "volume": "350 ETH",
+    "floorPrice": "2.05 ETH"
+  },
+  {
+    "items": "95 of 8,954",
+    "owners": "2,552 owners",
+    "volumeChange": "+232%",
+    "sales": "230",
+    "collection": "DeGods",
+    "volume": "623 ETH",
+    "floorPrice": "2.66 ETH"
+  },
+  {
+    "items": "",
+    "owners": "",
+    "volumeChange": "",
+    "sales": "",
+    "collection": "Parallel Planetfall",
+    "volume": "",
+    "floorPrice": ""
+  },
+  {
+    "items": "153 of 5,555",
+    "owners": "1,815 owners",
+    "volumeChange": "+13%",
+    "sales": "266",
+    "collection": "Balthazar raW Pass",
+    "volume": "54 ETH",
+    "floorPrice": "0.21 ETH"
+  },
+  {
+    "items": "200 of 5,526",
+    "owners": "1,708 owners",
+    "volumeChange": "+18%",
+    "sales": "400",
+    "collection": "KOKODI",
+    "volume": "47 ETH",
+    "floorPrice": "0.13 ETH"
+  },
+  {
+    "items": "82 of 3,333",
+    "owners": "988 owners",
+    "volumeChange": "+1,033%",
+    "sales": "358",
+    "collection": "Skyborne - Nexian Gems",
+    "volume": "222 ETH",
+    "floorPrice": "0.68 ETH"
+  },
+  {
+    "items": "205 of 4,502",
+    "owners": "1,468 owners",
+    "volumeChange": "+298%",
+    "sales": "782",
+    "collection": "The Ant Republic",
+    "volume": "18 ETH",
+    "floorPrice": "0.02 ETH"
+  },
+  {
+    "items": "68 of 3,752",
+    "owners": "973 owners",
+    "volumeChange": "+278%",
+    "sales": "109",
+    "collection": "JUUNI Zodia",
+    "volume": "7 ETH",
+    "floorPrice": "0.06 ETH"
+  },
+  {
+    "items": "148 of 4,843",
+    "owners": "1,170 owners",
+    "volumeChange": "+1,512%",
+    "sales": "105",
+    "collection": "Ether",
+    "volume": "23 ETH",
+    "floorPrice": "0.20 ETH"
+  },
+  {
+    "items": "201 of 11,435",
+    "owners": "4,508 owners",
+    "volumeChange": "+54%",
+    "sales": "103",
+    "collection": "y00ts",
+    "volume": "48 ETH",
+    "floorPrice": "0.44 ETH"
+  },
+  {
+    "items": "283 of 9,999",
+    "owners": "3,374 owners",
+    "volumeChange": "+301%",
+    "sales": "96",
+    "collection": "a KID called BEAST",
+    "volume": "27 ETH",
+    "floorPrice": "0.32 ETH"
+  },
+  {
+    "items": "69 of 10,091",
+    "owners": "3,344 owners",
+    "volumeChange": "+283%",
+    "sales": "103",
+    "collection": "Yogapetz",
+    "volume": "72 ETH",
+    "floorPrice": "0.67 ETH"
+  },
+  {
+    "items": "171 of 5,555",
+    "owners": "1,986 owners",
+    "volumeChange": "-15%",
+    "sales": "107",
+    "collection": "BlockGames Dice",
+    "volume": "50 ETH",
+    "floorPrice": "0.43 ETH"
+  },
+  {
+    "items": "",
+    "owners": "",
+    "volumeChange": "",
+    "sales": "",
+    "collection": "Parallel Alpha",
+    "volume": "",
+    "floorPrice": ""
+  },
+  {
+    "items": "181 of 2,770",
+    "owners": "1,046 owners",
+    "volumeChange": "+525%",
+    "sales": "85",
+    "collection": "ALTAVA Second Skin Metamorphosis",
+    "volume": "5 ETH",
+    "floorPrice": "0.05 ETH"
+  },
+  {
+    "items": "239 of 10,000",
+    "owners": "2,918 owners",
+    "volumeChange": "+294%",
+    "sales": "75",
+    "collection": "Shrapnel Operators Collection",
+    "volume": "19 ETH",
+    "floorPrice": "0.27 ETH"
+  },
+  {
+    "items": "301 of 9,999",
+    "owners": "1,679 owners",
+    "volumeChange": "-31%",
+    "sales": "74",
+    "collection": "Skyborne - Genesis Immortals",
+    "volume": "6 ETH",
+    "floorPrice": "0.08 ETH"
+  },
+  {
+    "items": "109 of 1,730",
+    "owners": "750 owners",
+    "volumeChange": "+719%",
+    "sales": "86",
+    "collection": "Animalia Tundra Titans",
+    "volume": "7 ETH",
+    "floorPrice": "0.07 ETH"
+  },
+  {
+    "items": "377 of 16,000",
+    "owners": "4,087 owners",
+    "volumeChange": "-7%",
+    "sales": "67",
+    "collection": "Opepen Edition",
+    "volume": "34 ETH",
+    "floorPrice": "0.40 ETH"
+  },
+  {
+    "items": "1,080 of 10,000",
+    "owners": "3,655 owners",
+    "volumeChange": "-51%",
+    "sales": "61",
+    "collection": "Trademark by Jack Butcher",
+    "volume": "10 ETH",
+    "floorPrice": "0.14 ETH"
+  },
+  {
+    "items": "195 of 10,000",
+    "owners": "2,569 owners",
+    "volumeChange": "-2%",
+    "sales": "61",
+    "collection": "KPR",
+    "volume": "8 ETH",
+    "floorPrice": "0.15 ETH"
+  },
+  {
+    "items": "55 of 4,996",
+    "owners": "1,653 owners",
+    "volumeChange": "+11,467%",
+    "sales": "59",
+    "collection": "First First NFTs",
+    "volume": "8 ETH",
+    "floorPrice": "0.10 ETH"
+  },
+  {
+    "items": "108 of 785",
+    "owners": "504 owners",
+    "volumeChange": "+399%",
+    "sales": "64",
+    "collection": "Grails V",
+    "volume": "29 ETH",
+    "floorPrice": "0.20 ETH"
+  },
+  {
+    "items": "235 of 20,066",
+    "owners": "10,669 owners",
+    "volumeChange": "+137%",
+    "sales": "68",
+    "collection": "ALTS by adidas",
+    "volume": "6 ETH",
+    "floorPrice": "0.11 ETH"
+  },
+  {
+    "items": "356 of 14,543",
+    "owners": "4,968 owners",
+    "volumeChange": "-12%",
+    "sales": "58",
+    "collection": "Azuki Elementals",
+    "volume": "35 ETH",
+    "floorPrice": "0.54 ETH"
+  },
+  {
+    "items": "273 of 9,998",
+    "owners": "5,525 owners",
+    "volumeChange": "+76%",
+    "sales": "55",
+    "collection": "Doodles Original Collection",
+    "volume": "97 ETH",
+    "floorPrice": "1.90 ETH"
+  },
+  {
+    "items": "94 of 1,882",
+    "owners": "368 owners",
+    "volumeChange": "+217%",
+    "sales": "53",
+    "collection": "Blips",
+    "volume": "14 ETH",
+    "floorPrice": "0.22 ETH"
+  },
+  {
+    "items": "448 of 9,996",
+    "owners": "2,831 owners",
+    "volumeChange": "+98%",
+    "sales": "58",
+    "collection": "Genuine Undead",
+    "volume": "6 ETH",
+    "floorPrice": "0.10 ETH"
+  },
+  {
+    "items": "100 of 9,732",
+    "owners": "3,473 owners",
+    "volumeChange": "+7%",
+    "sales": "58",
+    "collection": "Milady Maker",
+    "volume": "166 ETH",
+    "floorPrice": "2.75 ETH"
+  },
+  {
+    "items": "335 of 19,950",
+    "owners": "7,629 owners",
+    "volumeChange": "+84%",
+    "sales": "52",
+    "collection": "BEANZ Official",
+    "volume": "23 ETH",
+    "floorPrice": "0.40 ETH"
+  },
+  {
+    "items": "140 of 7,777",
+    "owners": "2,784 owners",
+    "volumeChange": "+76%",
+    "sales": "52",
+    "collection": "Everai",
+    "volume": "7 ETH",
+    "floorPrice": "0.12 ETH"
+  },
+  {
+    "items": "103 of 5,000",
+    "owners": "1,677 owners",
+    "volumeChange": "+1,197%",
+    "sales": "50",
+    "collection": "Quirkies Originals",
+    "volume": "27 ETH",
+    "floorPrice": "0.72 ETH"
+  },
+  {
+    "items": "126 of 9,580",
+    "owners": "2,369 owners",
+    "volumeChange": "+299%",
+    "sales": "47",
+    "collection": "Creepz by OVERLORD",
+    "volume": "157 ETH",
+    "floorPrice": "3.45 ETH"
+  },
+  {
+    "items": "1,201 of 19,928",
+    "owners": "5,497 owners",
+    "volumeChange": "+41%",
+    "sales": "52",
+    "collection": "Nakamigos",
+    "volume": "11 ETH",
+    "floorPrice": "0.17 ETH"
+  },
+  {
+    "items": "771 of 44,999",
+    "owners": "13,967 owners",
+    "volumeChange": "+297%",
+    "sales": "46",
+    "collection": "Trump Digital Trading Cards",
+    "volume": "7 ETH",
+    "floorPrice": "0.16 ETH"
+  },
+  {
+    "items": "161 of 12,097",
+    "owners": "2,615 owners",
+    "volumeChange": "+31%",
+    "sales": "44",
+    "collection": "Pixelmon - Generation 1",
+    "volume": "86 ETH",
+    "floorPrice": "2 ETH"
+  },
+  {
+    "items": "176 of 9,602",
+    "owners": "5,098 owners",
+    "volumeChange": "+47%",
+    "sales": "42",
+    "collection": "Bored Ape Kennel Club",
+    "volume": "65 ETH",
+    "floorPrice": "1.62 ETH"
+  },
+  {
+    "items": "414 of 47,154",
+    "owners": "15,709 owners",
+    "volumeChange": "-30%",
+    "sales": "41",
+    "collection": "Otherdeed for Otherside",
+    "volume": "35 ETH",
+    "floorPrice": "0.55 ETH"
+  },
+  {
+    "items": "77 of 5,555",
+    "owners": "1,528 owners",
+    "volumeChange": "+250%",
+    "sales": "45",
+    "collection": "Azra Games - The Hopeful",
+    "volume": "26 ETH",
+    "floorPrice": "0.65 ETH"
+  },
+  {
+    "items": "694 of 52,845",
+    "owners": "13,208 owners",
+    "volumeChange": "+47%",
+    "sales": "47",
+    "collection": "Otherdeed Expanded",
+    "volume": "25 ETH",
+    "floorPrice": "0.29 ETH"
+  },
+  {
+    "items": "60 of 7,000",
+    "owners": "2,262 owners",
+    "volumeChange": "+69%",
+    "sales": "40",
+    "collection": "Ultiverse - Electric Sheep",
+    "volume": "65 ETH",
+    "floorPrice": "1.80 ETH"
+  },
+  {
+    "items": "136 of 9,911",
+    "owners": "1,962 owners",
+    "volumeChange": "+47%",
+    "sales": "34",
+    "collection": "Terraforms by Mathcastles",
+    "volume": "46 ETH",
+    "floorPrice": "1.46 ETH"
+  },
+  {
+    "items": "81 of 5,379",
+    "owners": "1,878 owners",
+    "volumeChange": "+62%",
+    "sales": "33",
+    "collection": "Checks - VV Edition",
+    "volume": "18 ETH",
+    "floorPrice": "0.59 ETH"
+  },
+  {
+    "items": "560 of 19,518",
+    "owners": "9,664 owners",
+    "volumeChange": "-16%",
+    "sales": "40",
+    "collection": "CLONE X - X TAKASHI MURAKAMI",
+    "volume": "53 ETH",
+    "floorPrice": "1.27 ETH"
+  },
+  {
+    "items": "223 of 8,888",
+    "owners": "4,410 owners",
+    "volumeChange": "-58%",
+    "sales": "40",
+    "collection": "Pudgy Penguins",
+    "volume": "368 ETH",
+    "floorPrice": "10.50 ETH"
+  },
+  {
+    "items": "169 of 7,500",
+    "owners": "1,464 owners",
+    "volumeChange": "+133%",
+    "sales": "32",
+    "collection": "ChronoForge",
+    "volume": "9 ETH",
+    "floorPrice": "0.27 ETH"
+  },
+  {
+    "items": "154 of 3,333",
+    "owners": "1,701 owners",
+    "volumeChange": "-77%",
+    "sales": "26",
+    "collection": "Descendants of Smurfcat",
+    "volume": "5 ETH",
+    "floorPrice": "0.13 ETH"
+  },
+  {
+    "items": "27 of 641",
+    "owners": "382 owners",
+    "volumeChange": "+125%",
+    "sales": "25",
+    "collection": "Fusionist - Quartan Primes",
+    "volume": "32 ETH",
+    "floorPrice": "1.45 ETH"
+  },
+  {
+    "items": "235 of 19,999",
+    "owners": "6,578 owners",
+    "volumeChange": "+67%",
+    "sales": "25",
+    "collection": "Meebits",
+    "volume": "30 ETH",
+    "floorPrice": "1.18 ETH"
+  },
+  {
+    "items": "8 of 999",
+    "owners": "442 owners",
+    "volumeChange": "+402%",
+    "sales": "25",
+    "collection": "SERAPH Priority Pass Official",
+    "volume": "53 ETH",
+    "floorPrice": "2.79 ETH"
+  },
+  {
+    "items": "151 of 9,997",
+    "owners": "1,884 owners",
+    "volumeChange": "+215%",
+    "sales": "26",
+    "collection": "Sappy Seals",
+    "volume": "16 ETH",
+    "floorPrice": "0.64 ETH"
+  },
+  {
+    "items": "166 of 9,997",
+    "owners": "5,504 owners",
+    "volumeChange": "-35%",
+    "sales": "24",
+    "collection": "Bored Ape Yacht Club",
+    "volume": "630 ETH",
+    "floorPrice": "26.98 ETH"
+  },
+  {
+    "items": "164 of 7,876",
+    "owners": "2,191 owners",
+    "volumeChange": "-7%",
+    "sales": "24",
+    "collection": "Kanpai Pandas",
+    "volume": "34 ETH",
+    "floorPrice": "1.80 ETH"
+  },
+  {
+    "items": "206 of 5,703",
+    "owners": "1,787 owners",
+    "volumeChange": "+115%",
+    "sales": "24",
+    "collection": "Checks - VV Originals",
+    "volume": "19 ETH",
+    "floorPrice": "0.25 ETH"
+  },
+  {
+    "items": "60 of 2,222",
+    "owners": "1,086 owners",
+    "volumeChange": "-56%",
+    "sales": "24",
+    "collection": "Mittaria Genesis",
     "volume": "17 ETH",
+    "floorPrice": "0.70 ETH"
+  },
+  {
+    "items": "151 of 5,000",
+    "owners": "2,016 owners",
+    "volumeChange": "-43%",
+    "sales": "24",
+    "collection": "Pixels - Farm Land",
+    "volume": "39 ETH",
+    "floorPrice": "1.63 ETH"
+  },
+  {
+    "items": "40 of 5,357",
+    "owners": "1,861 owners",
+    "volumeChange": "-70%",
+    "sales": "21",
+    "collection": "Azuki Elemental Beans",
+    "volume": "14 ETH",
+    "floorPrice": "0.71 ETH"
+  },
+  {
+    "items": "137 of 9,172",
+    "owners": "2,383 owners",
+    "volumeChange": "-49%",
+    "sales": "20",
+    "collection": "Redacted Remilio Babies",
+    "volume": "12 ETH",
+    "floorPrice": "0.54 ETH"
+  },
+  {
+    "items": "222 of 7,775",
+    "owners": "3,623 owners",
+    "volumeChange": "+31%",
+    "sales": "19",
+    "collection": "0N1 Force",
+    "volume": "16 ETH",
     "floorPrice": "0.86 ETH"
   },
   {
+    "items": "150 of 9,999",
+    "owners": "2,671 owners",
+    "volumeChange": "+88%",
+    "sales": "21",
     "collection": "Pirate Nation - Founder\u0027s Pirates",
     "volume": "8 ETH",
     "floorPrice": "0.39 ETH"
   },
   {
-    "collection": "Bored Ape Yacht Club",
-    "volume": "572 ETH",
-    "floorPrice": "25.97 ETH"
-  },
-  {
-    "collection": "Meebits",
-    "volume": "27 ETH",
-    "floorPrice": "1.18 ETH"
-  },
-  {
-    "collection": "Treeverse Plots",
-    "volume": "16 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Checks - VV Edition",
-    "volume": "14 ETH",
-    "floorPrice": "0.59 ETH"
-  },
-  {
-    "collection": "Sappy Seals",
-    "volume": "15 ETH",
-    "floorPrice": "0.65 ETH"
-  },
-  {
-    "collection": "ChronoForge",
-    "volume": "7 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "Checks - VV Originals",
-    "volume": "20 ETH",
-    "floorPrice": "0.25 ETH"
-  },
-  {
-    "collection": "My Curio Cards",
-    "volume": "6 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "SERAPH Priority Pass Official",
-    "volume": "51 ETH",
-    "floorPrice": "2.53 ETH"
-  },
-  {
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "34 ETH",
-    "floorPrice": "1.68 ETH"
-  },
-  {
-    "collection": "The Sandbox",
-    "volume": "11 ETH",
-    "floorPrice": "0.28 ETH"
-  },
-  {
-    "collection": "Yogapetz",
-    "volume": "23 ETH",
-    "floorPrice": "0.67 ETH"
-  },
-  {
-    "collection": "goblintown.wtf",
-    "volume": "5 ETH",
-    "floorPrice": "0.19 ETH"
-  },
-  {
-    "collection": "RTFKT SKIN VIAL: EVO X",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Otherdeed for Otherside",
-    "volume": "30 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Terraforms by Mathcastles",
-    "volume": "44 ETH",
-    "floorPrice": "1.46 ETH"
-  },
-  {
-    "collection": "Ultiverse - Electric Sheep",
-    "volume": "64 ETH",
-    "floorPrice": "1.70 ETH"
-  },
-  {
-    "collection": "Bored Ape Kennel Club",
-    "volume": "68 ETH",
-    "floorPrice": "1.62 ETH"
-  },
-  {
-    "collection": "Otherdeed Expanded",
-    "volume": "20 ETH",
-    "floorPrice": "0.29 ETH"
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "volume": "63 ETH",
-    "floorPrice": "1.27 ETH"
-  },
-  {
-    "collection": "Pixels - Farm Land",
-    "volume": "43 ETH",
-    "floorPrice": "1.65 ETH"
-  },
-  {
-    "collection": "Mittaria Genesis",
-    "volume": "17 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "ENS: Ethereum Name Service",
-    "volume": "8 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
+    "items": "60 of 9,999",
+    "owners": "1,871 owners",
+    "volumeChange": "+142%",
+    "sales": "22",
     "collection": "Kubz",
-    "volume": "7 ETH",
-    "floorPrice": "0.37 ETH"
+    "volume": "8 ETH",
+    "floorPrice": "0.39 ETH"
   },
   {
-    "collection": "Timeless Characters",
-    "volume": "5 ETH",
-    "floorPrice": "0.30 ETH"
-  },
-  {
+    "items": "198 of 10,417",
+    "owners": "4,285 owners",
+    "volumeChange": "+48%",
+    "sales": "19",
     "collection": "Impostors Genesis Aliens",
     "volume": "14 ETH",
     "floorPrice": "0.69 ETH"
   },
   {
-    "collection": "Cool Cats",
-    "volume": "19 ETH",
-    "floorPrice": "1.00 ETH"
+    "items": "",
+    "owners": "",
+    "volumeChange": "",
+    "sales": "",
+    "collection": "ENS: Ethereum Name Service",
+    "volume": "",
+    "floorPrice": ""
   },
   {
-    "collection": "Satoshi Island Land NFT Deeds",
-    "volume": "5 ETH",
-    "floorPrice": "0.33 ETH"
+    "items": "26 of 9,999",
+    "owners": "3,972 owners",
+    "volumeChange": "+234%",
+    "sales": "17",
+    "collection": "The Captainz",
+    "volume": "87 ETH",
+    "floorPrice": "4.65 ETH"
   },
   {
-    "collection": "Kanpai Pandas",
-    "volume": "25 ETH",
-    "floorPrice": "1.75 ETH"
-  },
-  {
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "11 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Pudgy Rods",
-    "volume": "11 ETH",
-    "floorPrice": "0.50 ETH"
-  },
-  {
-    "collection": "Redacted Remilio Babies",
-    "volume": "11 ETH",
-    "floorPrice": "0.53 ETH"
-  },
-  {
-    "collection": "RTFKT Animus Egg 🥚",
-    "volume": "5 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "0N1 Force",
-    "volume": "17 ETH",
-    "floorPrice": "0.86 ETH"
-  },
-  {
-    "collection": "Pirate Nation - Founder\u0027s Pirates",
-    "volume": "8 ETH",
+    "items": "75 of 9,583",
+    "owners": "2,508 owners",
+    "volumeChange": "+22%",
+    "sales": "17",
+    "collection": "Wassies by Wassies",
+    "volume": "6 ETH",
     "floorPrice": "0.39 ETH"
   },
   {
-    "collection": "Bored Ape Yacht Club",
-    "volume": "572 ETH",
-    "floorPrice": "25.97 ETH"
+    "items": "260 of 9,968",
+    "owners": "5,623 owners",
+    "volumeChange": "-19%",
+    "sales": "18",
+    "collection": "Cool Cats",
+    "volume": "21 ETH",
+    "floorPrice": "1.00 ETH"
   },
   {
-    "collection": "Meebits",
-    "volume": "27 ETH",
-    "floorPrice": "1.18 ETH"
+    "items": "86 of 3,329",
+    "owners": "1,137 owners",
+    "volumeChange": "+42%",
+    "sales": "19",
+    "collection": "Sproto Gremlins",
+    "volume": "10 ETH",
+    "floorPrice": "0.56 ETH"
   },
   {
-    "collection": "Treeverse Plots",
-    "volume": "16 ETH",
-    "floorPrice": "0.71 ETH"
+    "items": "43 of 2,000",
+    "owners": "1,057 owners",
+    "volumeChange": "-35%",
+    "sales": "16",
+    "collection": "San FranTokyo Genesis Pass",
+    "volume": "10 ETH",
+    "floorPrice": "0.56 ETH"
   },
   {
-    "collection": "Checks - VV Edition",
-    "volume": "14 ETH",
-    "floorPrice": "0.59 ETH"
-  },
-  {
-    "collection": "Sappy Seals",
-    "volume": "15 ETH",
-    "floorPrice": "0.65 ETH"
-  },
-  {
-    "collection": "ChronoForge",
-    "volume": "7 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "Checks - VV Originals",
-    "volume": "20 ETH",
-    "floorPrice": "0.25 ETH"
-  },
-  {
-    "collection": "My Curio Cards",
-    "volume": "6 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "SERAPH Priority Pass Official",
-    "volume": "51 ETH",
-    "floorPrice": "2.53 ETH"
-  },
-  {
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "34 ETH",
-    "floorPrice": "1.68 ETH"
-  },
-  {
-    "collection": "The Sandbox",
-    "volume": "11 ETH",
-    "floorPrice": "0.28 ETH"
-  },
-  {
-    "collection": "Yogapetz",
-    "volume": "23 ETH",
-    "floorPrice": "0.67 ETH"
-  },
-  {
-    "collection": "goblintown.wtf",
-    "volume": "5 ETH",
-    "floorPrice": "0.19 ETH"
-  },
-  {
-    "collection": "RTFKT SKIN VIAL: EVO X",
-    "volume": "5 ETH",
-    "floorPrice": "0.03 ETH"
-  },
-  {
-    "collection": "Otherdeed for Otherside",
-    "volume": "30 ETH",
-    "floorPrice": "0.55 ETH"
-  },
-  {
-    "collection": "Terraforms by Mathcastles",
-    "volume": "44 ETH",
-    "floorPrice": "1.46 ETH"
-  },
-  {
-    "collection": "Pixels - Farm Land",
-    "volume": "43 ETH",
-    "floorPrice": "1.65 ETH"
-  },
-  {
-    "collection": "Mittaria Genesis",
-    "volume": "17 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Kubz",
-    "volume": "7 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Timeless Characters",
-    "volume": "5 ETH",
-    "floorPrice": "0.30 ETH"
-  },
-  {
-    "collection": "Satoshi Island Land NFT Deeds",
-    "volume": "5 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
+    "items": "152 of 2,000",
+    "owners": "851 owners",
+    "volumeChange": "+151%",
+    "sales": "16",
     "collection": "/// by Snowfro",
     "volume": "6 ETH",
     "floorPrice": "0.38 ETH"
   },
   {
-    "collection": "MetaHero: Generative Identities",
-    "volume": "7 ETH",
-    "floorPrice": "0.39 ETH"
+    "items": "13 of 500",
+    "owners": "325 owners",
+    "volumeChange": "+1,706%",
+    "sales": "15",
+    "collection": "Alpha Prestige - Fusionist",
+    "volume": "198 ETH",
+    "floorPrice": "14 ETH"
   },
   {
-    "collection": "Pixelmon Trainers - Generation 1",
-    "volume": "7 ETH",
-    "floorPrice": "0.43 ETH"
-  },
-  {
-    "collection": "Parallel Avatars",
-    "volume": "14 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "The Captainz",
-    "volume": "83 ETH",
-    "floorPrice": "4.67 ETH"
-  },
-  {
-    "collection": "Impostors Genesis Aliens",
-    "volume": "14 ETH",
-    "floorPrice": "0.69 ETH"
-  },
-  {
-    "collection": "Cool Cats",
-    "volume": "19 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "Kanpai Pandas",
-    "volume": "25 ETH",
-    "floorPrice": "1.75 ETH"
-  },
-  {
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "11 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
+    "items": "102 of 7,394",
+    "owners": "2,877 owners",
+    "volumeChange": "-49%",
+    "sales": "15",
     "collection": "Pudgy Rods",
-    "volume": "11 ETH",
+    "volume": "9 ETH",
     "floorPrice": "0.50 ETH"
   },
   {
-    "collection": "Redacted Remilio Babies",
-    "volume": "11 ETH",
-    "floorPrice": "0.53 ETH"
-  },
-  {
-    "collection": "ENS: Ethereum Name Service",
-    "volume": "8 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "RTFKT Animus Egg 🥚",
-    "volume": "5 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "0N1 Force",
-    "volume": "17 ETH",
-    "floorPrice": "0.86 ETH"
-  },
-  {
-    "collection": "Pirate Nation - Founder\u0027s Pirates",
-    "volume": "8 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Bored Ape Yacht Club",
-    "volume": "572 ETH",
-    "floorPrice": "25.97 ETH"
-  },
-  {
-    "collection": "Meebits",
-    "volume": "27 ETH",
-    "floorPrice": "1.18 ETH"
-  },
-  {
-    "collection": "Treeverse Plots",
-    "volume": "16 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Checks - VV Edition",
-    "volume": "14 ETH",
-    "floorPrice": "0.59 ETH"
-  },
-  {
-    "collection": "Sappy Seals",
-    "volume": "15 ETH",
-    "floorPrice": "0.65 ETH"
-  },
-  {
-    "collection": "ChronoForge",
-    "volume": "7 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "Checks - VV Originals",
-    "volume": "20 ETH",
-    "floorPrice": "0.25 ETH"
-  },
-  {
-    "collection": "My Curio Cards",
-    "volume": "6 ETH",
-    "floorPrice": "0.17 ETH"
-  },
-  {
-    "collection": "SERAPH Priority Pass Official",
-    "volume": "51 ETH",
-    "floorPrice": "2.53 ETH"
-  },
-  {
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "34 ETH",
-    "floorPrice": "1.68 ETH"
-  },
-  {
-    "collection": "goblintown.wtf",
-    "volume": "5 ETH",
-    "floorPrice": "0.19 ETH"
-  },
-  {
-    "collection": "Mittaria Genesis",
-    "volume": "17 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Kubz",
-    "volume": "7 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Satoshi Island Land NFT Deeds",
-    "volume": "5 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
+    "items": "202 of 8,006",
+    "owners": "2,406 owners",
+    "volumeChange": "",
+    "sales": "",
     "collection": "MetaHero: Generative Identities",
-    "volume": "7 ETH",
-    "floorPrice": "0.39 ETH"
+    "volume": "",
+    "floorPrice": ""
   },
   {
-    "collection": "Alpha Prestige - Fusionist",
-    "volume": "185 ETH",
-    "floorPrice": "13.90 ETH"
+    "items": "430 of 11,001",
+    "owners": "2,154 owners",
+    "volumeChange": "+35%",
+    "sales": "14",
+    "collection": "Parallel Avatars",
+    "volume": "13 ETH",
+    "floorPrice": "1.00 ETH"
   },
   {
+    "items": "161 of 98,186",
+    "owners": "8,130 owners",
+    "volumeChange": "+1,251%",
+    "sales": "14",
     "collection": "Decentraland",
     "volume": "5 ETH",
-    "floorPrice": "0.37 ETH"
+    "floorPrice": "0.34 ETH"
   },
   {
-    "collection": "Sproto Gremlins",
-    "volume": "7 ETH",
-    "floorPrice": "0.56 ETH"
+    "items": "225 of 10,000",
+    "owners": "5,387 owners",
+    "volumeChange": "+317%",
+    "sales": "13",
+    "collection": "World of Women",
+    "volume": "15 ETH",
+    "floorPrice": "1.16 ETH"
   },
   {
-    "collection": "Azra Games - The Hopeful",
-    "volume": "7 ETH",
-    "floorPrice": "0.58 ETH"
+    "items": "79 of 10,420",
+    "owners": "3,304 owners",
+    "volumeChange": "-42%",
+    "sales": "12",
+    "collection": "Treeverse Plots",
+    "volume": "8 ETH",
+    "floorPrice": "0.70 ETH"
   },
   {
-    "collection": "Mocaverse",
-    "volume": "40 ETH",
-    "floorPrice": "3.30 ETH"
-  },
-  {
+    "items": "230 of 8,813",
+    "owners": "3,413 owners",
+    "volumeChange": "+98%",
+    "sales": "14",
     "collection": "rektguy",
     "volume": "6 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "Pixelmon Trainers - Generation 1",
-    "volume": "7 ETH",
     "floorPrice": "0.43 ETH"
   },
   {
-    "collection": "/// by Snowfro",
-    "volume": "6 ETH",
-    "floorPrice": "0.38 ETH"
-  },
-  {
-    "collection": "Parallel Avatars",
-    "volume": "14 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "The Captainz",
-    "volume": "83 ETH",
-    "floorPrice": "4.67 ETH"
-  },
-  {
-    "collection": "Timeless Characters",
-    "volume": "5 ETH",
-    "floorPrice": "0.30 ETH"
-  },
-  {
-    "collection": "Impostors Genesis Aliens",
-    "volume": "14 ETH",
-    "floorPrice": "0.69 ETH"
-  },
-  {
-    "collection": "Cool Cats",
-    "volume": "19 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "Kanpai Pandas",
-    "volume": "25 ETH",
-    "floorPrice": "1.75 ETH"
-  },
-  {
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "11 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Pudgy Rods",
-    "volume": "11 ETH",
-    "floorPrice": "0.50 ETH"
-  },
-  {
-    "collection": "Redacted Remilio Babies",
-    "volume": "11 ETH",
-    "floorPrice": "0.53 ETH"
-  },
-  {
-    "collection": "ENS: Ethereum Name Service",
-    "volume": "8 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "RTFKT Animus Egg 🥚",
-    "volume": "5 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "0N1 Force",
-    "volume": "17 ETH",
-    "floorPrice": "0.86 ETH"
-  },
-  {
-    "collection": "Pirate Nation - Founder\u0027s Pirates",
-    "volume": "8 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Bored Ape Yacht Club",
-    "volume": "572 ETH",
-    "floorPrice": "25.97 ETH"
-  },
-  {
-    "collection": "Meebits",
-    "volume": "27 ETH",
-    "floorPrice": "1.18 ETH"
-  },
-  {
-    "collection": "Treeverse Plots",
-    "volume": "16 ETH",
-    "floorPrice": "0.71 ETH"
-  },
-  {
-    "collection": "Sappy Seals",
-    "volume": "15 ETH",
-    "floorPrice": "0.65 ETH"
-  },
-  {
-    "collection": "ChronoForge",
+    "items": "80 of 7,000",
+    "owners": "1,237 owners",
+    "volumeChange": "+57%",
+    "sales": "15",
+    "collection": "Pixelmon Trainers - Generation 1",
     "volume": "7 ETH",
-    "floorPrice": "0.27 ETH"
+    "floorPrice": "0.44 ETH"
   },
   {
-    "collection": "Checks - VV Originals",
-    "volume": "20 ETH",
-    "floorPrice": "0.25 ETH"
-  },
-  {
-    "collection": "Kubz",
-    "volume": "7 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Satoshi Island Land NFT Deeds",
-    "volume": "5 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "MetaHero: Generative Identities",
-    "volume": "7 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Decentraland",
-    "volume": "5 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
+    "items": "27 of 2,000",
+    "owners": "1,333 owners",
+    "volumeChange": "-73%",
+    "sales": "11",
     "collection": "Oh Ottie!",
-    "volume": "11 ETH",
+    "volume": "12 ETH",
     "floorPrice": "1.30 ETH"
   },
   {
-    "collection": "Forgotten Runes Wizards Cult",
-    "volume": "9 ETH",
-    "floorPrice": "0.85 ETH"
-  },
-  {
+    "items": "259 of 7,011",
+    "owners": "3,915 owners",
+    "volumeChange": "-51%",
+    "sales": "10",
     "collection": "CrypToadz by GREMPLIN",
     "volume": "8 ETH",
     "floorPrice": "0.91 ETH"
   },
   {
-    "collection": "Otherside Koda",
-    "volume": "35 ETH",
-    "floorPrice": "4.45 ETH"
+    "items": "88 of 10,000",
+    "owners": "2,422 owners",
+    "volumeChange": "+21%",
+    "sales": "9",
+    "collection": "Mavia Land",
+    "volume": "6 ETH",
+    "floorPrice": "0.63 ETH"
   },
   {
-    "collection": "World of Women",
-    "volume": "11 ETH",
-    "floorPrice": "1.17 ETH"
+    "items": "155 of 9,309",
+    "owners": "3,093 owners",
+    "volumeChange": "",
+    "sales": "",
+    "collection": "Forgotten Runes Wizards Cult",
+    "volume": "",
+    "floorPrice": ""
   },
   {
-    "collection": "Sproto Gremlins",
-    "volume": "7 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Azra Games - The Hopeful",
-    "volume": "7 ETH",
-    "floorPrice": "0.58 ETH"
-  },
-  {
+    "items": "89 of 8,888",
+    "owners": "2,094 owners",
+    "volumeChange": "+32%",
+    "sales": "11",
     "collection": "Mocaverse",
-    "volume": "40 ETH",
+    "volume": "34 ETH",
     "floorPrice": "3.30 ETH"
   },
   {
-    "collection": "Alpha Prestige - Fusionist",
-    "volume": "185 ETH",
-    "floorPrice": "13.90 ETH"
-  },
-  {
-    "collection": "rektguy",
-    "volume": "6 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "Pixelmon Trainers - Generation 1",
-    "volume": "7 ETH",
-    "floorPrice": "0.43 ETH"
-  },
-  {
-    "collection": "/// by Snowfro",
-    "volume": "6 ETH",
-    "floorPrice": "0.38 ETH"
-  },
-  {
-    "collection": "Parallel Avatars",
-    "volume": "14 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "The Captainz",
-    "volume": "83 ETH",
-    "floorPrice": "4.67 ETH"
-  },
-  {
-    "collection": "Timeless Characters",
+    "items": "228 of 10,019",
+    "owners": "5,655 owners",
+    "volumeChange": "-3%",
+    "sales": "9",
+    "collection": "mfers",
     "volume": "5 ETH",
-    "floorPrice": "0.30 ETH"
+    "floorPrice": "0.64 ETH"
   },
   {
-    "collection": "Impostors Genesis Aliens",
-    "volume": "14 ETH",
-    "floorPrice": "0.69 ETH"
-  },
-  {
-    "collection": "Cool Cats",
-    "volume": "19 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "Kanpai Pandas",
-    "volume": "25 ETH",
-    "floorPrice": "1.75 ETH"
-  },
-  {
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "11 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Pudgy Rods",
-    "volume": "11 ETH",
-    "floorPrice": "0.50 ETH"
-  },
-  {
-    "collection": "Redacted Remilio Babies",
-    "volume": "11 ETH",
-    "floorPrice": "0.53 ETH"
-  },
-  {
-    "collection": "ENS: Ethereum Name Service",
-    "volume": "8 ETH",
-    "floorPrice": "\u003c 0.01 ETH"
-  },
-  {
-    "collection": "RTFKT Animus Egg 🥚",
-    "volume": "5 ETH",
-    "floorPrice": "0.27 ETH"
-  },
-  {
-    "collection": "0N1 Force",
-    "volume": "17 ETH",
-    "floorPrice": "0.86 ETH"
-  },
-  {
-    "collection": "Pirate Nation - Founder\u0027s Pirates",
-    "volume": "8 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Bored Ape Yacht Club",
-    "volume": "572 ETH",
-    "floorPrice": "25.97 ETH"
-  },
-  {
-    "collection": "Meebits",
-    "volume": "27 ETH",
-    "floorPrice": "1.18 ETH"
-  },
-  {
-    "collection": "Kubz",
-    "volume": "7 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Satoshi Island Land NFT Deeds",
-    "volume": "5 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Decentraland",
-    "volume": "5 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Oh Ottie!",
-    "volume": "11 ETH",
-    "floorPrice": "1.30 ETH"
-  },
-  {
+    "items": "102 of 6,500",
+    "owners": "3,454 owners",
+    "volumeChange": "+12%",
+    "sales": "6",
     "collection": "Otherside Koda",
-    "volume": "35 ETH",
-    "floorPrice": "4.45 ETH"
+    "volume": "31 ETH",
+    "floorPrice": "4.44 ETH"
   },
   {
-    "collection": "OnChainMonkey",
+    "items": "35 of 9,998",
+    "owners": "2,740 owners",
+    "volumeChange": "+40%",
+    "sales": "6",
+    "collection": "The Potatoz",
     "volume": "10 ETH",
-    "floorPrice": "1.48 ETH"
+    "floorPrice": "1.72 ETH"
   },
   {
-    "collection": "L3E7 Worlds",
-    "volume": "29 ETH",
-    "floorPrice": "6.03 ETH"
-  },
-  {
+    "items": "131 of 8,888",
+    "owners": "1,275 owners",
+    "volumeChange": "-63%",
+    "sales": "6",
     "collection": "IO: Imaginary Ones",
     "volume": "6 ETH",
     "floorPrice": "1.12 ETH"
   },
   {
-    "collection": "Neo Tokyo Outer Citizens",
-    "volume": "21 ETH",
-    "floorPrice": "2.75 ETH"
-  },
-  {
-    "collection": "Forgotten Runes Wizards Cult",
-    "volume": "9 ETH",
-    "floorPrice": "0.85 ETH"
-  },
-  {
-    "collection": "CrypToadz by GREMPLIN",
-    "volume": "8 ETH",
-    "floorPrice": "0.91 ETH"
-  },
-  {
-    "collection": "World of Women",
-    "volume": "11 ETH",
-    "floorPrice": "1.17 ETH"
-  },
-  {
-    "collection": "Sproto Gremlins",
-    "volume": "7 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Azra Games - The Hopeful",
-    "volume": "7 ETH",
-    "floorPrice": "0.58 ETH"
-  },
-  {
-    "collection": "Mocaverse",
-    "volume": "40 ETH",
-    "floorPrice": "3.30 ETH"
-  },
-  {
-    "collection": "MetaHero: Generative Identities",
-    "volume": "7 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Alpha Prestige - Fusionist",
-    "volume": "185 ETH",
-    "floorPrice": "13.90 ETH"
-  },
-  {
-    "collection": "rektguy",
-    "volume": "6 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "Pixelmon Trainers - Generation 1",
-    "volume": "7 ETH",
-    "floorPrice": "0.43 ETH"
-  },
-  {
-    "collection": "/// by Snowfro",
-    "volume": "6 ETH",
-    "floorPrice": "0.38 ETH"
-  },
-  {
-    "collection": "Parallel Avatars",
-    "volume": "14 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "The Captainz",
-    "volume": "83 ETH",
-    "floorPrice": "4.67 ETH"
-  },
-  {
-    "collection": "Timeless Characters",
-    "volume": "5 ETH",
-    "floorPrice": "0.30 ETH"
-  },
-  {
-    "collection": "Impostors Genesis Aliens",
-    "volume": "14 ETH",
-    "floorPrice": "0.69 ETH"
-  },
-  {
-    "collection": "Cool Cats",
-    "volume": "19 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "Kanpai Pandas",
-    "volume": "25 ETH",
-    "floorPrice": "1.75 ETH"
-  },
-  {
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "11 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Pudgy Rods",
-    "volume": "11 ETH",
-    "floorPrice": "0.50 ETH"
-  },
-  {
-    "collection": "Redacted Remilio Babies",
-    "volume": "11 ETH",
-    "floorPrice": "0.53 ETH"
-  },
-  {
-    "collection": "0N1 Force",
-    "volume": "17 ETH",
-    "floorPrice": "0.86 ETH"
-  },
-  {
-    "collection": "Satoshi Island Land NFT Deeds",
-    "volume": "5 ETH",
-    "floorPrice": "0.33 ETH"
-  },
-  {
-    "collection": "Decentraland",
-    "volume": "5 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Oh Ottie!",
-    "volume": "11 ETH",
-    "floorPrice": "1.30 ETH"
-  },
-  {
-    "collection": "Otherside Koda",
-    "volume": "35 ETH",
-    "floorPrice": "4.45 ETH"
-  },
-  {
-    "collection": "OnChainMonkey",
-    "volume": "10 ETH",
-    "floorPrice": "1.48 ETH"
-  },
-  {
+    "items": "17 of 600",
+    "owners": "362 owners",
+    "volumeChange": "+223%",
+    "sales": "7",
     "collection": "L3E7 Worlds",
-    "volume": "29 ETH",
-    "floorPrice": "6.03 ETH"
+    "volume": "34 ETH",
+    "floorPrice": "6.02 ETH"
   },
   {
-    "collection": "IO: Imaginary Ones",
-    "volume": "6 ETH",
-    "floorPrice": "1.12 ETH"
-  },
-  {
-    "collection": "Neo Tokyo Outer Citizens",
-    "volume": "21 ETH",
-    "floorPrice": "2.75 ETH"
-  },
-  {
-    "collection": "Forgotten Runes Wizards Cult",
-    "volume": "9 ETH",
-    "floorPrice": "0.85 ETH"
-  },
-  {
-    "collection": "CrypToadz by GREMPLIN",
-    "volume": "8 ETH",
-    "floorPrice": "0.91 ETH"
-  },
-  {
-    "collection": "World of Women",
-    "volume": "11 ETH",
-    "floorPrice": "1.17 ETH"
-  },
-  {
-    "collection": "Sproto Gremlins",
-    "volume": "7 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Azra Games - The Hopeful",
-    "volume": "7 ETH",
-    "floorPrice": "0.58 ETH"
-  },
-  {
-    "collection": "Mocaverse",
-    "volume": "40 ETH",
-    "floorPrice": "3.30 ETH"
-  },
-  {
-    "collection": "MetaHero: Generative Identities",
-    "volume": "7 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Alpha Prestige - Fusionist",
-    "volume": "185 ETH",
-    "floorPrice": "13.90 ETH"
-  },
-  {
-    "collection": "rektguy",
-    "volume": "6 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "Pixelmon Trainers - Generation 1",
-    "volume": "7 ETH",
-    "floorPrice": "0.43 ETH"
-  },
-  {
-    "collection": "/// by Snowfro",
-    "volume": "6 ETH",
-    "floorPrice": "0.38 ETH"
-  },
-  {
-    "collection": "Parallel Avatars",
-    "volume": "14 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "The Captainz",
-    "volume": "83 ETH",
-    "floorPrice": "4.67 ETH"
-  },
-  {
-    "collection": "Impostors Genesis Aliens",
-    "volume": "14 ETH",
-    "floorPrice": "0.69 ETH"
-  },
-  {
-    "collection": "Cool Cats",
+    "items": "100 of 4,855",
+    "owners": "1,029 owners",
+    "volumeChange": "+145%",
+    "sales": "5",
+    "collection": "CryptoPunks V1 (wrapped)",
     "volume": "19 ETH",
-    "floorPrice": "1.00 ETH"
+    "floorPrice": "4.11 ETH"
   },
   {
-    "collection": "Kanpai Pandas",
-    "volume": "25 ETH",
-    "floorPrice": "1.75 ETH"
-  },
-  {
-    "collection": "Decentraland",
-    "volume": "5 ETH",
-    "floorPrice": "0.37 ETH"
-  },
-  {
-    "collection": "Oh Ottie!",
-    "volume": "11 ETH",
-    "floorPrice": "1.30 ETH"
-  },
-  {
-    "collection": "Otherside Koda",
-    "volume": "35 ETH",
-    "floorPrice": "4.45 ETH"
-  },
-  {
-    "collection": "OnChainMonkey",
-    "volume": "10 ETH",
-    "floorPrice": "1.48 ETH"
-  },
-  {
-    "collection": "L3E7 Worlds",
-    "volume": "29 ETH",
-    "floorPrice": "6.03 ETH"
-  },
-  {
-    "collection": "IO: Imaginary Ones",
-    "volume": "6 ETH",
-    "floorPrice": "1.12 ETH"
-  },
-  {
+    "items": "83 of 3,230",
+    "owners": "1,154 owners",
+    "volumeChange": "-55%",
+    "sales": "5",
     "collection": "Neo Tokyo Outer Citizens",
-    "volume": "21 ETH",
+    "volume": "13 ETH",
     "floorPrice": "2.75 ETH"
   },
   {
-    "collection": "Forgotten Runes Wizards Cult",
-    "volume": "9 ETH",
-    "floorPrice": "0.85 ETH"
+    "items": "141 of 3,074",
+    "owners": "691 owners",
+    "volumeChange": "-56%",
+    "sales": "5",
+    "collection": "DeepBlack",
+    "volume": "5 ETH",
+    "floorPrice": "1.25 ETH"
   },
   {
-    "collection": "CrypToadz by GREMPLIN",
-    "volume": "8 ETH",
-    "floorPrice": "0.91 ETH"
-  },
-  {
-    "collection": "World of Women",
-    "volume": "11 ETH",
-    "floorPrice": "1.17 ETH"
-  },
-  {
-    "collection": "Sproto Gremlins",
-    "volume": "7 ETH",
-    "floorPrice": "0.56 ETH"
-  },
-  {
-    "collection": "Azra Games - The Hopeful",
-    "volume": "7 ETH",
-    "floorPrice": "0.58 ETH"
-  },
-  {
-    "collection": "Mocaverse",
-    "volume": "40 ETH",
-    "floorPrice": "3.30 ETH"
-  },
-  {
-    "collection": "MetaHero: Generative Identities",
-    "volume": "7 ETH",
-    "floorPrice": "0.39 ETH"
-  },
-  {
-    "collection": "Alpha Prestige - Fusionist",
-    "volume": "185 ETH",
-    "floorPrice": "13.90 ETH"
-  },
-  {
-    "collection": "rektguy",
-    "volume": "6 ETH",
-    "floorPrice": "0.44 ETH"
-  },
-  {
-    "collection": "Pixelmon Trainers - Generation 1",
-    "volume": "7 ETH",
-    "floorPrice": "0.43 ETH"
-  },
-  {
-    "collection": "/// by Snowfro",
-    "volume": "6 ETH",
-    "floorPrice": "0.38 ETH"
-  },
-  {
-    "collection": "Parallel Avatars",
-    "volume": "14 ETH",
-    "floorPrice": "1.00 ETH"
-  },
-  {
-    "collection": "The Captainz",
-    "volume": "83 ETH",
-    "floorPrice": "4.67 ETH"
+    "items": "81 of 1,000",
+    "owners": "617 owners",
+    "volumeChange": "+18%",
+    "sales": "5",
+    "collection": "Winds of Yawanawa by Yawanawa and Refik Anadol",
+    "volume": "33 ETH",
+    "floorPrice": "7.65 ETH"
   }
 ]

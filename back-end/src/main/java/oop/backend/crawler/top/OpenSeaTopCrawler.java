@@ -44,7 +44,7 @@ public class OpenSeaTopCrawler extends GetOpenSea {
         Elements elements = document.select("div.sc-e7b51c31-0");
         for (Element element : elements) {
             OpenSeaDTO openSea = openSeaAttr.attrGet(element);
-            openSeas.add(openSea);
+            if(openSea != null && !openSeas.contains(openSea))openSeas.add(openSea);
         }
         return openSeas;
     }

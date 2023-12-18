@@ -7,6 +7,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -35,7 +36,8 @@ public class BinanceTopUtil {
             if (count == 5)
                 break;
 
-            String html = ScrollUtil.scrollHTML(driver);
+            JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
+            String html = (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
             Document pageDocument = Jsoup.parse(html);
             if (masterDocument == null) {
                 masterDocument = pageDocument.clone();

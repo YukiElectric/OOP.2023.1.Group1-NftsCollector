@@ -26,23 +26,6 @@ public class ScrollUtil {
         return driver;
     }
 
-    public static String scrollHTML(WebDriver driver) throws Exception {
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) driver;
-        long pageHeight = (long) jsExecutor.executeScript("return Math.max( document.body.scrollHeight"
-                + ", document.body.offsetHeight, document.documentElement.clientHeight,"
-                + " document.documentElement.scrollHeight,"
-                + " document.documentElement.offsetHeight )");
-        int steps = 10;
-        long delayBetweenStepsInMillis = 1000;
-        long scrollStep = pageHeight / steps;
-        for (int i = 0; i < 20; i++) {
-            long yOffset = i * scrollStep;
-            jsExecutor.executeScript("window.scrollTo(0, " + yOffset + ")");
-            Thread.sleep(delayBetweenStepsInMillis);
-        }
-        return (String) jsExecutor.executeScript("return document.documentElement.outerHTML");
-    }
-
     public static Document scrollAndGetDoc(WebDriver driver) throws Exception {
         Document masterDocument = null;
         Thread.sleep(2000);
@@ -86,7 +69,7 @@ public class ScrollUtil {
                 + " document.documentElement.offsetHeight )");
         // Lặp cho đến khi trang không còn cuộn được nữa
         do {
-            if (i== 20) {
+            if (i== 30) {
                 break;
             }
 

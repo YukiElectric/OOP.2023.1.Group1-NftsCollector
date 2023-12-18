@@ -38,7 +38,7 @@ public class NiftyTrendingCrawler extends GetNiftyTrending {
         for (Element element : elements) {
             NiftyTrendingDTO niftyGateway = niftyGatewayAttr.attrGet(element);
 
-            if (niftyGateway != null)
+            if (niftyGateway != null && !niftyGateways.contains(niftyGateway))
                 niftyGateways.add(niftyGateway);
         }
         return niftyGateways;
