@@ -9,7 +9,7 @@ public class RaribleProperty implements PropertyGetter<RaribleDTO> {
     @Override
     public RaribleDTO attrGet(Element element) {
         RaribleDTO rarible = new RaribleDTO();
-        rarible.setName(element.select("div.sc-dmLtQE").select("span").text());
+        rarible.setCollection(element.select("div.sc-dmLtQE").select("span").text());
         Elements priceElements = element.select("span.sc-ktEKTO");
         boolean isExists = priceElements.size() == 2;
         rarible.setVolume(isExists ? priceElements.get(1).text() : "");

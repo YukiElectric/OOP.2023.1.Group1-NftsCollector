@@ -5,7 +5,7 @@ import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
-import oop.frontend.controller.PostItemController;
+import oop.frontend.controller.EPlatformController;
 
 public class TabPaneUtil {
     private static void setTabPane(ToggleGroup menu, TabPane tabPane, int index) {
@@ -40,27 +40,27 @@ public class TabPaneUtil {
         }));
     }
 
-    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, int index) {
+    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, int index, String url) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
                 ToggleButton selectedButton = (ToggleButton) toggleGroup.getSelectedToggle();
                 int selectedIndex = toggleGroup.getToggles().indexOf(selectedButton);
                 if (index == 0)
                     switch (selectedIndex) {
-                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", PostItemController.class);
-                        case 1 -> VboxViewUtil.setViewVBox(blogView, Constants.API_URL, "", PostItemController.class);
-                        case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "", PostItemController.class);
-                        case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "", PostItemController.class);
-                        case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "", PostItemController.class);
+                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", EPlatformController.class, 0);
+                        case 1 -> VboxViewUtil.setViewVBox(blogView, Constants.API_URL, "", EPlatformController.class, 0);
+                        case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "hottag", EPlatformController.class, 1);
+                        case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "trending/opeansea/AllTime", EPlatformController.class, 1);
+                        case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "top/opensea/AllTime", EPlatformController.class, 1);
                         default -> {
                         }
                     }
                 else
                     switch (selectedIndex) {
-                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", PostItemController.class);
-                        case 1 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "", PostItemController.class);
-                        case 2 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "", PostItemController.class);
-                        case 3 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "", PostItemController.class);
+                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, url+"/opensea/AllTime", EPlatformController.class, 1);
+                        case 1 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, url+"/binance/AllTime", EPlatformController.class, 1);
+                        case 2 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, url+"/niftygateway/AllTime", EPlatformController.class, 1);
+                        case 3 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, url+"/rarible/AllTime", EPlatformController.class, 1);
                         default -> {
                         }
                     }

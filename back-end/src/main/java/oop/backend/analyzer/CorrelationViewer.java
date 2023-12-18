@@ -18,7 +18,7 @@ public class CorrelationViewer {
 
         List<DataCorrelation> corList = new ArrayList<>();
         for (BaseDTO o : baseData){
-            String hashtag = o.getName();
+            String hashtag = o.getCollection();
             if (twitterData.containsKey(hashtag))               // Gán dữ liệu về giá nft và số lượng hashtag của 1 loại nft vào cùng 1 đối tượng
                 corList.add(                                    // Tạo và thêm các đối tượng tương quan vào list
                         new DataCorrelation(

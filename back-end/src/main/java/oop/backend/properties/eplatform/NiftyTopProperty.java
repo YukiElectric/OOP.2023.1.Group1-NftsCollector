@@ -9,8 +9,8 @@ public class NiftyTopProperty implements PropertyGetter<NiftyTopDTO> {
     @Override
     public NiftyTopDTO attrGet(Element element) {
         NiftyTopDTO niftyGateway = new NiftyTopDTO();
-        niftyGateway.setName(element.select("td.css-brcvnd").text());
-        if(niftyGateway.getName().isEmpty()) return null;
+        niftyGateway.setCollection(element.select("td.css-brcvnd").text());
+        if(niftyGateway.getCollection().isEmpty()) return null;
         Elements niftyElements = element.select("td.css-lvk4hs");
         boolean isExist = niftyElements.size() == 8;
         if (!niftyElements.isEmpty()) {

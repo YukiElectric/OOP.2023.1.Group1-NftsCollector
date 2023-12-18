@@ -19,7 +19,7 @@
 
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="hbox-with-border" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oop.frontend.controller.HomeController">
    <left>
-      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
          <children>
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="POST">
                <VBox.margin>
@@ -37,7 +37,7 @@
             <ToggleButton disable="true" mnemonicParsing="false" text="ToggleButton" toggleGroup="$menu" visible="false" />
          </children>
          <BorderPane.margin>
-            <Insets />
+            <Insets bottom="5.0" left="5.0" top="5.0" />
          </BorderPane.margin>
          <opaqueInsets>
             <Insets />
@@ -67,7 +67,7 @@
                      <center>
                         <ScrollPane fx:id="homeView" fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
                            <BorderPane.margin>
-                              <Insets left="5.0" />
+                              <Insets bottom="5.0" left="5.0" right="5.0" />
                            </BorderPane.margin>
                         </ScrollPane>
                      </center></BorderPane>
@@ -93,10 +93,10 @@
                      <center>
                         <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
                            <BorderPane.margin>
-                              <Insets />
+                              <Insets bottom="5.0" right="5.0" />
                            </BorderPane.margin>
                            <content>
-                              <VBox fx:id="postView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                              <VBox fx:id="postView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                  <padding>
                                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                  </padding>
@@ -116,10 +116,10 @@
                      <center>
                         <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
                            <BorderPane.margin>
-                              <Insets left="5.0" />
+                              <Insets bottom="5.0" left="5.0" right="5.0" />
                            </BorderPane.margin>
                            <content>
-                              <VBox fx:id="blogView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                              <VBox fx:id="blogView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                  <padding>
                                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                  </padding>
@@ -133,18 +133,18 @@
           <Tab text="HOT TAGS">
                <content>
                   <BorderPane>
-                     <padding>
-                        <Insets left="10.0" />
-                     </padding>
                      <center>
                         <ScrollPane fitToWidth="true" BorderPane.alignment="CENTER">
                            <content>
-                              <VBox fx:id="hotTagsView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                              <VBox fx:id="hotTagsView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                  <padding>
                                     <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                  </padding>
                               </VBox>
                            </content>
+                           <BorderPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" />
+                           </BorderPane.margin>
                         </ScrollPane>
                      </center></BorderPane>
                </content>
@@ -153,7 +153,7 @@
                <content>
                   <BorderPane>
                      <left>
-                        <VBox prefHeight="277.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+                        <VBox prefHeight="277.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
                            <children>
                               <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
                                  <VBox.margin>
@@ -169,10 +169,10 @@
                                     <Insets />
                                  </VBox.margin>
                               </ToggleButton>
-                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTrending" />
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rarible" toggleGroup="$menuTrending" />
                            </children>
                            <BorderPane.margin>
-                              <Insets left="5.0" right="5.0" />
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="8.0" />
                            </BorderPane.margin>
                         </VBox>
                      </left>
@@ -185,7 +185,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="openseaTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="openseaTrendingView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -198,7 +198,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="binanceTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="binanceTrendingView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -211,7 +211,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="niftyTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="niftyTrendingView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -224,7 +224,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="rariableTrendingView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="raribleTrendingView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -234,6 +234,9 @@
                                        </content>
                                     </Tab>
                                 </tabs>
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" right="5.0" />
+                                 </BorderPane.margin>
                               </TabPane>
                            </center>
                            <top>
@@ -261,7 +264,7 @@
                <content>
                   <BorderPane>
                      <left>
-                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF;" BorderPane.alignment="CENTER">
+                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
                            <children>
                               <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
                                  <opaqueInsets>
@@ -284,7 +287,7 @@
                                     <Insets />
                                  </opaqueInsets>
                               </ToggleButton>
-                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rariable" toggleGroup="$menuTop">
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rarible" toggleGroup="$menuTop">
                                  <opaqueInsets>
                                     <Insets />
                                  </opaqueInsets>
@@ -294,7 +297,7 @@
                               <Insets />
                            </opaqueInsets>
                            <BorderPane.margin>
-                              <Insets left="5.0" right="5.0" />
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="8.0" />
                            </BorderPane.margin>
                         </VBox>
                      </left>
@@ -307,7 +310,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="openseaTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="openseaTopView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -320,7 +323,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="binanceTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="binanceTopView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -333,7 +336,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="niftyTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="niftyTopView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -346,7 +349,7 @@
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
-                                                <VBox fx:id="rariableTopView" alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;">
+                                                <VBox fx:id="raribleTopView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
                                                    <padding>
                                                       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                                                    </padding>
@@ -356,6 +359,9 @@
                                        </content>
                                     </Tab>
                                 </tabs>
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" right="5.0" />
+                                 </BorderPane.margin>
                               </TabPane>
                            </center>
                            <top>

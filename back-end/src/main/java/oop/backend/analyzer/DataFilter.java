@@ -15,8 +15,8 @@ public class DataFilter {
         List<BaseDTO> tempList = new ArrayList<>();     //Tạo cái này vì java không cho vừa duyệt vừa chỉnh sửa list
 
         for (BaseDTO o : dataList) {
-            if (!uniqueNames.contains(o.getName())) {
-                uniqueNames.add(o.getName());
+            if (!uniqueNames.contains(o.getCollection())) {
+                uniqueNames.add(o.getCollection());
                 tempList.add(o);
             } else {
                 tempList.remove(o);
@@ -30,8 +30,8 @@ public class DataFilter {
     public void filterEmpty(List<BaseDTO> dataList){
         List<BaseDTO> tempList = new ArrayList<>();
         for (BaseDTO o: dataList){
-            if (o.getName() != null && o.getVolume() != null
-                && !o.getName().isEmpty()){
+            if (o.getCollection() != null && o.getVolume() != null
+                && !o.getCollection().isEmpty()){
                 tempList.add(o);
             }
         }

@@ -5,7 +5,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
-import oop.frontend.controller.PostItemController;
+import oop.frontend.controller.EPlatformController;
 
 public class ComboBoxUtil {
     public static void setItem(ComboBox<String> comboBox){
@@ -20,12 +20,12 @@ public class ComboBoxUtil {
         }));
     }
 
-    public static void setViewByComboBox(ComboBox<String> comboBox, VBox vBox){
+    public static void setViewByComboBox(ComboBox<String> comboBox, VBox vBox, String url){
         int selected = comboBox.getSelectionModel().getSelectedIndex();
         switch (selected){
-            case 0 -> VboxViewUtil.setViewVBox(vBox, Constants.API_URL, "", PostItemController.class);
-            case 1 -> VboxViewUtil.setViewVBox(vBox, Constants.API_URL, "", PostItemController.class);
-            case 2 -> VboxViewUtil.setViewVBox(vBox, Constants.API_URL, "", PostItemController.class);
+            case 0 -> VboxViewUtil.setViewVBox(vBox, Constants.API_URL + url, "Day", EPlatformController.class, 1);
+            case 1 -> VboxViewUtil.setViewVBox(vBox, Constants.API_URL + url, "Week", EPlatformController.class, 1);
+            case 2 -> VboxViewUtil.setViewVBox(vBox, Constants.API_URL + url, "Month", EPlatformController.class, 1);
             default -> {}
         }
     }

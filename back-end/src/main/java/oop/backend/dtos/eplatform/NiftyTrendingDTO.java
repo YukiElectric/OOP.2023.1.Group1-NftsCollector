@@ -12,7 +12,7 @@ public class NiftyTrendingDTO {
     @JsonProperty("name")
     private String name;
 
-    @JsonProperty("líkes")
+    @JsonProperty("likes")
     private String likes;
 
     @JsonProperty("flooPrice")

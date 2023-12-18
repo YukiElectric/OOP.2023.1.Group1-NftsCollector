@@ -64,7 +64,7 @@ public class HomeController implements Initializable {
     private VBox niftyTrendingView;
 
     @FXML
-    private VBox rariableTrendingView;
+    private VBox raribleTrendingView;
 
     @FXML
     private VBox openseaTopView;
@@ -76,7 +76,7 @@ public class HomeController implements Initializable {
     private VBox niftyTopView;
 
     @FXML
-    private VBox rariableTopView;
+    private VBox raribleTopView;
 
     @FXML
     private JFXTextField search;
@@ -93,17 +93,17 @@ public class HomeController implements Initializable {
     @FXML
     void setSelection(ActionEvent event) {
         switch (menuTrending.getToggles().indexOf(menuTrending.getSelectedToggle())) {
-            case 0 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, openseaTrendingView);
-            case 1 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, binanceTrendingView);
-            case 2 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, niftyTrendingView);
-            case 3 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, rariableTrendingView);
+            case 0 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, openseaTrendingView,"/trending/opensea");
+            case 1 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, binanceTrendingView,"/trending/binance");
+            case 2 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, niftyTrendingView,"/trending/niftygateway");
+            case 3 -> ComboBoxUtil.setViewByComboBox(trendingComboBox, raribleTrendingView,"/trending/rarible");
             default -> {}
         }
         switch (menuTop.getToggles().indexOf(menuTop.getSelectedToggle())) {
-            case 0 -> ComboBoxUtil.setViewByComboBox(topComboBox, openseaTopView);
-            case 1 -> ComboBoxUtil.setViewByComboBox(topComboBox, binanceTopView);
-            case 2 -> ComboBoxUtil.setViewByComboBox(topComboBox, niftyTopView);
-            case 3 -> ComboBoxUtil.setViewByComboBox(topComboBox, rariableTopView);
+            case 0 -> ComboBoxUtil.setViewByComboBox(topComboBox, openseaTopView,"/top/opensea");
+            case 1 -> ComboBoxUtil.setViewByComboBox(topComboBox, binanceTopView,"/top/binance");
+            case 2 -> ComboBoxUtil.setViewByComboBox(topComboBox, niftyTopView, "/top/binance");
+            case 3 -> ComboBoxUtil.setViewByComboBox(topComboBox, raribleTopView, "/top/rarible");
             default -> {}
         }
     }
@@ -124,9 +124,9 @@ public class HomeController implements Initializable {
         TabPaneUtil.setSelection(menuTrending, trendingTabPane);
         TabPaneUtil.setSelection(menuTop, topTabPane);
         TabPaneUtil.resetIndexTabPane(menu, menuTop, menuTrending);
-        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, blogView,0);
-        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, rariableTrendingView, null,1);
-        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, rariableTopView, null,1);
+        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, blogView,0,"");
+        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, raribleTrendingView, null,1,"trending");
+        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, raribleTopView, null,1,"top");
         ComboBoxUtil.setItem(topComboBox);
         ComboBoxUtil.setItem(trendingComboBox);
         ComboBoxUtil.resetComboBoxItem(topComboBox, menu);

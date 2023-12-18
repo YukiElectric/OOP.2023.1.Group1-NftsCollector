@@ -10,8 +10,8 @@ import lombok.*;
 @NoArgsConstructor
 public class BaseDTO {
     
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("collection")
+    private String collection;
     
     @JsonProperty("volume")
     private String volume;

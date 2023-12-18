@@ -34,7 +34,7 @@ public class RaribleTopCrawler extends GetRarible {
         selectionToRequest.put("Day", "");
         selectionToRequest.put("Week", "?period=WEEK");
         selectionToRequest.put("Month", "?period=MONTH");
-
+        selectionToRequest.put("AllTime", "");
     }
 
     public List<RaribleDTO> getData(String selection) throws Exception {

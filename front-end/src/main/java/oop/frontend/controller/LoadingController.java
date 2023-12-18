@@ -10,6 +10,7 @@ import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.VBox;
 import javafx.util.Duration;
 import oop.frontend.App;
+import oop.frontend.common.Constants;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -19,7 +20,7 @@ public class LoadingController extends VBox implements Initializable {
     @FXML
     private ProgressBar progressBar;
     public LoadingController() throws Exception{
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("/view/loading.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(Constants.LOADING_VIEW_SOURCE));
         fxmlLoader.setController(this);
         this.getChildren().add(fxmlLoader.load());
     }
