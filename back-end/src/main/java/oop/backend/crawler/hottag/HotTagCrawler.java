@@ -68,7 +68,7 @@ public class HotTagCrawler {
         for (Element element : elements) {
             HotTagProperty.attrGet(element, hotTags);
         }
-        Comparator<HotTagDTO> sort = Comparator.comparing(HotTagDTO::getFreq).reversed();
+        Comparator<HotTagDTO> sort = Comparator.comparing(HotTagDTO::getPost).reversed();
         hotTags.sort(sort);
         return hotTags;
     }

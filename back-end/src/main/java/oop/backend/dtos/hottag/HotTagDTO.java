@@ -12,7 +12,7 @@ public class HotTagDTO {
     @JsonProperty("hashtag")
     private String hashtag;
     
-    @JsonProperty("freq")
-    private int freq;
+    @JsonProperty("post")
+    private int post;
 
 }

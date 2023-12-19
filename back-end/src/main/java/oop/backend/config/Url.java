@@ -12,6 +12,5 @@ public class Url {
     public final static String URL_TWITTER_DEFAULT = "https://twitter.com/search?q=%23nft&src=typed_query&f=live";
     public final static String URL_TWITTER_LOGIN = "https://twitter.com/login";
     public final static String URL_BINANCE_BLOG = "https://www.binance.com/en/blog";
-    public final static String URL_OPENSEA_BLOG="https://opensea.io/blog?30f2d4c5_page=";
     public final static String URL_HOTTAG = "https://nitter.net/settings?referer=%2F";
 }

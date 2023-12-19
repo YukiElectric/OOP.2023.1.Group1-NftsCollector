@@ -8,7 +8,7 @@ public class BlogBinanceProperty implements PropertyGetter<BlogDTO> {
     @Override
     public BlogDTO attrGet(Element element) {
         BlogDTO blogDTO = new BlogDTO();
-        blogDTO.setLinkBlog("https://www.binance.com/"+element.attr("href"));
+        blogDTO.setLinkBlog("https://www.binance.com"+element.attr("href"));
         blogDTO.setImage(element.select("img").attr("src"));
         blogDTO.setTitle(element.select("h2.carousel-card-title").text());
         blogDTO.setTime(element.select("div.carousel-card-date").text());

@@ -17,9 +17,6 @@ public class BlogDTO {
     @JsonProperty("image")
     private String image;
     
-    @JsonProperty("label")
-    private List<String> label;
-    
     @JsonProperty("title")
     private String title;
     
