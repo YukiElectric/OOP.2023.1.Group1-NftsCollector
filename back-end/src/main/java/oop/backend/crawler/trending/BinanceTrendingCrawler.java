@@ -47,6 +47,8 @@ public class BinanceTrendingCrawler extends GetBinance {
     public BinanceTrendingCrawler() {
         selectionToRequest.put("Day", "24H");
         selectionToRequest.put("Week", "7D");
+        selectionToRequest.put("Month", "");
+        selectionToRequest.put("AllTime", "");
     }
     private final JsonUtil<BinanceDTO> jsonHandler = new JsonUtil<>(PATH_BINANCE);
 

@@ -14,7 +14,7 @@ public class BinanceTrendingUtil {
         WebDriver driver = ScrollUtil.setUp(url);
         WebElement skipButton = driver.findElement(By.xpath("//button[@data-bn-type='button' and contains(@class, 'css-1s94759')]"));
         skipButton.click();
-        if(!request.equals("24H")) {
+        if(!request.equals("24H") && !request.equals("")) {
             String xpathExpression =
                     String.format("//div[@class='css-11cvlnv' and text()='%s']", request);
             WebElement sortButton = driver.findElement(
