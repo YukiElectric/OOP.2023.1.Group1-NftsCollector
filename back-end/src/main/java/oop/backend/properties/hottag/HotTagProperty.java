@@ -14,11 +14,11 @@ public class HotTagProperty {
             String tag = hasTag.text().toLowerCase();
             HotTagDTO hotTag = new HotTagDTO();
             hotTag.setHashtag(tag);
-            hotTag.setFreq(1);
+            hotTag.setPost(1);
             AtomicBoolean isExisting = new AtomicBoolean(false);
             hotTags.forEach((item) -> {
                 if (item.getHashtag().equals(tag)) {
-                    item.setFreq(item.getFreq() + 1);
+                    item.setPost(item.getPost() + 1);
                     isExisting.set(true);
                 }
             });

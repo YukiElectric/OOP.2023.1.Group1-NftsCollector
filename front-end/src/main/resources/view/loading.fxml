@@ -9,12 +9,12 @@
 <VBox alignment="TOP_CENTER" spacing="10.0" style="-fx-background-color: #9AE1EF;" stylesheets="@../style/style.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../image/wait.png" />
-         </image>
          <VBox.margin>
             <Insets top="10.0" />
          </VBox.margin>
+         <image>
+            <Image url="@../image/wait.gif" />
+         </image>
       </ImageView>
       <ProgressBar fx:id="progressBar" prefHeight="5.0" prefWidth="200.0" />
    </children>

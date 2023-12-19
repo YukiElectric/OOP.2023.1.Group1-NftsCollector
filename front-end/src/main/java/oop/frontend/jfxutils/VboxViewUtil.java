@@ -20,7 +20,8 @@ public class VboxViewUtil {
             for(Map<String, String> item : data) {
                 try {
                     Map<String, String> newItem = new LinkedHashMap<>();
-                    newItem.put("No", String.valueOf(index++));
+                    if(header==1) newItem.put("No", String.valueOf(index++));
+                    else if((index++)==91) break;
                     newItem.putAll(item);
                     T itemController = controllerClass.getDeclaredConstructor(Map.class).newInstance(newItem);
                     if(header*index==2) {
@@ -40,12 +41,7 @@ public class VboxViewUtil {
             taskRequest.getException().printStackTrace();
             vBox.getChildren().clear();
             try {
-                for (int i = 0; i < 2; i++) {
-                    vBox.getChildren().add(new Label(""));
-                }
                 vBox.getChildren().add(WebViewUtil.setView("/html/Error.txt"));
-//                vBox.getChildren().add(new ImageView(new Image(App.class.getResource(Constants.APP_ERROR).openStream())));
-
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

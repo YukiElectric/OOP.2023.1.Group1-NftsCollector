@@ -2,6 +2,7 @@ module oop.frontend {
     requires javafx.controls;
     requires javafx.fxml;
     requires com.jfoenix;
+    requires java.desktop;
     requires de.jensd.fx.glyphs.fontawesome;
     requires javafx.web;
     requires com.google.gson;
@@ -12,4 +13,5 @@ module oop.frontend {
     opens oop.frontend to javafx.fxml;
     opens oop.frontend.controller to javafx.fxml;
     exports oop.frontend;
+    exports oop.frontend.controller;
 }

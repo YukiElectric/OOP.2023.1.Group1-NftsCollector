@@ -1,538 +1,346 @@
 [
   {
-    "hashtag": "#binance",
-    "freq": 89
+    "hashtag": "#rarible",
+    "post": 30
   },
   {
-    "hashtag": "#ethereum",
-    "freq": 55
+    "hashtag": "#digitalart",
+    "post": 12
   },
   {
-    "hashtag": "#kucoin",
-    "freq": 54
-  },
-  {
-    "hashtag": "#okx",
-    "freq": 52
-  },
-  {
-    "hashtag": "#gateio",
-    "freq": 52
-  },
-  {
-    "hashtag": "#uniswap",
-    "freq": 51
-  },
-  {
-    "hashtag": "#bybit",
-    "freq": 51
-  },
-  {
-    "hashtag": "#icenetwork",
-    "freq": 50
-  },
-  {
-    "hashtag": "#htx",
-    "freq": 50
-  },
-  {
-    "hashtag": "#upbit",
-    "freq": 49
-  },
-  {
-    "hashtag": "#crypto",
-    "freq": 12
-  },
-  {
-    "hashtag": "#bitcoin",
-    "freq": 9
-  },
-  {
-    "hashtag": "#btc",
-    "freq": 9
-  },
-  {
-    "hashtag": "#coinbase",
-    "freq": 6
-  },
-  {
-    "hashtag": "#bnb",
-    "freq": 6
-  },
-  {
-    "hashtag": "#cryptocurrency",
-    "freq": 5
-  },
-  {
-    "hashtag": "#doge",
-    "freq": 4
-  },
-  {
-    "hashtag": "#cryptonews",
-    "freq": 4
-  },
-  {
-    "hashtag": "#trustwallet",
-    "freq": 3
-  },
-  {
-    "hashtag": "#lunc",
-    "freq": 3
-  },
-  {
-    "hashtag": "#eth",
-    "freq": 3
-  },
-  {
-    "hashtag": "#web3",
-    "freq": 3
-  },
-  {
-    "hashtag": "#iota",
-    "freq": 3
-  },
-  {
-    "hashtag": "#shimmer",
-    "freq": 3
-  },
-  {
-    "hashtag": "#blockchain",
-    "freq": 2
-  },
-  {
-    "hashtag": "#altcoin",
-    "freq": 2
-  },
-  {
-    "hashtag": "#memecoin",
-    "freq": 2
-  },
-  {
-    "hashtag": "#binancebox",
-    "freq": 2
-  },
-  {
-    "hashtag": "#box",
-    "freq": 2
-  },
-  {
-    "hashtag": "#code",
-    "freq": 2
-  },
-  {
-    "hashtag": "#shibarmy",
-    "freq": 2
-  },
-  {
-    "hashtag": "#bone",
-    "freq": 2
-  },
-  {
-    "hashtag": "#shibarium",
-    "freq": 2
-  },
-  {
-    "hashtag": "#kda",
-    "freq": 2
-  },
-  {
-    "hashtag": "#okxweb3",
-    "freq": 2
-  },
-  {
-    "hashtag": "#cyber",
-    "freq": 2
-  },
-  {
-    "hashtag": "#recoveryphrase",
-    "freq": 2
-  },
-  {
-    "hashtag": "#anonymous",
-    "freq": 2
-  },
-  {
-    "hashtag": "#whalealert",
-    "freq": 2
-  },
-  {
-    "hashtag": "#alpha",
-    "freq": 2
-  },
-  {
-    "hashtag": "#smr",
-    "freq": 2
-  },
-  {
-    "hashtag": "#cryptocurency",
-    "freq": 2
-  },
-  {
-    "hashtag": "#bonk",
-    "freq": 2
-  },
-  {
-    "hashtag": "#bnbchain",
-    "freq": 2
-  },
-  {
-    "hashtag": "#airdrop",
-    "freq": 1
-  },
-  {
-    "hashtag": "#bayc",
-    "freq": 1
+    "hashtag": "#nftart",
+    "post": 11
   },
   {
     "hashtag": "#nft",
-    "freq": 1
+    "post": 10
   },
   {
-    "hashtag": "#trading",
-    "freq": 1
+    "hashtag": "#nftcommunity",
+    "post": 8
   },
   {
-    "hashtag": "#galxe",
-    "freq": 1
+    "hashtag": "#nfts",
+    "post": 7
+  },
+  {
+    "hashtag": "#ufo",
+    "post": 6
+  },
+  {
+    "hashtag": "#ufotwitter",
+    "post": 6
+  },
+  {
+    "hashtag": "#value",
+    "post": 6
+  },
+  {
+    "hashtag": "#disclosure",
+    "post": 6
   },
   {
     "hashtag": "#opensea",
-    "freq": 1
+    "post": 5
   },
   {
-    "hashtag": "#aave",
-    "freq": 1
+    "hashtag": "#nftsales",
+    "post": 3
   },
   {
-    "hashtag": "#zealy",
-    "freq": 1
+    "hashtag": "#nftcollector",
+    "post": 3
   },
   {
-    "hashtag": "#jasmy",
-    "freq": 1
+    "hashtag": "#nftartist",
+    "post": 3
   },
   {
-    "hashtag": "#wallstreet",
-    "freq": 1
+    "hashtag": "#christmas",
+    "post": 2
   },
   {
-    "hashtag": "#solana",
-    "freq": 1
+    "hashtag": "#nftartists",
+    "post": 2
   },
   {
-    "hashtag": "#avalanche",
-    "freq": 1
+    "hashtag": "#buynfts",
+    "post": 2
   },
   {
-    "hashtag": "#news",
-    "freq": 1
+    "hashtag": "#openseanft",
+    "post": 2
   },
   {
-    "hashtag": "#shiba",
-    "freq": 1
+    "hashtag": "#openseacollection",
+    "post": 2
   },
   {
-    "hashtag": "#pump",
-    "freq": 1
+    "hashtag": "#polygonnfts",
+    "post": 2
   },
   {
-    "hashtag": "#bullrun",
-    "freq": 1
+    "hashtag": "#supporteachothers",
+    "post": 2
   },
   {
-    "hashtag": "#bullis",
-    "freq": 1
+    "hashtag": "#artist",
+    "post": 2
   },
   {
-    "hashtag": "#btcd",
-    "freq": 1
+    "hashtag": "#openseanfts",
+    "post": 2
   },
   {
-    "hashtag": "#btcusd",
-    "freq": 1
+    "hashtag": "#nftcommmunity",
+    "post": 2
   },
   {
-    "hashtag": "#cryptocommunity",
-    "freq": 1
+    "hashtag": "#drawingart",
+    "post": 2
   },
   {
-    "hashtag": "#cryptocrash",
-    "freq": 1
+    "hashtag": "#nftphotography",
+    "post": 2
   },
   {
-    "hashtag": "#cryptocurrencymarket",
-    "freq": 1
+    "hashtag": "#matic",
+    "post": 2
   },
   {
-    "hashtag": "#trustwalletextension",
-    "freq": 1
+    "hashtag": "#btc",
+    "post": 2
   },
   {
-    "hashtag": "#trustwalletnft",
-    "freq": 1
+    "hashtag": "#tezos",
+    "post": 2
   },
   {
-    "hashtag": "#trustwalletzero",
-    "freq": 1
+    "hashtag": "#eth",
+    "post": 2
   },
   {
-    "hashtag": "#coin",
-    "freq": 1
+    "hashtag": "#rariblenfts",
+    "post": 1
   },
   {
-    "hashtag": "#brc20",
-    "freq": 1
+    "hashtag": "#artwork",
+    "post": 1
   },
   {
-    "hashtag": "#unisats",
-    "freq": 1
+    "hashtag": "#artdigital",
+    "post": 1
   },
   {
-    "hashtag": "#sats",
-    "freq": 1
+    "hashtag": "#artistontwitter",
+    "post": 1
   },
   {
-    "hashtag": "#trx",
-    "freq": 1
+    "hashtag": "#drawing",
+    "post": 1
   },
   {
-    "hashtag": "#retikfinance",
-    "freq": 1
+    "hashtag": "#aiartwork",
+    "post": 1
   },
   {
-    "hashtag": "#retik",
-    "freq": 1
+    "hashtag": "#aiartworks",
+    "post": 1
   },
   {
-    "hashtag": "#coinmarketcap",
-    "freq": 1
+    "hashtag": "#aiartists",
+    "post": 1
   },
   {
-    "hashtag": "#floki",
-    "freq": 1
+    "hashtag": "#lordoftherings",
+    "post": 1
   },
   {
-    "hashtag": "#tokenfi",
-    "freq": 1
-  },
-  {
-    "hashtag": "#hoge",
-    "freq": 1
-  },
-  {
-    "hashtag": "#memecoins",
-    "freq": 1
-  },
-  {
-    "hashtag": "#halving",
-    "freq": 1
-  },
-  {
-    "hashtag": "#altcoinseason",
-    "freq": 1
-  },
-  {
-    "hashtag": "#okx下载",
-    "freq": 1
-  },
-  {
-    "hashtag": "#okx欧易",
-    "freq": 1
-  },
-  {
-    "hashtag": "#binancechristmas",
-    "freq": 1
-  },
-  {
-    "hashtag": "#ooowellet",
-    "freq": 1
-  },
-  {
-    "hashtag": "#ooo",
-    "freq": 1
-  },
-  {
-    "hashtag": "#wellet",
-    "freq": 1
-  },
-  {
-    "hashtag": "#binancettc",
-    "freq": 1
-  },
-  {
-    "hashtag": "#snapchatdown",
-    "freq": 1
-  },
-  {
-    "hashtag": "#snaphack",
-    "freq": 1
-  },
-  {
-    "hashtag": "#datascientists",
-    "freq": 1
-  },
-  {
-    "hashtag": "#python",
-    "freq": 1
-  },
-  {
-    "hashtag": "#coding",
-    "freq": 1
-  },
-  {
-    "hashtag": "#javascript",
-    "freq": 1
-  },
-  {
-    "hashtag": "#100daysofcode",
-    "freq": 1
-  },
-  {
-    "hashtag": "#linux",
-    "freq": 1
-  },
-  {
-    "hashtag": "#llot",
-    "freq": 1
-  },
-  {
-    "hashtag": "#bigdata",
-    "freq": 1
-  },
-  {
-    "hashtag": "#facebooksupport",
-    "freq": 1
-  },
-  {
-    "hashtag": "#sna",
-    "freq": 1
-  },
-  {
-    "hashtag": "#babydoge",
-    "freq": 1
-  },
-  {
-    "hashtag": "#elonmusk",
-    "freq": 1
-  },
-  {
-    "hashtag": "#jeffbezos",
-    "freq": 1
-  },
-  {
-    "hashtag": "#aiway",
-    "freq": 1
-  },
-  {
-    "hashtag": "#nexai",
-    "freq": 1
-  },
-  {
-    "hashtag": "#cryptotrading",
-    "freq": 1
+    "hashtag": "#xartist",
+    "post": 1
   },
   {
     "hashtag": "#ai",
-    "freq": 1
+    "post": 1
   },
   {
-    "hashtag": "#pipayment",
-    "freq": 1
+    "hashtag": "#trueweb3",
+    "post": 1
   },
   {
-    "hashtag": "#pinetwork",
-    "freq": 1
+    "hashtag": "#aiart",
+    "post": 1
   },
   {
-    "hashtag": "#picoreteam",
-    "freq": 1
+    "hashtag": "#ordi",
+    "post": 1
   },
   {
-    "hashtag": "#picoin",
-    "freq": 1
+    "hashtag": "#hive",
+    "post": 1
   },
   {
-    "hashtag": "#stc",
-    "freq": 1
+    "hashtag": "#bilpcon",
+    "post": 1
   },
   {
-    "hashtag": "#saitachaincoin",
-    "freq": 1
+    "hashtag": "#bnb",
+    "post": 1
   },
   {
-    "hashtag": "#defi",
-    "freq": 1
+    "hashtag": "#shib",
+    "post": 1
   },
   {
-    "hashtag": "#bsc",
-    "freq": 1
+    "hashtag": "#sundaymood",
+    "post": 1
   },
   {
-    "hashtag": "#yieldfarming",
-    "freq": 1
+    "hashtag": "#art",
+    "post": 1
   },
   {
-    "hashtag": "#decentralizedfinance",
-    "freq": 1
+    "hashtag": "#web3",
+    "post": 1
   },
   {
-    "hashtag": "#втс",
-    "freq": 1
+    "hashtag": "#lunc",
+    "post": 1
   },
   {
-    "hashtag": "#nfthack",
-    "freq": 1
+    "hashtag": "#etc",
+    "post": 1
   },
   {
-    "hashtag": "#stolencoins",
-    "freq": 1
+    "hashtag": "#bch",
+    "post": 1
   },
   {
-    "hashtag": "#snapchat",
-    "freq": 1
+    "hashtag": "#newnft",
+    "post": 1
   },
   {
-    "hashtag": "#hackedwallet",
-    "freq": 1
+    "hashtag": "#newupload",
+    "post": 1
   },
   {
-    "hashtag": "#hacked",
-    "freq": 1
+    "hashtag": "#ethereum",
+    "post": 1
   },
   {
-    "hashtag": "#ustc",
-    "freq": 1
+    "hashtag": "#solana",
+    "post": 1
   },
   {
-    "hashtag": "#luncburn",
-    "freq": 1
+    "hashtag": "#polygon",
+    "post": 1
   },
   {
-    "hashtag": "#luncarmy",
-    "freq": 1
+    "hashtag": "#shillarts",
+    "post": 1
   },
   {
-    "hashtag": "#luncusdt",
-    "freq": 1
+    "hashtag": "#nftday",
+    "post": 1
   },
   {
-    "hashtag": "#terra_army",
-    "freq": 1
+    "hashtag": "#nftdrops",
+    "post": 1
   },
   {
-    "hashtag": "#terra",
-    "freq": 1
+    "hashtag": "#nftshill",
+    "post": 1
   },
   {
-    "hashtag": "#deutschebank",
-    "freq": 1
+    "hashtag": "#tezoscollector",
+    "post": 1
   },
   {
-    "hashtag": "#mexc",
-    "freq": 1
+    "hashtag": "#tezosarts",
+    "post": 1
   },
   {
-    "hashtag": "#rwa",
-    "freq": 1
+    "hashtag": "#objktcom",
+    "post": 1
+  },
+  {
+    "hashtag": "#music",
+    "post": 1
+  },
+  {
+    "hashtag": "#illustration",
+    "post": 1
+  },
+  {
+    "hashtag": "#frogatars",
+    "post": 1
+  },
+  {
+    "hashtag": "#cryptoart",
+    "post": 1
+  },
+  {
+    "hashtag": "#cryptoartist",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftcollectors",
+    "post": 1
+  },
+  {
+    "hashtag": "#coinbase",
+    "post": 1
+  },
+  {
+    "hashtag": "#x2y2",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftcollectibles",
+    "post": 1
+  },
+  {
+    "hashtag": "#raredigitalart",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftcolectors",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftcollection",
+    "post": 1
+  },
+  {
+    "hashtag": "#foundtion",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftshilling",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftcollections",
+    "post": 1
+  },
+  {
+    "hashtag": "#nftmint",
+    "post": 1
+  },
+  {
+    "hashtag": "#artgallery",
+    "post": 1
+  },
+  {
+    "hashtag": "#cryptoinvestor",
+    "post": 1
+  },
+  {
+    "hashtag": "#etherum",
+    "post": 1
+  },
+  {
+    "hashtag": "#oliverr",
+    "post": 1
   }
 ]
