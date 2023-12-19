@@ -22,13 +22,6 @@ import java.util.Map;
 public class BlogController extends VBox {
     @FXML
     private ImageView imageView;
-
-    @FXML
-    private Label labelFirst;
-
-    @FXML
-    private Label labelSecond;
-
     @FXML
     private Label title;
 
@@ -64,24 +57,6 @@ public class BlogController extends VBox {
         Image image = new Image(inputStream);
         imageView.setImage(image);
         inputStream.close();
-        String label = data.get("label");
-        if(label==null){
-            labelFirst.setVisible(false);
-            labelSecond.setVisible(false);
-        }else {
-            String[] labels = label.split(",");
-            if(labels.length==1) {
-                labelFirst.setText(labels[0]);
-                labelSecond.setVisible(false);
-            }
-            else if(labels.length==2) {
-                labelFirst.setText(labels[0]);
-                labelSecond.setText(labels[1]);
-            }else{
-                labelFirst.setVisible(false);
-                labelSecond.setVisible(false);
-            }
-        }
         time.setText(data.get("time"));
         title.setText(data.get("title"));
         article.setText(data.get("article"));
@@ -90,7 +65,7 @@ public class BlogController extends VBox {
     }
 
     public BlogController(Map<String, String> data) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(Constants.POST_ITEM_SOURCE));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(Constants.BLOG_VIEW_SOURCE));
         fxmlLoader.setController(this);
         this.getChildren().add(fxmlLoader.load());
         setItem(data);

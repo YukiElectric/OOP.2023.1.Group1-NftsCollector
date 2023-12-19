@@ -4,6 +4,7 @@ import javafx.application.Platform;
 import javafx.scene.Node;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
+import oop.frontend.common.Constants;
 import oop.frontend.common.TaskRequest;
 import oop.frontend.controller.HeaderController;
 import oop.frontend.controller.LoadingController;
@@ -41,7 +42,7 @@ public class VboxViewUtil {
             taskRequest.getException().printStackTrace();
             vBox.getChildren().clear();
             try {
-                vBox.getChildren().add(WebViewUtil.setView("/html/Error.txt"));
+                vBox.getChildren().add(WebViewUtil.setView(Constants.ERROR_VIEW));
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

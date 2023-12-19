@@ -7,6 +7,7 @@ import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
 import oop.frontend.controller.BlogController;
 import oop.frontend.controller.EPlatformController;
+import oop.frontend.controller.PostController;
 
 public class TabPaneUtil {
     private static void setTabPane(ToggleGroup menu, TabPane tabPane, int index) {
@@ -48,10 +49,10 @@ public class TabPaneUtil {
                 int selectedIndex = toggleGroup.getToggles().indexOf(selectedButton);
                 if (index == 0)
                     switch (selectedIndex) {
-                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "", EPlatformController.class, 0);
+                        case 0 -> VboxViewUtil.setViewVBox(postView, Constants.API_URL, "post?search=", PostController.class, 0);
                         case 1 -> VboxViewUtil.setViewVBox(blogView, Constants.API_URL, "blog", BlogController.class, 0);
                         case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "hottag", EPlatformController.class, 1);
-                        case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "trending/opeansea/AllTime", EPlatformController.class, 1);
+                        case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "trending/opensea/AllTime", EPlatformController.class, 1);
                         case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "top/opensea/AllTime", EPlatformController.class, 1);
                         default -> {
                         }

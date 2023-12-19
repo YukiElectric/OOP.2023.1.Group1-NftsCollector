@@ -19,7 +19,7 @@ public class ScrollUtil {
 
         System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 
-        WebDriver driver = new FirefoxDriver(options);
+        WebDriver driver = new FirefoxDriver();
 
         driver.get(url);
         Thread.sleep(1000);
