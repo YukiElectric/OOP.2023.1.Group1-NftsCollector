@@ -19,6 +19,10 @@ public class BaseDTO {
     @JsonProperty("floorPrice")
     private String floorPrice;
 
+    @JsonProperty("items")
+    private String items;
 
+    @JsonProperty("owners")
+    private String owners;
 }
 

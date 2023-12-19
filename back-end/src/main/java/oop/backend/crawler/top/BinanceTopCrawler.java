@@ -31,7 +31,7 @@ public class BinanceTopCrawler extends GetBinance {
         if (request != null) {
             Document document = Jsoup.parse(BinanceTopUtil.scrollAndGet(request));
             Elements elements = document.select("div.css-vurnku");
-            final PropertyGetter<BinanceDTO> binanceAttr = new BinanceProperty();
+            PropertyGetter<BinanceDTO> binanceAttr = new BinanceProperty();
             for (Element element : elements) {
                 BinanceDTO binance = binanceAttr.attrGet(element);
                 if (binance != null && !binances.contains(binance))
@@ -46,7 +46,7 @@ public class BinanceTopCrawler extends GetBinance {
         selectionToRequest.put("Month", "30D");
         selectionToRequest.put("AllTime", "All");
     }
-    private final JsonUtil<BinanceDTO> jsonHandler = new JsonUtil<>(PATH_BINANCE);
+    private JsonUtil<BinanceDTO> jsonHandler = new JsonUtil<>(PATH_BINANCE);
 
     @GetMapping("/binance/{selection}")
     public ResponseEntity<?> getDataFromBinance(@PathVariable("selection") String selection) {

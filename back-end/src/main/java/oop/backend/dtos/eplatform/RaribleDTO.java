@@ -12,11 +12,7 @@ import oop.backend.dtos.BaseDTO;
 @AllArgsConstructor
 @NoArgsConstructor
 public class RaribleDTO extends BaseDTO {
-    @JsonProperty("items")
-    private String items;
 
-    @JsonProperty("owners")
-    private String owners;
 
     @JsonProperty("volumeChange")
     private String volumeChange;

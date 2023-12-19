@@ -1,1262 +1,1901 @@
 [
   {
-    "items": "10K",
-    "owners": "5.8K",
-    "volumeChange": "-50.9%",
-    "floorChange": "-9.3%",
-    "collection": "Bored Ape Yacht Club",
-    "volume": "7,600  ETH",
-    "floorPrice": "26.99  ETH"
-  },
-  {
-    "items": "6.7K",
-    "owners": "1.9K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "MATR1X KUKU",
-    "volume": "6,139  ETH",
-    "floorPrice": "3.05  ETH"
-  },
-  {
-    "items": "8.9K",
-    "owners": "4.6K",
-    "volumeChange": "-44.5%",
-    "floorChange": "-6.3%",
-    "collection": "Pudgy Penguins",
-    "volume": "6,035  ETH",
-    "floorPrice": "10.5  ETH"
-  },
-  {
-    "items": "19.5K",
-    "owners": "11.8K",
-    "volumeChange": "+0.7%",
-    "floorChange": "-7%",
-    "collection": "MutantApeYachtClub",
-    "volume": "5,952  ETH",
-    "floorPrice": "5.255  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "4.4K",
-    "volumeChange": "+28.5%",
-    "floorChange": "-12.4%",
-    "collection": "Azuki",
-    "volume": "4,683  ETH",
-    "floorPrice": "5.79  ETH"
-  },
-  {
-    "items": "9K",
-    "owners": "2.6K",
-    "volumeChange": "-18.4%",
-    "floorChange": "-16.3%",
-    "collection": "DeGods",
-    "volume": "3,010  ETH",
-    "floorPrice": "2.657  ETH"
-  },
-  {
-    "items": "6K",
-    "owners": "2.3K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "OVERWORLD INCARNA",
-    "volume": "2,929  ETH",
-    "floorPrice": "1.799  ETH"
-  },
-  {
-    "items": "21.4K",
-    "owners": "8K",
-    "volumeChange": "-55.6%",
-    "floorChange": "-13.5%",
-    "collection": "Lil Pudgys",
-    "volume": "1,931  ETH",
-    "floorPrice": "0.95  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "3.7K",
-    "volumeChange": "-12.3%",
-    "floorChange": "-8.3%",
-    "collection": "Milady Maker",
-    "volume": "1,776  ETH",
-    "floorPrice": "2.75  ETH"
-  },
-  {
-    "items": "19.5K",
-    "owners": "10.1K",
-    "volumeChange": "+54.1%",
-    "floorChange": "-15.4%",
-    "collection": "CloneX",
-    "volume": "1,557  ETH",
-    "floorPrice": "1.267  ETH"
-  },
-  {
-    "items": "12.1K",
-    "owners": "2.7K",
-    "volumeChange": "-40.2%",
-    "floorChange": "+8.1%",
-    "collection": "Pixelmon - Generation 1",
-    "volume": "1,442  ETH",
-    "floorPrice": "2  ETH"
-  },
-  {
-    "items": "9.6K",
-    "owners": "2.4K",
-    "volumeChange": "+1%",
-    "floorChange": "+11.3%",
-    "collection": "Creepz by OVERLORD",
-    "volume": "1,382  ETH",
-    "floorPrice": "3.45  ETH"
-  },
-  {
-    "items": "5.6K",
-    "owners": "2.5K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "Poglin: Nycra",
-    "volume": "1,350  ETH",
-    "floorPrice": "0.216  ETH"
-  },
-  {
-    "items": "5.6K",
-    "owners": "2K",
-    "volumeChange": "+57%",
-    "floorChange": "-22.8%",
-    "collection": "BlockGames Dice",
-    "volume": "1,193  ETH",
-    "floorPrice": "0.447  ETH"
-  },
-  {
-    "items": "6.5K",
-    "owners": "3.5K",
-    "volumeChange": "+133.9%",
-    "floorChange": "+18.4%",
-    "collection": "Otherside Koda",
-    "volume": "1,012  ETH",
-    "floorPrice": "4.439  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "5.9K",
-    "volumeChange": "-26%",
-    "floorChange": "+3%",
-    "collection": "Moonbirds",
-    "volume": "907  ETH",
-    "floorPrice": "2.05  ETH"
-  },
-  {
-    "items": "5.6K",
-    "owners": "1.8K",
-    "volumeChange": "+215.1%",
-    "floorChange": "-29.3%",
-    "collection": "raW Pass",
-    "volume": "822.3  ETH",
-    "floorPrice": "0.21  ETH"
-  },
-  {
-    "items": "6.1K",
-    "owners": "1K",
-    "volumeChange": "-48.3%",
-    "floorChange": "-9.2%",
-    "collection": "Sugartown Oras",
-    "volume": "591.2  ETH",
-    "floorPrice": "0.535  ETH"
-  },
-  {
-    "items": "500",
-    "owners": "409",
-    "volumeChange": "+666.2%",
-    "floorChange": "+73.8%",
-    "collection": "ALPHA PRESTIGE",
-    "volume": "550.8  ETH",
-    "floorPrice": "13.9  ETH"
-  },
-  {
-    "items": "3.3K",
-    "owners": "1K",
-    "volumeChange": "+239.5%",
-    "floorChange": "+161.5%",
-    "collection": "Skyborne - Nexian Gems",
-    "volume": "550.6  ETH",
-    "floorPrice": "0.68  ETH"
-  },
-  {
-    "items": "8.9K",
-    "owners": "2.1K",
-    "volumeChange": "-8.6%",
-    "floorChange": "+13.1%",
-    "collection": "Mocaverse",
-    "volume": "488.9  ETH",
-    "floorPrice": "3.279  ETH"
-  },
-  {
-    "items": "5K",
-    "owners": "2.1K",
-    "volumeChange": "+20.7%",
-    "floorChange": "+41.3%",
-    "collection": "Farm Land by Pixels",
-    "volume": "467  ETH",
-    "floorPrice": "1.625  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "5.8K",
-    "volumeChange": "-13.9%",
-    "floorChange": "-11.5%",
-    "collection": "Doodles",
-    "volume": "464.1  ETH",
-    "floorPrice": "1.9  ETH"
-  },
-  {
-    "items": "11.4K",
-    "owners": "4.5K",
-    "volumeChange": "-24.6%",
-    "floorChange": "-20.5%",
-    "collection": "y00ts",
-    "volume": "449.3  ETH",
-    "floorPrice": "0.437  ETH"
-  },
-  {
-    "items": "11K",
-    "owners": "2.2K",
-    "volumeChange": "+176.6%",
-    "floorChange": "+12.9%",
-    "collection": "Parallel Avatars",
-    "volume": "429.4  ETH",
-    "floorPrice": "0.998  ETH"
-  },
-  {
-    "items": "839",
-    "owners": "164",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "Wrapped Cryptopunks",
-    "volume": "428.9  ETH",
-    "floorPrice": "129  ETH"
-  },
-  {
-    "items": "7K",
-    "owners": "2.3K",
-    "volumeChange": "+266.1%",
-    "floorChange": "+63.6%",
-    "collection": "ElectricSheep",
-    "volume": "404.7  ETH",
-    "floorPrice": "1.8  ETH"
-  },
-  {
-    "items": "7.9K",
-    "owners": "2.3K",
-    "volumeChange": "-62.1%",
-    "floorChange": "-25.5%",
-    "collection": "Yakuza Pandas",
-    "volume": "397.6  ETH",
-    "floorPrice": "1.75  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "4.1K",
-    "volumeChange": "-75%",
-    "floorChange": "-7.9%",
-    "collection": "Captainz",
-    "volume": "393.9  ETH",
-    "floorPrice": "4.669  ETH"
-  },
-  {
-    "items": "84K",
-    "owners": "17.2K",
-    "volumeChange": "-20.7%",
-    "floorChange": "-6%",
-    "collection": "Otherdeed",
-    "volume": "339.5  ETH",
-    "floorPrice": "0.55  ETH"
-  },
-  {
-    "items": "16K",
-    "owners": "4.6K",
-    "volumeChange": "-20.3%",
-    "floorChange": "-4.8%",
-    "collection": "Opepen Edition",
-    "volume": "321.9  ETH",
-    "floorPrice": "0.4  ETH"
-  },
-  {
-    "items": "14.5K",
-    "owners": "5.1K",
-    "volumeChange": "-43.4%",
-    "floorChange": "-10.4%",
-    "collection": "Azuki Elementals",
-    "volume": "310.3  ETH",
-    "floorPrice": "0.536  ETH"
-  },
-  {
-    "items": "999",
-    "owners": "485",
-    "volumeChange": "-15.3%",
-    "floorChange": "-4.3%",
-    "collection": "Fidenza by Tyler Hobbs",
-    "volume": "295.2  ETH",
-    "floorPrice": "63.77  ETH"
-  },
-  {
-    "items": "10.1K",
-    "owners": "3.4K",
-    "volumeChange": "-36.9%",
-    "floorChange": "+10.7%",
-    "collection": "Yogapetz",
-    "volume": "286.3  ETH",
-    "floorPrice": "0.67  ETH"
-  },
-  {
-    "items": "298",
-    "owners": "240",
-    "volumeChange": "+302.9%",
-    "floorChange": "+46.9%",
-    "collection": "Pioneer of Fusionist",
-    "volume": "263.6  ETH",
-    "floorPrice": "4.05  ETH"
-  },
-  {
-    "items": "9.6K",
-    "owners": "5.2K",
-    "volumeChange": "-37.1%",
-    "floorChange": "-4.7%",
-    "collection": "BoredApeKennelClub",
-    "volume": "259.9  ETH",
-    "floorPrice": "1.62  ETH"
-  },
-  {
-    "items": "3.3K",
-    "owners": "1.7K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "Descendants of Smurfcat",
-    "volume": "244.7  ETH",
-    "floorPrice": "0.13  ETH"
-  },
-  {
-    "items": "3.2K",
-    "owners": "1.2K",
-    "volumeChange": "+5.5%",
-    "floorChange": "+3.8%",
-    "collection": "Neo Tokyo Outer Citizen V2",
-    "volume": "235.8  ETH",
-    "floorPrice": "2.75  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "5.9K",
-    "volumeChange": "-19.2%",
-    "floorChange": "+42.7%",
-    "collection": "Cool Cats",
-    "volume": "234  ETH",
-    "floorPrice": "0.999  ETH"
-  },
-  {
-    "items": "2.1K",
-    "owners": "642",
-    "volumeChange": "-54.8%",
-    "floorChange": "-5.7%",
-    "collection": "Matr1x 2061",
-    "volume": "227.1  ETH",
-    "floorPrice": "3.299  ETH"
-  },
-  {
-    "items": "558",
-    "owners": "1.7K",
-    "volumeChange": "+1,893%",
-    "floorChange": "-66.2%",
-    "collection": "Parallel Planetfall",
-    "volume": "227.1  ETH",
-    "floorPrice": "0.003  ETH"
-  },
-  {
-    "items": "2.2K",
-    "owners": "1K",
-    "volumeChange": "-82.2%",
-    "floorChange": "+9.2%",
-    "collection": "Fortune Founder\u0027s Key by AOFverse",
-    "volume": "223.5  ETH",
-    "floorPrice": "0.475  ETH"
-  },
-  {
-    "items": "1K",
-    "owners": "621",
-    "volumeChange": "-27.6%",
-    "floorChange": "-4.3%",
-    "collection": "Winds of Yawanawa by Yawanawa and Refik Anadol",
-    "volume": "220.9  ETH",
-    "floorPrice": "7.65  ETH"
-  },
-  {
-    "items": "8.9K",
-    "owners": "1.4K",
-    "volumeChange": "+241.4%",
-    "floorChange": "+40.5%",
-    "collection": "Imaginary Ones",
-    "volume": "214.8  ETH",
-    "floorPrice": "1.124  ETH"
-  },
-  {
-    "items": "600",
-    "owners": "362",
-    "volumeChange": "-49.9%",
-    "floorChange": "-4.4%",
-    "collection": "L3E7 Worlds",
-    "volume": "209.3  ETH",
-    "floorPrice": "6.023  ETH"
-  },
-  {
-    "items": "2.7K",
-    "owners": "503",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "alignDRAW",
-    "volume": "203.3  ETH",
-    "floorPrice": "0.185  ETH"
-  },
-  {
-    "items": "1.9K",
-    "owners": "371",
-    "volumeChange": "-14.3%",
-    "floorChange": "+4.2%",
-    "collection": "Neo Tokyo Citizen V2",
-    "volume": "196.1  ETH",
-    "floorPrice": "15.95  ETH"
-  },
-  {
-    "items": "2.1M",
-    "owners": "727.6K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "OpenSea Shared Storefront",
-    "volume": "196.1  ETH",
-    "floorPrice": "0  ETH"
-  },
-  {
-    "items": "5.5K",
-    "owners": "1K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "Anonthology",
-    "volume": "183  ETH",
-    "floorPrice": "0.036  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "3.7K",
-    "volumeChange": "-63%",
-    "floorChange": "-22.4%",
-    "collection": "Trademark by Jack Butcher",
-    "volume": "181.8  ETH",
-    "floorPrice": "0.139  ETH"
-  },
-  {
-    "items": "200",
-    "owners": "164",
-    "volumeChange": "+387.4%",
-    "floorChange": "+112.4%",
-    "collection": "The Lab: Scientists",
-    "volume": "176.5  ETH",
-    "floorPrice": "27.5  ETH"
-  },
-  {
-    "items": "2.2K",
-    "owners": "1.1K",
-    "volumeChange": "+234.5%",
-    "floorChange": "+59.8%",
-    "collection": "Mittaria Genesis",
-    "volume": "176.4  ETH",
-    "floorPrice": "0.71  ETH"
-  },
-  {
-    "items": "52.8K",
-    "owners": "13.2K",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "Otherdeed Expanded",
-    "volume": "176  ETH",
-    "floorPrice": "0.289  ETH"
-  },
-  {
-    "items": "7.4K",
-    "owners": "2.9K",
-    "volumeChange": "-75.2%",
-    "floorChange": "-23.3%",
-    "collection": "Pudgy Rods",
-    "volume": "170.8  ETH",
-    "floorPrice": "0.498  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "2.7K",
-    "volumeChange": "-62.3%",
-    "floorChange": "-11.8%",
-    "collection": "Redacted Remilio Babies",
-    "volume": "167.7  ETH",
-    "floorPrice": "0.535  ETH"
-  },
-  {
-    "items": "2.3K",
-    "owners": "933",
-    "volumeChange": "+28.8%",
-    "floorChange": "+3.2%",
-    "collection": "Bit Bears",
-    "volume": "167.6  ETH",
-    "floorPrice": "2.497  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "2.9K",
-    "volumeChange": "-48.3%",
-    "floorChange": "-3.2%",
-    "collection": "Chromie Squiggle by Snowfro",
-    "volume": "164.1  ETH",
-    "floorPrice": "8.99  ETH"
-  },
-  {
-    "items": "5.7K",
-    "owners": "4.2K",
-    "volumeChange": "+518%",
-    "floorChange": "+40.5%",
-    "collection": "MAX PAIN AND FRENS OPEN EDITION BY XCOPY",
-    "volume": "163.7  ETH",
-    "floorPrice": "0.545  ETH"
-  },
-  {
-    "items": "7K",
-    "owners": "1.3K",
-    "volumeChange": "-49.3%",
-    "floorChange": "+7.3%",
-    "collection": "Trainers",
-    "volume": "154  ETH",
-    "floorPrice": "0.44  ETH"
-  },
-  {
-    "items": "9.9K",
-    "owners": "2K",
-    "volumeChange": "-15.7%",
-    "floorChange": "-2.6%",
-    "collection": "Terraforms by Mathcastles",
-    "volume": "151.6  ETH",
-    "floorPrice": "1.46  ETH"
-  },
-  {
-    "items": "19.9K",
-    "owners": "8.1K",
-    "volumeChange": "-25.8%",
-    "floorChange": "-9%",
-    "collection": "BEANZ Official",
-    "volume": "150  ETH",
-    "floorPrice": "0.4  ETH"
-  },
-  {
-    "items": "4.4K",
-    "owners": "1.1K",
-    "volumeChange": "+2.3%",
-    "floorChange": "+26.3%",
-    "collection": "Seedworld Vanguards",
-    "volume": "148.2  ETH",
-    "floorPrice": "0.48  ETH"
-  },
-  {
-    "items": "3.3K",
-    "owners": "1.1K",
-    "volumeChange": "-64.2%",
-    "floorChange": "+2.6%",
-    "collection": "The Grapes",
-    "volume": "145  ETH",
-    "floorPrice": "1.94  ETH"
-  },
-  {
-    "items": "1",
-    "owners": "437",
-    "volumeChange": "",
-    "floorChange": "",
-    "collection": "DAMAGE CONTROL",
-    "volume": "141.6  ETH",
-    "floorPrice": "0.9  ETH"
-  },
-  {
-    "items": "5.4K",
-    "owners": "1.9K",
-    "volumeChange": "-24.5%",
-    "floorChange": "-7.8%",
-    "collection": "Azuki Elemental Beans",
-    "volume": "139.4  ETH",
-    "floorPrice": "0.709  ETH"
-  },
-  {
-    "items": "271",
-    "owners": "147",
-    "volumeChange": "+146.2%",
-    "floorChange": "+19%",
-    "collection": "Boo Bears",
-    "volume": "139  ETH",
-    "floorPrice": "13.5  ETH"
-  },
-  {
-    "items": "1K",
-    "owners": "914",
-    "volumeChange": "+203.7%",
-    "floorChange": "-11%",
-    "collection": "PROOF Collective",
-    "volume": "137.3  ETH",
-    "floorPrice": "2.597  ETH"
-  },
-  {
-    "items": "20K",
-    "owners": "6.7K",
-    "volumeChange": "-52.8%",
-    "floorChange": "-9%",
-    "collection": "Meebits",
-    "volume": "127.6  ETH",
-    "floorPrice": "1.182  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "2.1K",
-    "volumeChange": "-68.3%",
-    "floorChange": "-11.8%",
-    "collection": "Sappy Seals",
-    "volume": "126.3  ETH",
-    "floorPrice": "0.644  ETH"
-  },
-  {
-    "items": "7.8K",
-    "owners": "3.7K",
-    "volumeChange": "-65.3%",
-    "floorChange": "-13%",
-    "collection": "0N1 Force",
-    "volume": "126.2  ETH",
-    "floorPrice": "0.86  ETH"
-  },
-  {
-    "items": "2K",
-    "owners": "1.3K",
-    "volumeChange": "+240.4%",
-    "floorChange": "+38.4%",
-    "collection": "Oh Ottie!",
-    "volume": "124.5  ETH",
-    "floorPrice": "1.479  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "3K",
-    "volumeChange": "-44.6%",
-    "floorChange": "-6%",
-    "collection": "Potatoz",
-    "volume": "122.4  ETH",
-    "floorPrice": "1.72  ETH"
-  },
-  {
-    "items": "641",
-    "owners": "394",
-    "volumeChange": "+339.7%",
-    "floorChange": "+59.8%",
-    "collection": "Fusionist - Quartan Primes",
-    "volume": "119.7  ETH",
-    "floorPrice": "1.55  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "3.9K",
-    "volumeChange": "+165.1%",
-    "floorChange": "+14.3%",
-    "collection": "a KID called BEAST",
-    "volume": "118  ETH",
-    "floorPrice": "0.319  ETH"
-  },
-  {
-    "items": "10.4K",
-    "owners": "3.3K",
-    "volumeChange": "-68.2%",
-    "floorChange": "+0.9%",
-    "collection": "Treeverse",
-    "volume": "110.3  ETH",
-    "floorPrice": "0.705  ETH"
-  },
-  {
-    "items": "7.8K",
-    "owners": "2.2K",
-    "volumeChange": "+204.6%",
-    "floorChange": "+28%",
-    "collection": "Kitaro World",
-    "volume": "107.6  ETH",
-    "floorPrice": "0.16  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "3K",
-    "volumeChange": "-71.3%",
-    "floorChange": "-11.3%",
-    "collection": "Shrapnel Operators Collection",
-    "volume": "103  ETH",
-    "floorPrice": "0.275  ETH"
-  },
-  {
-    "items": "999",
-    "owners": "444",
-    "volumeChange": "+448.8%",
-    "floorChange": "+82.5%",
-    "collection": "SERAPH Priority Pass Official",
-    "volume": "101.5  ETH",
-    "floorPrice": "2.3  ETH"
-  },
-  {
-    "items": "3.2M",
-    "owners": "712.5K",
-    "volumeChange": "-19.1%",
-    "floorChange": "+10%",
-    "collection": "ENS domains",
-    "volume": "101.3  ETH",
-    "floorPrice": "~0.001  ETH"
-  },
-  {
-    "items": "7.5K",
-    "owners": "1.5K",
-    "volumeChange": "-63.5%",
-    "floorChange": "-11.9%",
-    "collection": "ChronoForge",
-    "volume": "101.3  ETH",
-    "floorPrice": "0.273  ETH"
-  },
-  {
-    "items": "2K",
-    "owners": "756",
-    "volumeChange": "-45.9%",
-    "floorChange": "-6.2%",
-    "collection": "DigiDaigaku Genesis",
-    "volume": "99.64  ETH",
-    "floorPrice": "4.49  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "5.4K",
-    "volumeChange": "-67.1%",
-    "floorChange": "-24.5%",
-    "collection": "World Of Women",
-    "volume": "97.85  ETH",
-    "floorPrice": "1.162  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "1.7K",
-    "volumeChange": "+58.1%",
-    "floorChange": "+98.1%",
-    "collection": "Skyborne - Genesis Immortals",
-    "volume": "97.47  ETH",
-    "floorPrice": "0.085  ETH"
-  },
-  {
-    "items": "10K",
-    "owners": "2.4K",
-    "volumeChange": "-10.8%",
-    "floorChange": "+22.2%",
-    "collection": "Mavia Land",
-    "volume": "97.46  ETH",
-    "floorPrice": "0.623  ETH"
-  },
-  {
-    "items": "8.7K",
-    "owners": "2.2K",
-    "volumeChange": "+440.2%",
-    "floorChange": "+25.4%",
-    "collection": "Edenhorde",
-    "volume": "96.23  ETH",
-    "floorPrice": "0.152  ETH"
-  },
-  {
-    "items": "11",
-    "owners": "10.3K",
-    "volumeChange": "+32.9%",
-    "floorChange": "+43.3%",
-    "collection": "MetaHero Universe: Planet Tokens",
-    "volume": "94.93  ETH",
-    "floorPrice": "0.043  ETH"
-  },
-  {
-    "items": "5.7K",
-    "owners": "1.9K",
-    "volumeChange": "-26%",
-    "floorChange": "-15.5%",
-    "collection": "Checks — Originals",
-    "volume": "90.76  ETH",
-    "floorPrice": "0.249  ETH"
-  },
-  {
-    "items": "1.2K",
-    "owners": "430",
-    "volumeChange": "+52.7%",
-    "floorChange": "+0.6%",
-    "collection": "Band Bears",
-    "volume": "90.74  ETH",
-    "floorPrice": "3.904  ETH"
-  },
-  {
-    "items": "3.3K",
-    "owners": "1.2K",
-    "volumeChange": "+12.4%",
-    "floorChange": "-12.1%",
-    "collection": "Sproto Gremlins",
-    "volume": "88.53  ETH",
-    "floorPrice": "0.56  ETH"
-  },
-  {
-    "items": "13.9K",
-    "owners": "1.9K",
-    "volumeChange": "+670.7%",
-    "floorChange": "+77.8%",
-    "collection": "Imaginary Rides",
-    "volume": "88.04  ETH",
-    "floorPrice": "0.12  ETH"
-  },
-  {
-    "items": "7K",
-    "owners": "4K",
-    "volumeChange": "-60.9%",
-    "floorChange": "-27%",
-    "collection": "Cryptoadz",
-    "volume": "87.9  ETH",
-    "floorPrice": "0.91  ETH"
-  },
-  {
-    "items": "5.5K",
-    "owners": "1.7K",
-    "volumeChange": "+942.5%",
-    "floorChange": "+236.6%",
-    "collection": "KOKODI",
-    "volume": "87.06  ETH",
-    "floorPrice": "0.138  ETH"
-  },
-  {
-    "items": "8.9K",
-    "owners": "3.8K",
-    "volumeChange": "-58.5%",
-    "floorChange": "-4.1%",
-    "collection": "My Pet Hooligan",
-    "volume": "85.67  ETH",
-    "floorPrice": "0.92  ETH"
-  },
-  {
-    "items": "9.3K",
-    "owners": "3.1K",
-    "volumeChange": "+75.5%",
-    "floorChange": "+21.1%",
-    "collection": "ForgottenRunesWizardsCult",
-    "volume": "83.41  ETH",
-    "floorPrice": "0.834  ETH"
-  },
-  {
-    "items": "6.1K",
-    "owners": "1.9K",
     "volumeChange": "",
     "floorChange": "",
     "collection": "The Warlords of Champions Tactics",
-    "volume": "83.06  ETH",
-    "floorPrice": "0.23  ETH"
-  },
-  {
-    "items": "20K",
-    "owners": "5.6K",
-    "volumeChange": "-29.5%",
-    "floorChange": "+4.3%",
-    "collection": "Nakamigos",
-    "volume": "82.43  ETH",
-    "floorPrice": "0.172  ETH"
-  },
-  {
+    "volume": "1,442  ETH",
+    "floorPrice": "0.227  ETH",
     "items": "10K",
-    "owners": "2.7K",
-    "volumeChange": "-43.3%",
-    "floorChange": "+21.3%",
-    "collection": "Pirate",
-    "volume": "81.85  ETH",
-    "floorPrice": "0.388  ETH"
+    "owners": "4.6K"
   },
   {
-    "items": "10.4K",
-    "owners": "4.3K",
-    "volumeChange": "-20.2%",
-    "floorChange": "+38%",
-    "collection": "Impostors Genesis Aliens",
-    "volume": "80.07  ETH",
-    "floorPrice": "0.688  ETH"
-  },
-  {
-    "items": "699",
-    "owners": "244",
-    "volumeChange": "+2.7%",
-    "floorChange": "-7.9%",
-    "collection": "KartParty-YKZ",
-    "volume": "78.7  ETH",
-    "floorPrice": "2.3  ETH"
-  },
-  {
-    "items": "16.4K",
-    "owners": "2.4K",
-    "volumeChange": "+224.1%",
-    "floorChange": "+39.1%",
-    "collection": "Honey Comb",
-    "volume": "78.64  ETH",
-    "floorPrice": "0.099  ETH"
-  },
-  {
-    "items": "100",
-    "owners": "100",
     "volumeChange": "",
     "floorChange": "",
-    "collection": "TreeNFT",
-    "volume": "76.95  ETH",
-    "floorPrice": "41  ETH"
+    "collection": "Azuki",
+    "volume": "1,316  ETH",
+    "floorPrice": "5.79  ETH",
+    "items": "10K",
+    "owners": "4.4K"
   },
   {
-    "items": "9.5K",
-    "owners": "5.4K",
-    "volumeChange": "-63.1%",
-    "floorChange": "+1.1%",
-    "collection": "OnChainMonkey",
-    "volume": "76.8  ETH",
-    "floorPrice": "1.48  ETH"
+    "volumeChange": "-7.5%",
+    "floorChange": "-1.7%",
+    "collection": "MutantApeYachtClub",
+    "volume": "954.5  ETH",
+    "floorPrice": "5.23  ETH",
+    "items": "19.5K",
+    "owners": "11.8K"
   },
   {
-    "items": "3K",
-    "owners": "215",
+    "volumeChange": "+41.7%",
+    "floorChange": "+1%",
+    "collection": "Pudgy Penguins",
+    "volume": "521  ETH",
+    "floorPrice": "10.6  ETH",
+    "items": "8.9K",
+    "owners": "4.6K"
+  },
+  {
+    "volumeChange": "-18.2%",
+    "floorChange": "+3.5%",
+    "collection": "DeGods",
+    "volume": "491.3  ETH",
+    "floorPrice": "2.75  ETH",
+    "items": "9K",
+    "owners": "2.6K"
+  },
+  {
     "volumeChange": "",
     "floorChange": "",
-    "collection": "OnChainShiba",
-    "volume": "76.74  ETH",
-    "floorPrice": "0.29  ETH"
+    "collection": "OVERWORLD INCARNA",
+    "volume": "385.2  ETH",
+    "floorPrice": "1.799  ETH",
+    "items": "6K",
+    "owners": "2.2K"
   },
   {
-    "items": "4.9K",
-    "owners": "1K",
-    "volumeChange": "-12.1%",
-    "floorChange": "+5.1%",
-    "collection": "V1 Cryptopunks (Wrapped)",
-    "volume": "73.61  ETH",
-    "floorPrice": "3.99  ETH"
+    "volumeChange": "-26.9%",
+    "floorChange": "+1.6%",
+    "collection": "MATR1X KUKU",
+    "volume": "377.7  ETH",
+    "floorPrice": "3.15  ETH",
+    "items": "6.7K",
+    "owners": "1.9K"
   },
   {
-    "items": "102",
-    "owners": "204",
-    "volumeChange": "-33.1%",
-    "floorChange": "+22.2%",
-    "collection": "THE WHITE RABBIT",
-    "volume": "72.47  ETH",
-    "floorPrice": "0.012  ETH"
-  },
-  {
-    "items": "2K",
-    "owners": "1.1K",
-    "volumeChange": "+101.1%",
-    "floorChange": "+19.4%",
-    "collection": "San FranTokyo Genesis Pass",
-    "volume": "72.44  ETH",
-    "floorPrice": "0.559  ETH"
-  },
-  {
-    "items": "5.4K",
-    "owners": "3K",
-    "volumeChange": "-67.1%",
-    "floorChange": "-9.4%",
-    "collection": "Checks — Edition",
-    "volume": "71.77  ETH",
-    "floorPrice": "0.589  ETH"
-  },
-  {
-    "items": "520",
-    "owners": "72",
-    "volumeChange": "+314.4%",
-    "floorChange": "+35.7%",
-    "collection": "LaserCat",
-    "volume": "71.14  ETH",
-    "floorPrice": "5.7  ETH"
-  },
-  {
-    "items": "4.5K",
-    "owners": "1.9K",
-    "volumeChange": "-70.8%",
-    "floorChange": "+23.1%",
-    "collection": "BONIGO",
-    "volume": "68.35  ETH",
-    "floorPrice": "0.024  ETH"
-  },
-  {
+    "volumeChange": "-64.5%",
+    "floorChange": "-2.7%",
+    "collection": "Bored Ape Yacht Club",
+    "volume": "232.4  ETH",
+    "floorPrice": "26.26  ETH",
     "items": "10K",
-    "owners": "5.9K",
+    "owners": "5.8K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Untitled",
+    "volume": "130.1  ETH",
+    "floorPrice": "0.092  ETH",
+    "items": "3.9K",
+    "owners": "2K"
+  },
+  {
+    "volumeChange": "-30.3%",
+    "floorChange": "-4.3%",
+    "collection": "ALPHA PRESTIGE",
+    "volume": "125.1  ETH",
+    "floorPrice": "13.3  ETH",
+    "items": "500",
+    "owners": "406"
+  },
+  {
+    "volumeChange": "-65.1%",
+    "floorChange": "-8.3%",
+    "collection": "Moonbirds",
+    "volume": "120  ETH",
+    "floorPrice": "1.88  ETH",
+    "items": "10K",
+    "owners": "5.9K"
+  },
+  {
+    "volumeChange": "+111.3%",
+    "floorChange": "-24.2%",
+    "collection": "raW Pass",
+    "volume": "116.3  ETH",
+    "floorPrice": "0.16  ETH",
+    "items": "5.6K",
+    "owners": "1.8K"
+  },
+  {
+    "volumeChange": "+5,352.1%",
+    "floorChange": "-42%",
+    "collection": "KENTARO WAVES",
+    "volume": "107  ETH",
+    "floorPrice": "0.58  ETH",
+    "items": "500",
+    "owners": "396"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Creepz by OVERLORD",
+    "volume": "92.14  ETH",
+    "floorPrice": "3.45  ETH",
+    "items": "9.6K",
+    "owners": "2.4K"
+  },
+  {
+    "volumeChange": "+42.7%",
+    "floorChange": "-9.1%",
+    "collection": "Sugartown Oras",
+    "volume": "86.03  ETH",
+    "floorPrice": "0.49  ETH",
+    "items": "6.1K",
+    "owners": "1K"
+  },
+  {
+    "volumeChange": "-52.4%",
+    "floorChange": "-3.1%",
+    "collection": "Lil Pudgys",
+    "volume": "83.29  ETH",
+    "floorPrice": "0.939  ETH",
+    "items": "21.4K",
+    "owners": "8K"
+  },
+  {
+    "volumeChange": "-6.7%",
+    "floorChange": "-11.3%",
+    "collection": "Poglin: Nycra",
+    "volume": "69.55  ETH",
+    "floorPrice": "0.195  ETH",
+    "items": "5.6K",
+    "owners": "2.4K"
+  },
+  {
     "volumeChange": "-40.4%",
-    "floorChange": "-14.8%",
-    "collection": "mfer",
-    "volume": "67.08  ETH",
-    "floorPrice": "0.639  ETH"
-  },
-  {
-    "items": "2.5K",
-    "owners": "424",
-    "volumeChange": "-34.7%",
-    "floorChange": "-2.8%",
-    "collection": "ChronoForge Support Airships",
-    "volume": "64.88  ETH",
-    "floorPrice": "0.28  ETH"
-  },
-  {
-    "items": "3.3K",
-    "owners": "1.1K",
-    "volumeChange": "-57.8%",
-    "floorChange": "-19.2%",
-    "collection": "KILLABEARS",
-    "volume": "64.75  ETH",
-    "floorPrice": "0.788  ETH"
-  },
-  {
+    "floorChange": "-3.6%",
+    "collection": "Captainz",
+    "volume": "62.6  ETH",
+    "floorPrice": "4.5  ETH",
     "items": "10K",
-    "owners": "3.3K",
-    "volumeChange": "+12.6%",
-    "floorChange": "-14.1%",
-    "collection": "FLUF",
-    "volume": "64.08  ETH",
-    "floorPrice": "0.893  ETH"
+    "owners": "4.1K"
   },
   {
+    "volumeChange": "+408.6%",
+    "floorChange": "-0.9%",
+    "collection": "Redacted Remilio Babies",
+    "volume": "61.38  ETH",
+    "floorPrice": "0.53  ETH",
     "items": "10K",
-    "owners": "1.4K",
-    "volumeChange": "-93.1%",
-    "floorChange": "-14.3%",
-    "collection": "TOPIA Worlds",
-    "volume": "63.43  ETH",
-    "floorPrice": "3  ETH"
+    "owners": "2.7K"
   },
   {
-    "items": "1.1K",
-    "owners": "622",
-    "volumeChange": "-13%",
-    "floorChange": "-4.2%",
-    "collection": "AnarKey by TradeAI",
-    "volume": "62.65  ETH",
-    "floorPrice": "4.984  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Library Onchain",
+    "volume": "58.37  ETH",
+    "floorPrice": "3.5  ETH",
+    "items": "350",
+    "owners": "345"
   },
   {
-    "items": "375",
-    "owners": "125",
-    "volumeChange": "+112.6%",
-    "floorChange": "-92.1%",
-    "collection": "HipHop Rabbit",
-    "volume": "62.44  ETH",
-    "floorPrice": "0.055  ETH"
+    "volumeChange": "+24.2%",
+    "floorChange": "+20.1%",
+    "collection": "y00ts",
+    "volume": "57.26  ETH",
+    "floorPrice": "0.525  ETH",
+    "items": "11.4K",
+    "owners": "4.5K"
   },
   {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Terraforms by Mathcastles",
+    "volume": "55  ETH",
+    "floorPrice": "1.46  ETH",
+    "items": "9.9K",
+    "owners": "2K"
+  },
+  {
+    "volumeChange": "-67.6%",
+    "floorChange": "-0%",
+    "collection": "Milady Maker",
+    "volume": "53.54  ETH",
+    "floorPrice": "2.75  ETH",
+    "items": "10K",
+    "owners": "3.7K"
+  },
+  {
+    "volumeChange": "-46.7%",
+    "floorChange": "-0%",
+    "collection": "Pixelmon - Generation 1",
+    "volume": "53.23  ETH",
+    "floorPrice": "2  ETH",
+    "items": "12.1K",
+    "owners": "2.7K"
+  },
+  {
+    "volumeChange": "+125.2%",
+    "floorChange": "-0.7%",
+    "collection": "Otherdeed Expanded",
+    "volume": "52.94  ETH",
+    "floorPrice": "0.287  ETH",
+    "items": "52.9K",
+    "owners": "13.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Wrapped Cryptopunks",
+    "volume": "52.16  ETH",
+    "floorPrice": "129  ETH",
+    "items": "838",
+    "owners": "163"
+  },
+  {
+    "volumeChange": "+7.1%",
+    "floorChange": "-4.9%",
+    "collection": "BlockGames Dice",
+    "volume": "52  ETH",
+    "floorPrice": "0.425  ETH",
+    "items": "5.6K",
+    "owners": "2K"
+  },
+  {
+    "volumeChange": "-14.9%",
+    "floorChange": "-1.5%",
+    "collection": "CloneX",
+    "volume": "48.77  ETH",
+    "floorPrice": "1.249  ETH",
+    "items": "19.5K",
+    "owners": "10.1K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Fidenza by Tyler Hobbs",
+    "volume": "47.64  ETH",
+    "floorPrice": "59.88  ETH",
+    "items": "999",
+    "owners": "484"
+  },
+  {
+    "volumeChange": "-27.1%",
+    "floorChange": "+2.8%",
+    "collection": "ElectricSheep",
+    "volume": "44.95  ETH",
+    "floorPrice": "1.85  ETH",
+    "items": "7K",
+    "owners": "2.3K"
+  },
+  {
+    "volumeChange": "-30.9%",
+    "floorChange": "-16%",
+    "collection": "Pioneer of Fusionist",
+    "volume": "43.84  ETH",
+    "floorPrice": "3.4  ETH",
+    "items": "298",
+    "owners": "240"
+  },
+  {
+    "volumeChange": "-82.3%",
+    "floorChange": "+12.9%",
+    "collection": "Skyborne - Nexian Gems",
+    "volume": "39.83  ETH",
+    "floorPrice": "0.79  ETH",
     "items": "3.3K",
-    "owners": "581",
-    "volumeChange": "+58.7%",
-    "floorChange": "-9.5%",
-    "collection": "The Plooshies",
-    "volume": "60.89  ETH",
-    "floorPrice": "0.43  ETH"
+    "owners": "994"
   },
   {
-    "items": "4",
-    "owners": "413",
-    "volumeChange": "-48.4%",
-    "floorChange": "+3.9%",
-    "collection": "Evolution Serum",
-    "volume": "58.11  ETH",
-    "floorPrice": "2.28  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Seedworld Vanguards",
+    "volume": "38.49  ETH",
+    "floorPrice": "0.48  ETH",
+    "items": "4.4K",
+    "owners": "1.1K"
   },
   {
-    "items": "200",
-    "owners": "128",
-    "volumeChange": "-45%",
-    "floorChange": "-40%",
-    "collection": "Signature by Jack Butcher",
-    "volume": "56.04  ETH",
-    "floorPrice": "2.64  ETH"
+    "volumeChange": "+69.5%",
+    "floorChange": "+2.9%",
+    "collection": "Yakuza Pandas",
+    "volume": "38.36  ETH",
+    "floorPrice": "1.8  ETH",
+    "items": "7.9K",
+    "owners": "2.3K"
   },
   {
-    "items": "520",
-    "owners": "212",
+    "volumeChange": "+16%",
+    "floorChange": "-2.7%",
+    "collection": "Opepen Edition",
+    "volume": "37.9  ETH",
+    "floorPrice": "0.389  ETH",
+    "items": "16K",
+    "owners": "4.6K"
+  },
+  {
+    "volumeChange": "-44.3%",
+    "floorChange": "-0%",
+    "collection": "BoredApeKennelClub",
+    "volume": "37.02  ETH",
+    "floorPrice": "1.62  ETH",
+    "items": "9.6K",
+    "owners": "5.2K"
+  },
+  {
+    "volumeChange": "+20%",
+    "floorChange": "-3.1%",
+    "collection": "Otherside Koda",
+    "volume": "36.96  ETH",
+    "floorPrice": "4.3  ETH",
+    "items": "6.5K",
+    "owners": "3.5K"
+  },
+  {
+    "volumeChange": "+1,037.1%",
+    "floorChange": "+3.1%",
+    "collection": "The Grapes",
+    "volume": "34.96  ETH",
+    "floorPrice": "2  ETH",
+    "items": "3.3K",
+    "owners": "1.1K"
+  },
+  {
+    "volumeChange": "-49%",
+    "floorChange": "-0.4%",
+    "collection": "Yogapetz",
+    "volume": "34.51  ETH",
+    "floorPrice": "0.667  ETH",
+    "items": "10.1K",
+    "owners": "3.3K"
+  },
+  {
+    "volumeChange": "-20.1%",
+    "floorChange": "-3%",
+    "collection": "Mocaverse",
+    "volume": "31.38  ETH",
+    "floorPrice": "3.2  ETH",
+    "items": "8.9K",
+    "owners": "2.1K"
+  },
+  {
+    "volumeChange": "+65.9%",
+    "floorChange": "-1.4%",
+    "collection": "Mittaria Genesis",
+    "volume": "29.82  ETH",
+    "floorPrice": "0.7  ETH",
+    "items": "2.2K",
+    "owners": "1.1K"
+  },
+  {
+    "volumeChange": "-36.6%",
+    "floorChange": "-2.2%",
+    "collection": "Farm Land by Pixels",
+    "volume": "23.65  ETH",
+    "floorPrice": "1.59  ETH",
+    "items": "5K",
+    "owners": "2.1K"
+  },
+  {
+    "volumeChange": "-62.2%",
+    "floorChange": "-29.6%",
+    "collection": "KOKODI",
+    "volume": "23.58  ETH",
+    "floorPrice": "0.095  ETH",
+    "items": "5.5K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "KartParty-YKZ",
+    "volume": "22.64  ETH",
+    "floorPrice": "2.3  ETH",
+    "items": "699",
+    "owners": "247"
+  },
+  {
+    "volumeChange": "-78.3%",
+    "floorChange": "+0.1%",
+    "collection": "Doodles",
+    "volume": "22.49  ETH",
+    "floorPrice": "1.9  ETH",
+    "items": "10K",
+    "owners": "5.8K"
+  },
+  {
+    "volumeChange": "+19.9%",
+    "floorChange": "-0.3%",
+    "collection": "V1 Cryptopunks (Wrapped)",
+    "volume": "22.26  ETH",
+    "floorPrice": "3.98  ETH",
+    "items": "4.9K",
+    "owners": "1K"
+  },
+  {
+    "volumeChange": "-56.3%",
+    "floorChange": "+23.5%",
+    "collection": "SERAPH Priority Pass Official",
+    "volume": "21.56  ETH",
+    "floorPrice": "2.84  ETH",
+    "items": "999",
+    "owners": "446"
+  },
+  {
+    "volumeChange": "-38.2%",
+    "floorChange": "+9.6%",
+    "collection": "Azuki Elementals",
+    "volume": "21.55  ETH",
+    "floorPrice": "0.587  ETH",
+    "items": "14.5K",
+    "owners": "5.1K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Memories of Qilin by Emily Xie",
+    "volume": "21.32  ETH",
+    "floorPrice": "4.99  ETH",
+    "items": "1K",
+    "owners": "514"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Winds of Yawanawa by Yawanawa and Refik Anadol",
+    "volume": "20.65  ETH",
+    "floorPrice": "7.65  ETH",
+    "items": "1K",
+    "owners": "621"
+  },
+  {
+    "volumeChange": "+400.3%",
+    "floorChange": "+38.5%",
+    "collection": "Purr Pass",
+    "volume": "20.39  ETH",
+    "floorPrice": "5.4  ETH",
+    "items": "111",
+    "owners": "104"
+  },
+  {
+    "volumeChange": "+114.5%",
+    "floorChange": "+68.4%",
+    "collection": "Metacene Apostle NFT",
+    "volume": "20.16  ETH",
+    "floorPrice": "0.99  ETH",
+    "items": "500",
+    "owners": "319"
+  },
+  {
+    "volumeChange": "+95%",
+    "floorChange": "+3.7%",
+    "collection": "Oh Ottie!",
+    "volume": "20.16  ETH",
+    "floorPrice": "1.347  ETH",
+    "items": "2K",
+    "owners": "1.3K"
+  },
+  {
+    "volumeChange": "+561.4%",
+    "floorChange": "+36.3%",
+    "collection": "PORSCHΞ 911",
+    "volume": "19.87  ETH",
+    "floorPrice": "0.749  ETH",
+    "items": "2.4K",
+    "owners": "1.4K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Otherdeed",
+    "volume": "19.45  ETH",
+    "floorPrice": "0.55  ETH",
+    "items": "84K",
+    "owners": "17.1K"
+  },
+  {
+    "volumeChange": "-11.2%",
+    "floorChange": "+0.1%",
+    "collection": "Cool Cats",
+    "volume": "18.91  ETH",
+    "floorPrice": "1  ETH",
+    "items": "10K",
+    "owners": "5.9K"
+  },
+  {
     "volumeChange": "",
     "floorChange": "",
     "collection": "YouAreTheChampion",
-    "volume": "55.5  ETH",
-    "floorPrice": "25  ETH"
+    "volume": "18.7  ETH",
+    "floorPrice": "25  ETH",
+    "items": "520",
+    "owners": "212"
   },
   {
+    "volumeChange": "+1,566.2%",
+    "floorChange": "+75%",
+    "collection": "Common Wealth Genesis NFT Series 1",
+    "volume": "17.93  ETH",
+    "floorPrice": "1.89  ETH",
+    "items": "1.8K",
+    "owners": "46"
+  },
+  {
+    "volumeChange": "+7.1%",
+    "floorChange": "-0%",
+    "collection": "Neo Tokyo Outer Citizen V2",
+    "volume": "17.47  ETH",
+    "floorPrice": "2.75  ETH",
+    "items": "3.2K",
+    "owners": "1.2K"
+  },
+  {
+    "volumeChange": "+24.2%",
+    "floorChange": "+24%",
+    "collection": "World Of Women",
+    "volume": "16.96  ETH",
+    "floorPrice": "1.444  ETH",
+    "items": "10K",
+    "owners": "5.4K"
+  },
+  {
+    "volumeChange": "+887.5%",
+    "floorChange": "+14.9%",
+    "collection": "Mavia Land",
+    "volume": "16.86  ETH",
+    "floorPrice": "0.678  ETH",
+    "items": "10K",
+    "owners": "2.4K"
+  },
+  {
+    "volumeChange": "+311.2%",
+    "floorChange": "-2.3%",
+    "collection": "mfer",
+    "volume": "16.84  ETH",
+    "floorPrice": "0.628  ETH",
+    "items": "10K",
+    "owners": "5.8K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "THE WHITE RABBIT",
+    "volume": "16.41  ETH",
+    "floorPrice": "0.012  ETH",
+    "items": "118",
+    "owners": "203"
+  },
+  {
+    "volumeChange": "-0.9%",
+    "floorChange": "-8.4%",
+    "collection": "Fortune Founder\u0027s Key by AOFverse",
+    "volume": "16.24  ETH",
+    "floorPrice": "0.435  ETH",
+    "items": "2.2K",
+    "owners": "1K"
+  },
+  {
+    "volumeChange": "+210.3%",
+    "floorChange": "-2.7%",
+    "collection": "DeepBlack",
+    "volume": "15.33  ETH",
+    "floorPrice": "1.08  ETH",
+    "items": "3.1K",
+    "owners": "707"
+  },
+  {
+    "volumeChange": "+131%",
+    "floorChange": "+32.2%",
+    "collection": "Skyborne - Genesis Immortals",
+    "volume": "15.15  ETH",
+    "floorPrice": "0.115  ETH",
+    "items": "10K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Work X Genesis NFT",
+    "volume": "14.69  ETH",
+    "floorPrice": "0.09  ETH",
+    "items": "653",
+    "owners": "481"
+  },
+  {
+    "volumeChange": "+80.1%",
+    "floorChange": "-10%",
+    "collection": "TOPIA Worlds",
+    "volume": "14.3  ETH",
+    "floorPrice": "2.7  ETH",
+    "items": "10K",
+    "owners": "1.4K"
+  },
+  {
+    "volumeChange": "-32.6%",
+    "floorChange": "+0.3%",
+    "collection": "Neo Tokyo Citizen V2",
+    "volume": "13.9  ETH",
+    "floorPrice": "16  ETH",
+    "items": "1.9K",
+    "owners": "372"
+  },
+  {
+    "volumeChange": "+90%",
+    "floorChange": "+7.4%",
+    "collection": "OnChainMonkey",
+    "volume": "13.46  ETH",
+    "floorPrice": "1.589  ETH",
+    "items": "9.5K",
+    "owners": "5.4K"
+  },
+  {
+    "volumeChange": "+290.4%",
+    "floorChange": "+5.5%",
+    "collection": "The Harvest by Per Kristian Stoveland",
+    "volume": "13.4  ETH",
+    "floorPrice": "4.16  ETH",
+    "items": "400",
+    "owners": "269"
+  },
+  {
+    "volumeChange": "-40.9%",
+    "floorChange": "-1.3%",
+    "collection": "BEANZ Official",
+    "volume": "13.13  ETH",
+    "floorPrice": "0.395  ETH",
+    "items": "19.9K",
+    "owners": "8K"
+  },
+  {
+    "volumeChange": "+957.1%",
+    "floorChange": "+74%",
+    "collection": "Nifty Island: Legendary Palms",
+    "volume": "12.54  ETH",
+    "floorPrice": "0.785  ETH",
+    "items": "6",
+    "owners": "529"
+  },
+  {
+    "volumeChange": "+149.2%",
+    "floorChange": "-22.2%",
+    "collection": "IconicNFT",
+    "volume": "12.33  ETH",
+    "floorPrice": "0.389  ETH",
+    "items": "400",
+    "owners": "144"
+  },
+  {
+    "volumeChange": "+1.9%",
+    "floorChange": "-0.1%",
+    "collection": "Nakamigos",
+    "volume": "12.1  ETH",
+    "floorPrice": "0.172  ETH",
+    "items": "20K",
+    "owners": "5.6K"
+  },
+  {
+    "volumeChange": "+25.7%",
+    "floorChange": "+10.5%",
+    "collection": "Pudgy Rods",
+    "volume": "11.99  ETH",
+    "floorPrice": "0.55  ETH",
+    "items": "7.4K",
+    "owners": "2.9K"
+  },
+  {
+    "volumeChange": "+62.1%",
+    "floorChange": "-9.3%",
+    "collection": "Imaginary Ones",
+    "volume": "11.67  ETH",
+    "floorPrice": "1.02  ETH",
+    "items": "8.9K",
+    "owners": "1.4K"
+  },
+  {
+    "volumeChange": "-59%",
+    "floorChange": "-1.9%",
+    "collection": "Meebits",
+    "volume": "11.5  ETH",
+    "floorPrice": "1.16  ETH",
+    "items": "20K",
+    "owners": "6.7K"
+  },
+  {
+    "volumeChange": "+34.2%",
+    "floorChange": "-2.7%",
+    "collection": "Chromie Squiggle by Snowfro",
+    "volume": "11.29  ETH",
+    "floorPrice": "8.75  ETH",
+    "items": "10K",
+    "owners": "2.9K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Hedz",
+    "volume": "11.25  ETH",
+    "floorPrice": "1.98  ETH",
+    "items": "1K",
+    "owners": "305"
+  },
+  {
+    "volumeChange": "+422.6%",
+    "floorChange": "-7.6%",
+    "collection": "PROOF Collective",
+    "volume": "11.21  ETH",
+    "floorPrice": "2.4  ETH",
+    "items": "1K",
+    "owners": "916"
+  },
+  {
+    "volumeChange": "+897.4%",
+    "floorChange": "+37.1%",
+    "collection": "Gray Boys",
+    "volume": "11.21  ETH",
+    "floorPrice": "0.139  ETH",
+    "items": "10K",
+    "owners": "3.4K"
+  },
+  {
+    "volumeChange": "+386%",
+    "floorChange": "-3.8%",
+    "collection": "The Memes by 6529",
+    "volume": "10.9  ETH",
+    "floorPrice": "0.025  ETH",
+    "items": "180",
+    "owners": "9.7K"
+  },
+  {
+    "volumeChange": "-60.4%",
+    "floorChange": "-0.7%",
+    "collection": "Azuki Elemental Beans",
+    "volume": "10.43  ETH",
+    "floorPrice": "0.704  ETH",
+    "items": "5.4K",
+    "owners": "1.9K"
+  },
+  {
+    "volumeChange": "+217.1%",
+    "floorChange": "-25%",
+    "collection": "Town Star",
+    "volume": "10.38  ETH",
+    "floorPrice": "~0.001  ETH",
+    "items": "1.9K",
+    "owners": "69.6K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Kitaro World",
+    "volume": "10.31  ETH",
+    "floorPrice": "0.16  ETH",
+    "items": "7.8K",
+    "owners": "2.2K"
+  },
+  {
+    "volumeChange": "+321.2%",
+    "floorChange": "-1.3%",
+    "collection": "TheCurrency",
+    "volume": "10.29  ETH",
+    "floorPrice": "1.579  ETH",
+    "items": "2K",
+    "owners": "1.6K"
+  },
+  {
+    "volumeChange": "-59.1%",
+    "floorChange": "-2.5%",
+    "collection": "Parallel Planetfall",
+    "volume": "9.65  ETH",
+    "floorPrice": "0.003  ETH",
+    "items": "558",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "+108.6%",
+    "floorChange": "+1.8%",
+    "collection": "UA3 The Real OG Pass",
+    "volume": "9.55  ETH",
+    "floorPrice": "4.99  ETH",
+    "items": "1",
+    "owners": "299"
+  },
+  {
+    "volumeChange": "-40.4%",
+    "floorChange": "-1.8%",
+    "collection": "Sappy Seals",
+    "volume": "9.398  ETH",
+    "floorPrice": "0.632  ETH",
+    "items": "10K",
+    "owners": "2.1K"
+  },
+  {
+    "volumeChange": "+71.9%",
+    "floorChange": "+7.8%",
+    "collection": "Egg",
+    "volume": "9.369  ETH",
+    "floorPrice": "0.29  ETH",
+    "items": "16.7K",
+    "owners": "6.8K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Candy Collective: Genesis Collection",
+    "volume": "9.115  ETH",
+    "floorPrice": "0.34  ETH",
+    "items": "2K",
+    "owners": "655"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "PROOF Collective Grails",
+    "volume": "9.066  ETH",
+    "floorPrice": "0.769  ETH",
+    "items": "1K",
+    "owners": "648"
+  },
+  {
+    "volumeChange": "-14.3%",
+    "floorChange": "-10%",
+    "collection": "Trademark by Jack Butcher",
+    "volume": "9.002  ETH",
+    "floorPrice": "0.125  ETH",
+    "items": "10K",
+    "owners": "3.7K"
+  },
+  {
+    "volumeChange": "-63.5%",
+    "floorChange": "-12.9%",
+    "collection": "a KID called BEAST",
+    "volume": "8.999  ETH",
+    "floorPrice": "0.278  ETH",
+    "items": "10K",
+    "owners": "3.9K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Memories of Digital Data by Kazuhiro Tanimoto",
+    "volume": "8.989  ETH",
+    "floorPrice": "0.78  ETH",
+    "items": "450",
+    "owners": "239"
+  },
+  {
+    "volumeChange": "+9.7%",
+    "floorChange": "-4.8%",
+    "collection": "ChronoForge",
+    "volume": "8.778  ETH",
+    "floorPrice": "0.26  ETH",
+    "items": "7.5K",
+    "owners": "1.5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Meridian by Matt DesLauriers",
+    "volume": "8.5  ETH",
+    "floorPrice": "8.69  ETH",
+    "items": "1K",
+    "owners": "627"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "DigiDaigaku Genesis",
+    "volume": "8.425  ETH",
+    "floorPrice": "4.88  ETH",
+    "items": "2K",
+    "owners": "755"
+  },
+  {
+    "volumeChange": "+16.8%",
+    "floorChange": "-5.5%",
+    "collection": "Cryptoadz",
+    "volume": "8.386  ETH",
+    "floorPrice": "0.86  ETH",
+    "items": "7K",
+    "owners": "4K"
+  },
+  {
+    "volumeChange": "-46.3%",
+    "floorChange": "+7.1%",
+    "collection": "Parallel Avatars",
+    "volume": "8.319  ETH",
+    "floorPrice": "1.069  ETH",
+    "items": "11K",
+    "owners": "2.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Flyfish Club",
+    "volume": "8.318  ETH",
+    "floorPrice": "1.478  ETH",
+    "items": "3K",
+    "owners": "1.3K"
+  },
+  {
+    "volumeChange": "+31.8%",
+    "floorChange": "+10.1%",
+    "collection": "Genuine Undead",
+    "volume": "8.305  ETH",
+    "floorPrice": "0.11  ETH",
+    "items": "10K",
+    "owners": "3.1K"
+  },
+  {
+    "volumeChange": "-74.6%",
+    "floorChange": "+14.6%",
+    "collection": "Checks — Originals",
+    "volume": "8.002  ETH",
+    "floorPrice": "0.286  ETH",
+    "items": "5.7K",
+    "owners": "1.9K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "parallel",
+    "volume": "7.983  ETH",
+    "floorPrice": "~0.001  ETH",
+    "items": "989",
+    "owners": "60.7K"
+  },
+  {
+    "volumeChange": "-45.2%",
+    "floorChange": "+29.4%",
+    "collection": "NFTrees",
+    "volume": "7.8  ETH",
+    "floorPrice": "11  ETH",
+    "items": "420",
+    "owners": "250"
+  },
+  {
+    "volumeChange": "-48.2%",
+    "floorChange": "-9.9%",
+    "collection": "Checks — Edition",
+    "volume": "7.759  ETH",
+    "floorPrice": "0.531  ETH",
+    "items": "5.4K",
+    "owners": "3K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Treeverse",
+    "volume": "7.716  ETH",
+    "floorPrice": "0.705  ETH",
+    "items": "10.4K",
+    "owners": "3.3K"
+  },
+  {
+    "volumeChange": "+160.8%",
+    "floorChange": "-6%",
+    "collection": "AcclimatedMoonCats",
+    "volume": "7.658  ETH",
+    "floorPrice": "0.225  ETH",
+    "items": "19.8K",
+    "owners": "5.7K"
+  },
+  {
+    "volumeChange": "+310.8%",
+    "floorChange": "-0%",
+    "collection": "Worried Meerkats",
+    "volume": "7.634  ETH",
+    "floorPrice": "0.489  ETH",
+    "items": "1.1K",
+    "owners": "275"
+  },
+  {
+    "volumeChange": "-60.3%",
+    "floorChange": "+6.2%",
+    "collection": "Shrapnel Operators Collection",
+    "volume": "7.436  ETH",
+    "floorPrice": "0.274  ETH",
+    "items": "10K",
+    "owners": "3K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Tribe Diamonds",
+    "volume": "7.273  ETH",
+    "floorPrice": "9  ETH",
+    "items": "200",
+    "owners": "112"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "504.xyz",
+    "volume": "7.27  ETH",
+    "floorPrice": "1.8  ETH",
+    "items": "268",
+    "owners": "173"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "ENS domains",
+    "volume": "7.263  ETH",
+    "floorPrice": "~0.001  ETH",
+    "items": "3.2M",
+    "owners": "712.5K"
+  },
+  {
+    "volumeChange": "+380.4%",
+    "floorChange": "+7.6%",
+    "collection": "alignDRAW",
+    "volume": "7.48  ETH",
+    "floorPrice": "0.199  ETH",
+    "items": "2.7K",
+    "owners": "500"
+  },
+  {
+    "volumeChange": "-54.4%",
+    "floorChange": "-1.2%",
+    "collection": "Impostors Genesis Aliens",
+    "volume": "6.853  ETH",
+    "floorPrice": "0.68  ETH",
+    "items": "10.4K",
+    "owners": "4.3K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Sybil Samurai",
+    "volume": "6.665  ETH",
+    "floorPrice": "0.105  ETH",
+    "items": "5.1K",
+    "owners": "1.3K"
+  },
+  {
+    "volumeChange": "-70.3%",
+    "floorChange": "-6%",
+    "collection": "Matr1x 2061",
+    "volume": "6.3  ETH",
+    "floorPrice": "3.1  ETH",
+    "items": "2.1K",
+    "owners": "643"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Land of Valeria",
+    "volume": "6.223  ETH",
+    "floorPrice": "0.9  ETH",
+    "items": "10K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "+91.2%",
+    "floorChange": "+19.5%",
+    "collection": "Invisible Friends",
+    "volume": "6.133  ETH",
+    "floorPrice": "0.448  ETH",
+    "items": "5K",
+    "owners": "3.6K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "The Mounts of Seedworld",
+    "volume": "6.022  ETH",
+    "floorPrice": "0.48  ETH",
+    "items": "3.1K",
+    "owners": "1.3K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "FRESH HELL",
+    "volume": "5.993  ETH",
+    "floorPrice": "6.66  ETH",
+    "items": "2",
+    "owners": "61"
+  },
+  {
+    "volumeChange": "+165.3%",
+    "floorChange": "-6.3%",
+    "collection": "Vendetta Frontier Pass",
+    "volume": "5.812  ETH",
+    "floorPrice": "0.28  ETH",
+    "items": "888",
+    "owners": "424"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "AlfaDAO",
+    "volume": "5.5  ETH",
+    "floorPrice": "3  ETH",
+    "items": "502",
+    "owners": "435"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Rare Pepe (2016 - 2018)",
+    "volume": "5.323  ETH",
+    "floorPrice": "0.015  ETH",
+    "items": "1.6K",
+    "owners": "5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Steady Stack Legends",
+    "volume": "5.264  ETH",
+    "floorPrice": "0.29  ETH",
+    "items": "10K",
+    "owners": "2.8K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "MEMBERSHIP S",
+    "volume": "5.165  ETH",
+    "floorPrice": "3  ETH",
+    "items": "391",
+    "owners": "335"
+  },
+  {
+    "volumeChange": "+2,496%",
+    "floorChange": "+9.1%",
+    "collection": "Nakamigos-CLOAKS",
+    "volume": "5.144  ETH",
+    "floorPrice": "0.029  ETH",
+    "items": "20K",
+    "owners": "3.9K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Memewhales by tradeAI",
+    "volume": "5.104  ETH",
+    "floorPrice": "3.75  ETH",
+    "items": "700",
+    "owners": "482"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "MetaHero Universe: Planet Tokens",
+    "volume": "5.079  ETH",
+    "floorPrice": "0.043  ETH",
+    "items": "11",
+    "owners": "10.3K"
+  },
+  {
+    "volumeChange": "-84.9%",
+    "floorChange": "-0.5%",
+    "collection": "L3E7 Worlds",
+    "volume": "4.97  ETH",
+    "floorPrice": "5.994  ETH",
     "items": "600",
-    "owners": "315",
-    "volumeChange": "+181.7%",
-    "floorChange": "+13.7%",
-    "collection": "Archetype by Kjetil Golid",
-    "volume": "55  ETH",
-    "floorPrice": "9.99  ETH"
+    "owners": "361"
   },
   {
-    "items": "79",
-    "owners": "56",
-    "volumeChange": "+452.7%",
-    "floorChange": "+192.9%",
-    "collection": "Overworld Key",
-    "volume": "53.92  ETH",
-    "floorPrice": "29  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Nexus Gaming Lifetime Pass",
+    "volume": "4.91  ETH",
+    "floorPrice": "1.7  ETH",
+    "items": "2.1K",
+    "owners": "523"
   },
   {
-    "items": "14.4K",
-    "owners": "3.5K",
-    "volumeChange": "-66.9%",
-    "floorChange": "-8%",
-    "collection": "BrainDrops",
-    "volume": "53.35  ETH",
-    "floorPrice": "0.069  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Consortium Key",
+    "volume": "4.862  ETH",
+    "floorPrice": "1.2  ETH",
+    "items": "777",
+    "owners": "578"
   },
   {
-    "items": "10.5K",
-    "owners": "3.2K",
+    "volumeChange": "+401.7%",
+    "floorChange": "+5.3%",
+    "collection": "Defimons Apartments",
+    "volume": "4.859  ETH",
+    "floorPrice": "0.34  ETH",
+    "items": "2.9K",
+    "owners": "790"
+  },
+  {
+    "volumeChange": "+1,116%",
+    "floorChange": "-3.7%",
+    "collection": "Akutars",
+    "volume": "4.805  ETH",
+    "floorPrice": "0.079  ETH",
+    "items": "15K",
+    "owners": "5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "LaserCat",
+    "volume": "4.79  ETH",
+    "floorPrice": "5.7  ETH",
+    "items": "520",
+    "owners": "73"
+  },
+  {
+    "volumeChange": "-51%",
+    "floorChange": "-7%",
+    "collection": "Potatoz",
+    "volume": "4.785  ETH",
+    "floorPrice": "1.6  ETH",
+    "items": "10K",
+    "owners": "3K"
+  },
+  {
+    "volumeChange": "+388.2%",
+    "floorChange": "+15.8%",
+    "collection": "Supreme Kong",
+    "volume": "4.78  ETH",
+    "floorPrice": "0.585  ETH",
+    "items": "2K",
+    "owners": "495"
+  },
+  {
+    "volumeChange": "-33%",
+    "floorChange": "+4.1%",
+    "collection": "Sproto Gremlins",
+    "volume": "4.696  ETH",
+    "floorPrice": "0.583  ETH",
+    "items": "3.3K",
+    "owners": "1.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "On the Edge of Oblivion",
+    "volume": "4.65  ETH",
+    "floorPrice": "2.99  ETH",
+    "items": "554",
+    "owners": "71"
+  },
+  {
+    "volumeChange": "-38.4%",
+    "floorChange": "-0.7%",
+    "collection": "Bit Bears",
+    "volume": "4.565  ETH",
+    "floorPrice": "2.48  ETH",
+    "items": "2.3K",
+    "owners": "935"
+  },
+  {
+    "volumeChange": "-53.6%",
+    "floorChange": "+7.7%",
+    "collection": "Descendants of Smurfcat",
+    "volume": "4.515  ETH",
+    "floorPrice": "0.14  ETH",
+    "items": "3.3K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "+306.4%",
+    "floorChange": "+0.7%",
+    "collection": "FLUF",
+    "volume": "4.452  ETH",
+    "floorPrice": "0.899  ETH",
+    "items": "10K",
+    "owners": "3.3K"
+  },
+  {
+    "volumeChange": "-85.2%",
+    "floorChange": "+1.5%",
+    "collection": "Grails V",
+    "volume": "4.419  ETH",
+    "floorPrice": "0.203  ETH",
+    "items": "785",
+    "owners": "506"
+  },
+  {
+    "volumeChange": "+18.9%",
+    "floorChange": "-24.5%",
+    "collection": "Worldwide Webb Land",
+    "volume": "4.374  ETH",
+    "floorPrice": "0.15  ETH",
+    "items": "9.5K",
+    "owners": "4K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Azuki Apes",
+    "volume": "4.223  ETH",
+    "floorPrice": "0.047  ETH",
+    "items": "1.4K",
+    "owners": "288"
+  },
+  {
+    "volumeChange": "+1,297.5%",
+    "floorChange": "+103.3%",
+    "collection": "PROOF Pass",
+    "volume": "4.175  ETH",
+    "floorPrice": "0.61  ETH",
+    "items": "222",
+    "owners": "198"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Chosen of Civitas",
+    "volume": "4.127  ETH",
+    "floorPrice": "0.163  ETH",
+    "items": "1.5K",
+    "owners": "648"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Common Wealth Genesis NFT Series 2",
+    "volume": "4.113  ETH",
+    "floorPrice": "0.5  ETH",
+    "items": "3.4K",
+    "owners": "231"
+  },
+  {
+    "volumeChange": "+18.9%",
+    "floorChange": "-0.2%",
+    "collection": "Sofa Vision",
+    "volume": "4.061  ETH",
+    "floorPrice": "0.073  ETH",
+    "items": "4.4K",
+    "owners": "1.2K"
+  },
+  {
+    "volumeChange": "-8.3%",
+    "floorChange": "-5%",
+    "collection": "HV-MTL",
+    "volume": "4.059  ETH",
+    "floorPrice": "0.199  ETH",
+    "items": "28.3K",
+    "owners": "9.2K"
+  },
+  {
+    "volumeChange": "-85.1%",
+    "floorChange": "-20.3%",
+    "collection": "Quirkies",
+    "volume": "4.047  ETH",
+    "floorPrice": "0.55  ETH",
+    "items": "5K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "-48.6%",
+    "floorChange": "+20%",
+    "collection": "AltLayer OG Badge",
+    "volume": "4  ETH",
+    "floorPrice": "4.8  ETH",
+    "items": "400",
+    "owners": "299"
+  },
+  {
+    "volumeChange": "+353.9%",
+    "floorChange": "-10.7%",
+    "collection": "Binary",
+    "volume": "3.981  ETH",
+    "floorPrice": "0.05  ETH",
+    "items": "7.1K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "+116.7%",
+    "floorChange": "-1.9%",
+    "collection": "Realms (for Adventurers)",
+    "volume": "3.978  ETH",
+    "floorPrice": "0.52  ETH",
+    "items": "8K",
+    "owners": "485"
+  },
+  {
+    "volumeChange": "-52.3%",
+    "floorChange": "-3.5%",
+    "collection": "Keepers V2",
+    "volume": "3.943  ETH",
+    "floorPrice": "0.14  ETH",
+    "items": "10K",
+    "owners": "2.6K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "OpenSea Shared Storefront",
+    "volume": "3.878  ETH",
+    "floorPrice": "0  ETH",
+    "items": "2.1M",
+    "owners": "727.6K"
+  },
+  {
+    "volumeChange": "-78.7%",
+    "floorChange": "-25.9%",
+    "collection": "The Ant Republic",
+    "volume": "3.798  ETH",
+    "floorPrice": "0.02  ETH",
+    "items": "4.5K",
+    "owners": "1.4K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Travel Tiger Club",
+    "volume": "3.789  ETH",
+    "floorPrice": "4  ETH",
+    "items": "1K",
+    "owners": "697"
+  },
+  {
+    "volumeChange": "+124%",
+    "floorChange": "-16.7%",
+    "collection": "Wanderers - RAM Beta Bundle",
+    "volume": "3.755  ETH",
+    "floorPrice": "0.075  ETH",
+    "items": "2.2K",
+    "owners": "805"
+  },
+  {
+    "volumeChange": "+34.5%",
+    "floorChange": "-0.6%",
+    "collection": "My Pet Hooligan",
+    "volume": "3.735  ETH",
+    "floorPrice": "0.92  ETH",
+    "items": "8.9K",
+    "owners": "3.8K"
+  },
+  {
+    "volumeChange": "+759.8%",
+    "floorChange": "+2.3%",
+    "collection": "Mutant Hounds",
+    "volume": "3.71  ETH",
+    "floorPrice": "0.133  ETH",
+    "items": "7.4K",
+    "owners": "2.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Land",
+    "volume": "3.65  ETH",
+    "floorPrice": "0.034  ETH",
+    "items": "20K",
+    "owners": "3.5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Dour Darcels",
+    "volume": "3.636  ETH",
+    "floorPrice": "0.034  ETH",
+    "items": "10K",
+    "owners": "4.3K"
+  },
+  {
+    "volumeChange": "+57.5%",
+    "floorChange": "-0.9%",
+    "collection": "RENGA",
+    "volume": "3.612  ETH",
+    "floorPrice": "0.217  ETH",
+    "items": "8.9K",
+    "owners": "3.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "TradFiLines",
+    "volume": "3.6  ETH",
+    "floorPrice": "1.92  ETH",
+    "items": "500",
+    "owners": "137"
+  },
+  {
+    "volumeChange": "-53.2%",
+    "floorChange": "-2.3%",
+    "collection": "Pirate",
+    "volume": "3.55  ETH",
+    "floorPrice": "0.379  ETH",
+    "items": "10K",
+    "owners": "2.7K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "0N1 Force",
+    "volume": "3.51  ETH",
+    "floorPrice": "0.86  ETH",
+    "items": "7.8K",
+    "owners": "3.7K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "OzDAO",
+    "volume": "3.49  ETH",
+    "floorPrice": "6.09  ETH",
+    "items": "163",
+    "owners": "162"
+  },
+  {
+    "volumeChange": "+20.5%",
+    "floorChange": "+9.3%",
+    "collection": "DegenToonz",
+    "volume": "3.441  ETH",
+    "floorPrice": "0.163  ETH",
+    "items": "8.9K",
+    "owners": "3.7K"
+  },
+  {
+    "volumeChange": "+700.7%",
+    "floorChange": "+8.9%",
+    "collection": "Generativemasks",
+    "volume": "3.419  ETH",
+    "floorPrice": "0.048  ETH",
+    "items": "10K",
+    "owners": "3.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "JEFFWorld Genesis Avatar",
+    "volume": "3.34  ETH",
+    "floorPrice": "0.01  ETH",
+    "items": "5.1K",
+    "owners": "676"
+  },
+  {
+    "volumeChange": "-85.6%",
+    "floorChange": "-17.5%",
+    "collection": "Ether Avatar",
+    "volume": "3.339  ETH",
+    "floorPrice": "0.164  ETH",
+    "items": "4.8K",
+    "owners": "1.2K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Flightless Space Agency",
+    "volume": "3.201  ETH",
+    "floorPrice": "0.2  ETH",
+    "items": "3K",
+    "owners": "983"
+  },
+  {
+    "volumeChange": "-22.3%",
+    "floorChange": "-2.9%",
+    "collection": "Otherside Vessels",
+    "volume": "3.15  ETH",
+    "floorPrice": "0.17  ETH",
+    "items": "15.1K",
+    "owners": "6.5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Band Bears",
+    "volume": "3.133  ETH",
+    "floorPrice": "3.75  ETH",
+    "items": "1.2K",
+    "owners": "431"
+  },
+  {
+    "volumeChange": "+99.6%",
+    "floorChange": "-7.5%",
+    "collection": "RTFKT SKIN VIAL: EVO X",
+    "volume": "3.081  ETH",
+    "floorPrice": "0.032  ETH",
+    "items": "8.8K",
+    "owners": "4.7K"
+  },
+  {
+    "volumeChange": "+100%",
+    "floorChange": "+0.7%",
+    "collection": "Alpha Gate - Space Nation",
+    "volume": "2.93  ETH",
+    "floorPrice": "1.51  ETH",
+    "items": "515",
+    "owners": "438"
+  },
+  {
     "volumeChange": "",
     "floorChange": "",
     "collection": "FLUF World: Burrows",
-    "volume": "53.25  ETH",
-    "floorPrice": "0.192  ETH"
+    "volume": "2.868  ETH",
+    "floorPrice": "0.192  ETH",
+    "items": "10.5K",
+    "owners": "3.2K"
   },
   {
-    "items": "15.1K",
-    "owners": "6.5K",
-    "volumeChange": "-25.6%",
-    "floorChange": "+1.8%",
-    "collection": "Otherside Vessels",
-    "volume": "53.08  ETH",
-    "floorPrice": "0.175  ETH"
+    "volumeChange": "+40.9%",
+    "floorChange": "-12.5%",
+    "collection": "ChronoForge Support Airships",
+    "volume": "2.816  ETH",
+    "floorPrice": "0.245  ETH",
+    "items": "2.5K",
+    "owners": "424"
   },
   {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "RumbleKongLeague",
+    "volume": "2.805  ETH",
+    "floorPrice": "0.269  ETH",
     "items": "10K",
-    "owners": "151",
+    "owners": "3K"
+  },
+  {
+    "volumeChange": "+3.9%",
+    "floorChange": "-2.3%",
+    "collection": "The Plooshies",
+    "volume": "2.794  ETH",
+    "floorPrice": "0.42  ETH",
+    "items": "3.3K",
+    "owners": "583"
+  },
+  {
     "volumeChange": "",
     "floorChange": "",
-    "collection": "Urban Punk Official",
-    "volume": "53.05  ETH",
-    "floorPrice": "~0.001  ETH"
+    "collection": "Gener8tive K-Compositions",
+    "volume": "2.75  ETH",
+    "floorPrice": "6  ETH",
+    "items": "250",
+    "owners": "135"
   },
   {
-    "items": "8K",
-    "owners": "2.4K",
-    "volumeChange": "+12.2%",
-    "floorChange": "+9.2%",
-    "collection": "MetaHero",
-    "volume": "52.92  ETH",
-    "floorPrice": "0.393  ETH"
+    "volumeChange": "-49.7%",
+    "floorChange": "+3%",
+    "collection": "KFCdao pass",
+    "volume": "2.74  ETH",
+    "floorPrice": "1.37  ETH",
+    "items": "163",
+    "owners": "138"
   },
   {
-    "items": "5K",
-    "owners": "438",
-    "volumeChange": "-13.2%",
-    "floorChange": "+46.5%",
+    "volumeChange": "+694.5%",
+    "floorChange": "+200%",
+    "collection": "NiftyPistol",
+    "volume": "2.732  ETH",
+    "floorPrice": "0.096  ETH",
+    "items": "3.8K",
+    "owners": "1.9K"
+  },
+  {
+    "volumeChange": "-12.6%",
+    "floorChange": "-2.6%",
+    "collection": "Michelin 3xplorer Club",
+    "volume": "2.72  ETH",
+    "floorPrice": "0.262  ETH",
+    "items": "2.4K",
+    "owners": "969"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "SAINTS of LA",
+    "volume": "2.717  ETH",
+    "floorPrice": "0.145  ETH",
+    "items": "2.2K",
+    "owners": "643"
+  },
+  {
+    "volumeChange": "-49.1%",
+    "floorChange": "+5.8%",
+    "collection": "loomlocknft",
+    "volume": "2.714  ETH",
+    "floorPrice": "0.386  ETH",
+    "items": "9.6K",
+    "owners": "2.5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "MPL",
+    "volume": "2.693  ETH",
+    "floorPrice": "0.008  ETH",
+    "items": "10K",
+    "owners": "2.3K"
+  },
+  {
+    "volumeChange": "-52.5%",
+    "floorChange": "-0.4%",
+    "collection": "KILLABEARS",
+    "volume": "2.675  ETH",
+    "floorPrice": "0.785  ETH",
+    "items": "3.3K",
+    "owners": "1.1K"
+  },
+  {
+    "volumeChange": "+4.1%",
+    "floorChange": "+8.4%",
+    "collection": "Sofa Maker",
+    "volume": "2.666  ETH",
+    "floorPrice": "0.13  ETH",
+    "items": "1.3K",
+    "owners": "657"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
     "collection": "MetaTrustDAO",
-    "volume": "52.61  ETH",
-    "floorPrice": "0.088  ETH"
+    "volume": "2.649  ETH",
+    "floorPrice": "0.088  ETH",
+    "items": "5K",
+    "owners": "446"
   },
   {
-    "items": "1.1K",
-    "owners": "454",
-    "volumeChange": "+361.2%",
-    "floorChange": "+130.7%",
-    "collection": "The Bakery Genesis",
-    "volume": "52.22  ETH",
-    "floorPrice": "0.646  ETH"
+    "volumeChange": "+2.5%",
+    "floorChange": "+2.4%",
+    "collection": "Exosama",
+    "volume": "2.579  ETH",
+    "floorPrice": "0.299  ETH",
+    "items": "10K",
+    "owners": "1.4K"
   },
   {
-    "items": "22.6K",
-    "owners": "4.4K",
+    "volumeChange": "+56.6%",
+    "floorChange": "-3.2%",
+    "collection": "Karma",
+    "volume": "2.547  ETH",
+    "floorPrice": "0.15  ETH",
+    "items": "12.7K",
+    "owners": "2.8K"
+  },
+  {
     "volumeChange": "",
     "floorChange": "",
-    "collection": "ethv",
-    "volume": "51.94  ETH",
-    "floorPrice": "0.007  ETH"
+    "collection": "Dyad NFT",
+    "volume": "2.451  ETH",
+    "floorPrice": "0.4  ETH",
+    "items": "468",
+    "owners": "262"
   },
   {
-    "items": "989",
-    "owners": "60.6K",
-    "volumeChange": "-9.8%",
-    "floorChange": "-28.1%",
-    "collection": "parallel",
-    "volume": "51.05  ETH",
-    "floorPrice": "~0.001  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Convergence Pepe",
+    "volume": "2.45  ETH",
+    "floorPrice": "1.6  ETH",
+    "items": "106",
+    "owners": "80"
   },
   {
-    "items": "4.3K",
-    "owners": "936",
-    "volumeChange": "+38.2%",
-    "floorChange": "+21.4%",
-    "collection": "InfiniGods",
-    "volume": "50.58  ETH",
-    "floorPrice": "0.17  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "ForgottenRunesWizardsCult",
+    "volume": "2.441  ETH",
+    "floorPrice": "0.834  ETH",
+    "items": "9.3K",
+    "owners": "3.1K"
   },
   {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "THE SECOND ASPECT OF THE NINE",
+    "volume": "2.44  ETH",
+    "floorPrice": "2.38  ETH",
+    "items": "81",
+    "owners": "72"
+  },
+  {
+    "volumeChange": "-54.5%",
+    "floorChange": "-1.1%",
+    "collection": "Gutter Cat Gang",
+    "volume": "2.422  ETH",
+    "floorPrice": "0.445  ETH",
+    "items": "3K",
+    "owners": "1.7K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "X MARKS THE SPOT",
+    "volume": "2.395  ETH",
+    "floorPrice": "1.399  ETH",
+    "items": "100",
+    "owners": "89"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "BrainDrops",
+    "volume": "2.388  ETH",
+    "floorPrice": "0.069  ETH",
+    "items": "14.4K",
+    "owners": "3.5K"
+  },
+  {
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Wilder World",
+    "volume": "2.355  ETH",
+    "floorPrice": "0.29  ETH",
+    "items": "6.4K",
+    "owners": "2.2K"
+  },
+  {
+    "volumeChange": "+346.3%",
+    "floorChange": "+19%",
+    "collection": "Genesis Dimensional Stones",
+    "volume": "2.311  ETH",
+    "floorPrice": "0.309  ETH",
     "items": "1K",
-    "owners": "627",
-    "volumeChange": "+157.2%",
-    "floorChange": "-0.9%",
-    "collection": "Meridian by Matt DesLauriers",
-    "volume": "49.2  ETH",
-    "floorPrice": "8.39  ETH"
+    "owners": "298"
   },
   {
-    "items": "777",
-    "owners": "320",
-    "volumeChange": "-48.3%",
-    "floorChange": "-37.5%",
-    "collection": "Quaere Genesis Pass",
-    "volume": "49.03  ETH",
-    "floorPrice": "0.2  ETH"
+    "volumeChange": "+1,279.2%",
+    "floorChange": "+20%",
+    "collection": "HELIX Founder Pass",
+    "volume": "2.398  ETH",
+    "floorPrice": "0.12  ETH",
+    "items": "5K",
+    "owners": "903"
   },
   {
-    "items": "3.1K",
-    "owners": "1.3K",
-    "volumeChange": "+13.7%",
-    "floorChange": "+29.7%",
-    "collection": "The Mounts of Seedworld",
-    "volume": "47.27  ETH",
-    "floorPrice": "0.48  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Chimera by mpkoz",
+    "volume": "2.305  ETH",
+    "floorPrice": "0.99  ETH",
+    "items": "987",
+    "owners": "612"
   },
   {
-    "items": "515",
-    "owners": "438",
-    "volumeChange": "+99.9%",
-    "floorChange": "+22.9%",
-    "collection": "Alpha Gate - Space Nation",
-    "volume": "46.68  ETH",
-    "floorPrice": "1.45  ETH"
+    "volumeChange": "-72.2%",
+    "floorChange": "-1%",
+    "collection": "MetaHero",
+    "volume": "2.284  ETH",
+    "floorPrice": "0.389  ETH",
+    "items": "8K",
+    "owners": "2.4K"
   },
   {
-    "items": "2.9K",
-    "owners": "790",
-    "volumeChange": "-39%",
-    "floorChange": "+3.1%",
-    "collection": "Defimons Apartments",
-    "volume": "43.82  ETH",
-    "floorPrice": "0.34  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "Friendship Bracelets by Alexis André",
+    "volume": "2.258  ETH",
+    "floorPrice": "0.075  ETH",
+    "items": "38.7K",
+    "owners": "12.1K"
   },
   {
-    "items": "9.4K",
-    "owners": "2.9K",
-    "volumeChange": "-50.6%",
-    "floorChange": "-8.6%",
-    "collection": "Timeless",
-    "volume": "42.8  ETH",
-    "floorPrice": "0.299  ETH"
+    "volumeChange": "+79.5%",
+    "floorChange": "-0.1%",
+    "collection": "CyberBrokers",
+    "volume": "2.253  ETH",
+    "floorPrice": "0.269  ETH",
+    "items": "10K",
+    "owners": "3K"
   },
   {
-    "items": "5.1K",
-    "owners": "1.3K",
-    "volumeChange": "-47%",
-    "floorChange": "+6.2%",
-    "collection": "Sybil Samurai",
-    "volume": "41.96  ETH",
-    "floorPrice": "0.105  ETH"
+    "volumeChange": "-78.8%",
+    "floorChange": "+5.7%",
+    "collection": "Signature by Jack Butcher",
+    "volume": "2.2  ETH",
+    "floorPrice": "2.79  ETH",
+    "items": "200",
+    "owners": "129"
   },
   {
-    "items": "4.4K",
-    "owners": "1.2K",
-    "volumeChange": "-41.1%",
-    "floorChange": "+4.3%",
-    "collection": "Sofa Vision",
-    "volume": "41.92  ETH",
-    "floorPrice": "0.073  ETH"
+    "volumeChange": "",
+    "floorChange": "",
+    "collection": "WADE F\u0026F",
+    "volume": "2.189  ETH",
+    "floorPrice": "1.1  ETH",
+    "items": "2.1K",
+    "owners": "792"
+  },
+  {
+    "volumeChange": "-93.5%",
+    "floorChange": "-14.3%",
+    "collection": "Fusionist - Quartan Primes",
+    "volume": "2.149  ETH",
+    "floorPrice": "1.329  ETH",
+    "items": "641",
+    "owners": "394"
   }
 ]

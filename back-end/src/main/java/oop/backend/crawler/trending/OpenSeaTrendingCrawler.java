@@ -27,15 +27,18 @@ import java.util.List;
 @RequestMapping("${api.v1}/trending")
 public class OpenSeaTrendingCrawler extends GetOpenSea {
     private final String PATH_OPEN_SEA = PathFixUtil.fix(App.class.getResource(PathFile.PATH_OPEN_SEA_TRENDING).getPath());
-    private final PropertyGetter<OpenSeaDTO> openSeaAttr = new OpenSeaProperty();
+    PropertyGetter<OpenSeaDTO> openSeaAttr = new OpenSeaProperty();
 
     public OpenSeaTrendingCrawler() {
         selectionToRequest.put("Day", "?sortBy=one_day_volume");
         selectionToRequest.put("Week", "?sortBy=seven_day_volume");
+        selectionToRequest.put("Month", "");
+        selectionToRequest.put("AllTime", "");
     }
     @Override
     public List<OpenSeaDTO> getData(String selection) throws Exception {
         String request = selectionToRequest.get(selection);
+        PropertyGetter<OpenSeaDTO> openSeaAttr = new OpenSeaProperty();
         List<OpenSeaDTO> openSeas = new ArrayList<>();
         Document document = OpenSeaTrendingUtil.scrollAndGet(request);
         Elements elements = document.select("div.sc-e7b51c31-0");

@@ -36,7 +36,7 @@ public class TwitterCrawler extends GetTwitter {
             request = "%23"+QueryFixUtil.fix(selection);}
         else request = Url.URL_TWITTER_DEFAULT;
         List<TwitterDTO> twitters = new ArrayList<>();
-        final PropertyGetter<TwitterDTO> twitterAttr = new TwitterProperty();
+        PropertyGetter<TwitterDTO> twitterAttr = new TwitterProperty();
         Document document = TwitterSearchUtil.getByTag(request);
         Elements elements = document.select("div[data-testid='cellInnerDiv']");
         for (Element element : elements) {
@@ -47,7 +47,7 @@ public class TwitterCrawler extends GetTwitter {
         return twitters;
     }
 
-    private final JsonUtil<TwitterDTO> jsonHandler = new JsonUtil<>(PATH_TWITTER);
+    private JsonUtil<TwitterDTO> jsonHandler = new JsonUtil<>(PATH_TWITTER);
 
     @GetMapping("/twitter/{selection}")
     public ResponseEntity<?> getDataFromTwitter(@PathVariable("selection") String selection) {

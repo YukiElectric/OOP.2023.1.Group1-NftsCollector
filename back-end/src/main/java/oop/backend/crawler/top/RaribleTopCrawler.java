@@ -28,8 +28,6 @@ import java.util.List;
 public class RaribleTopCrawler extends GetRarible {
     private String PATH_RARIBLE = PathFixUtil.fix(App.class.getResource(PathFile.PATH_RARIBLE_TOP).getPath());
 
-    private final PropertyGetter<RaribleDTO> raribleAttr = new RaribleProperty();
-
     public RaribleTopCrawler(){
         selectionToRequest.put("Day", "");
         selectionToRequest.put("Week", "?period=WEEK");
@@ -40,11 +38,9 @@ public class RaribleTopCrawler extends GetRarible {
     public List<RaribleDTO> getData(String selection) throws Exception {
         String request = selectionToRequest.get(selection);
         Document document = RaribleTopUtil.scrollAndGet(request);
-
+        PropertyGetter<RaribleDTO> raribleAttr = new RaribleProperty();
         Elements elements = document.select("div.sc-icLIcW");
-
         List<RaribleDTO> raribles = new ArrayList<>();
-
         for (Element element : elements) {
             RaribleDTO rarible = raribleAttr.attrGet(element);
             if (rarible != null && !raribles.contains(rarible))
@@ -59,7 +55,5 @@ public class RaribleTopCrawler extends GetRarible {
     public ResponseEntity<?> getDataRarible(@PathVariable("selection") String selection) {
         return jsonHandler.handleJsonOperation(() -> getData(selection));
     }
-
-
 }
 

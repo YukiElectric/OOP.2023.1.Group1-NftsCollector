@@ -16,6 +16,7 @@ import org.jsoup.select.Elements;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,31 +29,37 @@ import java.util.List;
 public class NiftyTrendingCrawler extends GetNiftyTrending {
     private String PATH_NIFTY_GATEWAY =
             PathFixUtil.fix(App.class.getResource(PathFile.PATH_NIFTY_TRENDING).getPath());
-    private final PropertyGetter<NiftyTrendingDTO> niftyGatewayAttr = new NiftyTrendingProperty();
+
+    private JsonUtil<NiftyTrendingDTO> jsonHandler = new JsonUtil<>(PATH_NIFTY_GATEWAY);
+
+    public NiftyTrendingCrawler(){
+        selectionToRequest.put("Day", "");
+        selectionToRequest.put("Week", "");
+        selectionToRequest.put("Month", "");
+        selectionToRequest.put("AllTime", "");
+    }
 
     @Override
-    public List<NiftyTrendingDTO> getData() throws Exception {
+    public List<NiftyTrendingDTO> getData(String selection) throws Exception {
+        String request = selectionToRequest.get(selection);
+        PropertyGetter<NiftyTrendingDTO> niftyGatewayAttr = new NiftyTrendingProperty();
         List<NiftyTrendingDTO> niftyGateways = new ArrayList<>();
-        Document document = NiftyTrendingUtil.scrollAndGet(Url.URL_NIFTY_TRENDING);
+        Document document = NiftyTrendingUtil.scrollAndGet(request);
         Elements elements = document.select("div.css-jj9f9r");
         for (Element element : elements) {
             NiftyTrendingDTO niftyGateway = niftyGatewayAttr.attrGet(element);
-
             if (niftyGateway != null && !niftyGateways.contains(niftyGateway))
                 niftyGateways.add(niftyGateway);
         }
         return niftyGateways;
     }
-
-    private JsonUtil<NiftyTrendingDTO> jsonHandler = new JsonUtil<>(PATH_NIFTY_GATEWAY);
-
-    @GetMapping("/niftygateway")
-    public ResponseEntity<?> getDataFromNiftyGateway() {
+    @GetMapping("/niftygateway/{selection}")
+    public ResponseEntity<?> getDataFromNiftyGateway(@PathVariable("selection") String selection) {
         try {
-
-            return jsonHandler.handleJsonOperation(() -> getData());
+            return jsonHandler.handleJsonOperation(() -> getData(selection));
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("Invalid selection");
         }
     }
 }
+

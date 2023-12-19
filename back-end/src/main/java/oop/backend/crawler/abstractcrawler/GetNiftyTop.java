@@ -1,12 +1,13 @@
 package oop.backend.crawler.abstractcrawler;
 
 import oop.backend.crawler.DataCrawler;
+import oop.backend.crawler.RequestList;
 import oop.backend.dtos.eplatform.NiftyTopDTO;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-public abstract class GetNiftyTop implements DataCrawler {
+public abstract class GetNiftyTop extends RequestList implements DataCrawler {
     public ResponseEntity<?> getDataFromNiftyGateway(String selection) {
         try {
             // Phần logic chung ở đây

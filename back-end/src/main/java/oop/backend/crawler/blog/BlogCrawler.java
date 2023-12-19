@@ -4,7 +4,7 @@ import oop.backend.App;
 import oop.backend.config.PathFile;
 import oop.backend.config.Url;
 import oop.backend.properties.PropertyGetter;
-import oop.backend.properties.blog.BlogBinanceProperty;
+import oop.backend.properties.blog.BlogProperty;
 import oop.backend.dtos.blog.BlogDTO;
 import oop.backend.utils.fix.PathFixUtil;
 import oop.backend.utils.json.JsonUtil;
@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 @RestController
@@ -36,7 +34,7 @@ public class BlogCrawler {
             throw new RuntimeException(e);
         }
         Document document = Jsoup.parse(html);
-        final PropertyGetter<BlogDTO> blogBinanceAttr = new BlogBinanceProperty();
+        PropertyGetter<BlogDTO> blogBinanceAttr = new BlogProperty();
         Elements elements = document.select("div.css-1engawx").first().select("a.css-14ha60b");
         for (Element element : elements) {
             BlogDTO blog = blogBinanceAttr.attrGet(element);

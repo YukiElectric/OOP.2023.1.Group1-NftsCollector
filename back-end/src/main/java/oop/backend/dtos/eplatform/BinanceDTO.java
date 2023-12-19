@@ -10,12 +10,6 @@ import oop.backend.dtos.BaseDTO;
 @AllArgsConstructor
 @NoArgsConstructor
 public class BinanceDTO extends BaseDTO {
-    @JsonProperty("items")
-    private String items;
-
-    @JsonProperty("owners")
-    private String owners;
-
     @JsonProperty("volumeChange")
     private String volumeChange;
 

@@ -27,8 +27,6 @@ import java.util.List;
 @RequestMapping("${api.v1}/top")
 public class OpenSeaTopCrawler extends GetOpenSea {
     private final String PATH_OPEN_SEA = PathFixUtil.fix(App.class.getResource(PathFile.PATH_OPEN_SEA_TOP).getPath());
-    private final PropertyGetter<OpenSeaDTO> openSeaAttr = new OpenSeaProperty();
-
     public OpenSeaTopCrawler() {
         selectionToRequest.put("Day", "?sortBy=one_day_volume");
         selectionToRequest.put("Week", "?sortBy=seven_day_volume");
@@ -40,6 +38,7 @@ public class OpenSeaTopCrawler extends GetOpenSea {
     public List<OpenSeaDTO> getData(String selection) throws Exception {
         String request = selectionToRequest.get(selection);
         List<OpenSeaDTO> openSeas = new ArrayList<>();
+        PropertyGetter<OpenSeaDTO> openSeaAttr = new OpenSeaProperty();
         Document document = OpenSeaTopUtil.scrollAndGet(request);
         Elements elements = document.select("div.sc-e7b51c31-0");
         for (Element element : elements) {
@@ -49,7 +48,7 @@ public class OpenSeaTopCrawler extends GetOpenSea {
         return openSeas;
     }
 
-    private final JsonUtil<OpenSeaDTO> jsonHandler = new JsonUtil<>(PATH_OPEN_SEA);
+    private JsonUtil<OpenSeaDTO> jsonHandler = new JsonUtil<>(PATH_OPEN_SEA);
 
     @GetMapping("/opensea/{selection}")
     public ResponseEntity<?> getDataFromOpenSea(@PathVariable("selection") String selection) {

@@ -40,7 +40,7 @@ public class NiftyTopCrawler extends RequestList implements DataCrawler {
         if (request != null) {
             Document document = NiftyTopUtil.scrollAndGet( request);
             Elements elements = document.select("tr.css-x3ko2s");
-            final PropertyGetter<NiftyTopDTO> niftyGatewayAttr = new NiftyTopProperty();
+            PropertyGetter<NiftyTopDTO> niftyGatewayAttr = new NiftyTopProperty();
             
             for (Element element : elements) {
                 NiftyTopDTO niftyGateway = niftyGatewayAttr.attrGet(element);
@@ -52,7 +52,7 @@ public class NiftyTopCrawler extends RequestList implements DataCrawler {
         return niftyGateways;
     }
     
-    private final JsonUtil<NiftyTopDTO> jsonHandler = new JsonUtil<>(PATH_NIFTY_GATEWAY);
+    private JsonUtil<NiftyTopDTO> jsonHandler = new JsonUtil<>(PATH_NIFTY_GATEWAY);
     
     @GetMapping("/niftygateway/{selection}")
     public ResponseEntity<?> getDataFromNiftyGateway(@PathVariable("selection") String selection) {

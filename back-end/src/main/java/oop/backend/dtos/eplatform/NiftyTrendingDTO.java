@@ -9,8 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class NiftyTrendingDTO {
-    @JsonProperty("name")
-    private String name;
+    @JsonProperty("collection")
+    private String collection;
 
     @JsonProperty("likes")
     private String likes;

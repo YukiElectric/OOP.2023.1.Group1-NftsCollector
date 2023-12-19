@@ -4,7 +4,7 @@ import oop.backend.properties.PropertyGetter;
 import oop.backend.dtos.blog.BlogDTO;
 import org.jsoup.nodes.Element;
 
-public class BlogBinanceProperty implements PropertyGetter<BlogDTO> {
+public class BlogProperty implements PropertyGetter<BlogDTO> {
     @Override
     public BlogDTO attrGet(Element element) {
         BlogDTO blogDTO = new BlogDTO();

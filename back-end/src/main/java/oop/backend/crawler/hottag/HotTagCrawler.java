@@ -72,7 +72,7 @@ public class HotTagCrawler {
         hotTags.sort(sort);
         return hotTags;
     }
-    private final JsonUtil<HotTagDTO> jsonHandler = new JsonUtil<>(PATH_HOTTAG);
+    private JsonUtil<HotTagDTO> jsonHandler = new JsonUtil<>(PATH_HOTTAG);
 
     @GetMapping("")
     public ResponseEntity<?> getDataTag() {

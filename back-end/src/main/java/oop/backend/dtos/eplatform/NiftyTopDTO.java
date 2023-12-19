@@ -7,15 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import oop.backend.dtos.BaseDTO;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
-public class NiftyTopDTO extends BaseDTO {
-    @JsonProperty("items")
-    private String items;
 
-    @JsonProperty("owners")
-    private String owners;
+public class NiftyTopDTO extends BaseDTO {
 
 }

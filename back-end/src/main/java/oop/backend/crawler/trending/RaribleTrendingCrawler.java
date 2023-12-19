@@ -27,23 +27,22 @@ import java.util.List;
 @RequestMapping("${api.v1}/trending")
 public class RaribleTrendingCrawler extends GetRarible {
     private String PATH_RARIBLE = PathFixUtil.fix(App.class.getResource(PathFile.PATH_RARIBLE_TRENDING).getPath());
-    private final PropertyGetter<RaribleDTO> raribleAttr = new RaribleProperty();
+    PropertyGetter<RaribleDTO> raribleAttr = new RaribleProperty();
 
     public RaribleTrendingCrawler(){
         selectionToRequest.put("Day", "?period=DAY");
         selectionToRequest.put("Week", "?period=WEEK");
         selectionToRequest.put("Month", "");
+        selectionToRequest.put("AllTime", "");
     }
 
     @Override
     public List<RaribleDTO> getData(String selection) throws Exception {
         String request = selectionToRequest.get(selection);
         Document document = RaribleTopUtil.scrollAndGet(request);
-
         Elements elements = document.select("div.sc-icLIcW");
-
+        PropertyGetter<RaribleDTO> raribleAttr = new RaribleProperty();
         List<RaribleDTO> raribles = new ArrayList<>();
-
         for (Element element : elements) {
             RaribleDTO rarible = raribleAttr.attrGet(element);
             if (rarible != null && !raribles.contains(rarible))
@@ -52,7 +51,7 @@ public class RaribleTrendingCrawler extends GetRarible {
         return raribles;
     }
 
-    private final JsonUtil<RaribleDTO> jsonHandler = new JsonUtil<>(PATH_RARIBLE);
+    private JsonUtil<RaribleDTO> jsonHandler = new JsonUtil<>(PATH_RARIBLE);
 
     @GetMapping("/rarible/{selection}")
     public ResponseEntity<?> getDataRarible(@PathVariable("selection") String selection) {
