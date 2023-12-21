@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 @Component
@@ -46,6 +47,7 @@ public class OpenSeaTrendingCrawler extends GetOpenSea {
             OpenSeaDTO openSea = openSeaAttr.attrGet(element);
             if(openSea != null && !openSeas.contains(openSea))openSeas.add(openSea);
         }
+        openSeas.sort(Comparator.comparing(item -> Integer.parseInt(item.getNo())));
         return openSeas;
     }
     private final JsonUtil<OpenSeaDTO> jsonHandler = new JsonUtil<>(PATH_OPEN_SEA);

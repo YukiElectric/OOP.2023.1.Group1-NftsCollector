@@ -10,7 +10,7 @@ public class TwitterSearchUtil {
     public static Document getByTag(String request) throws Exception {
         String navigate = "https://twitter.com/search?q=" + request + "&src=typed_query&f=live";
         WebDriver driver = TwitterLoginUtil.loginAndNavigate(Url.URL_TWITTER_LOGIN, navigate, Account.USERNAME, Account.PASSWORD);
-        Document document = ScrollUtil.scrollAndGetDoc(driver);
+        Document document = ScrollUtil.scrollInfinitePage(driver);
         return document;
     }
 }
