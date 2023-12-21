@@ -12,6 +12,9 @@ import oop.backend.dtos.BaseDTO;
 @AllArgsConstructor
 @NoArgsConstructor
 public class OpenSeaDTO extends BaseDTO {
+    @JsonProperty("no")
+    private String no;
+
     @JsonProperty("volumeChange")
     private String volumeChange;
 
