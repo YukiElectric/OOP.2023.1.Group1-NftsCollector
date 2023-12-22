@@ -17,7 +17,13 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class HomeController implements Initializable {
+    // các đối tượng giao diện
 
+    /**
+     * Phương thức khởi tạo controller.
+     * @param url URL của controller.
+     * @param resourceBundle ResourceBundle được sử dụng bởi controller.
+     */
     @FXML
     private ToggleGroup menu;
 
@@ -135,6 +141,7 @@ public class HomeController implements Initializable {
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menuTrending);
         LineChartUtil.createChart(lineChart);
         try {
+//Giao diện home
             homeView.setContent(WebViewUtil.setView("/html/GioiThieu.txt"));
         } catch (Exception e) {
             throw new RuntimeException(e);
