@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<picture>
+	<source srcset="master.jpg">
+
+</picture>
+</body>
+</html>
