@@ -21,7 +21,10 @@ public class VboxViewUtil {
             for(Map<String, String> item : data) {
                 try {
                     Map<String, String> newItem = new LinkedHashMap<>();
-                    if(header==1) newItem.put("No", String.valueOf(index++));
+                    if(header==1) {
+                        item.remove("no");
+                        newItem.put("no", String.valueOf(index++));
+                    }
                     else if((index++)==91) break;
                     newItem.putAll(item);
                     T itemController = controllerClass.getDeclaredConstructor(Map.class).newInstance(newItem);
