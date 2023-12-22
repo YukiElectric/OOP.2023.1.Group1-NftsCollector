@@ -4,8 +4,6 @@
 <?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.chart.LineChart?>
-<?import javafx.scene.chart.NumberAxis?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
@@ -387,26 +385,113 @@
                      </center></BorderPane>
                </content>
             </Tab>
-            <Tab text="ANALYZE">
+            <Tab text="TOP">
                <content>
                   <BorderPane>
-                     <center>
-                        <ScrollPane fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+                     <left>
+                        <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuAnalyze" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuAnalyze">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuAnalyze">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rarible" toggleGroup="$menuAnalyze">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </ToggleButton>
+                           </children>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
                            <BorderPane.margin>
-                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="8.0" />
                            </BorderPane.margin>
-                           <content>
-                              <LineChart fx:id="lineChart">
-                                <xAxis>
-                                  <NumberAxis side="BOTTOM" />
-                                </xAxis>
-                                <yAxis>
-                                  <NumberAxis side="LEFT" />
-                                </yAxis>
-                              </LineChart>
-                           </content>
-                        </ScrollPane>
-                     </center></BorderPane>
+                        </VBox>
+                     </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="analyzeTabpane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                 <tabs>
+                                    <Tab text="Opensea">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="openseaAnalyze" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Binance">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="binanceAnalyze" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Nifty">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="niftyAnalyze" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Rarible">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="raribleAnalyze" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                 </tabs>
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" right="5.0" />
+                                 </BorderPane.margin>
+                              </TabPane>
+                           </center>
+                        </BorderPane>
+                     </center>
+                  </BorderPane>
                </content>
             </Tab>
         </tabs>
