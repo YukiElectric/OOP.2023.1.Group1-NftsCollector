@@ -1,13 +1,16 @@
 package oop.frontend.jfxutils;
 
+
 import javafx.scene.control.TabPane;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
+import oop.frontend.controller.ChartController;
 import oop.frontend.controller.BlogController;
 import oop.frontend.controller.EPlatformController;
 import oop.frontend.controller.PostController;
+
 
 public class TabPaneUtil {
     private static void setTabPane(ToggleGroup menu, TabPane tabPane, int index) {
@@ -24,16 +27,19 @@ public class TabPaneUtil {
         });
     }
 
+
     public static void setSelection(ToggleGroup menu, TabPane tabPane) {
         menu.getToggles().get(0).setSelected(true);
         setTabPane(menu, tabPane, 0);
     }
 
+
     public static void setSelection(ToggleGroup menu, TabPane tabPane, int index) {
         setTabPane(menu, tabPane, index);
     }
 
-    public static void resetIndexTabPane(ToggleGroup menu, ToggleGroup topMenu, ToggleGroup trendingMenu) {
+
+    public static void resetIndexTabPane(ToggleGroup menu, ToggleGroup topMenu, ToggleGroup trendingMenu, ToggleGroup analysisMenu) {
         menu.selectedToggleProperty().addListener(((observable, oldValue, newValue) -> {
             if (newValue != null) {
                 topMenu.getToggles().get(0).setSelected(true);
@@ -42,7 +48,8 @@ public class TabPaneUtil {
         }));
     }
 
-    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, int index, String url) {
+
+    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, VBox analysisView, VBox correlationView , int index, String url) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
                 ToggleButton selectedButton = (ToggleButton) toggleGroup.getSelectedToggle();
@@ -54,6 +61,8 @@ public class TabPaneUtil {
                         case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "hottag", EPlatformController.class, 1);
                         case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "trending/opensea/AllTime", EPlatformController.class, 1);
                         case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "top/opensea/AllTime", EPlatformController.class, 1);
+                        case 5 -> ChartViewUtil.setViewLineChart(analysisView, Constants.API_URL, "analysis/top/opensea/AllTime", ChartController.class);
+                        case 6 -> VboxViewUtil.setViewVBox(correlationView, Constants.API_URL, "correlation/opensea/Alltime", EPlatformController.class, 1);
                         default -> {
                         }
                     }

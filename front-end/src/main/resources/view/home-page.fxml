@@ -33,7 +33,7 @@
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="HOT TAGS" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="TRENDING" toggleGroup="$menu" />
             <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="TOP" toggleGroup="$menu" />
-            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="ANALYZE" toggleGroup="$menu" />
+            <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="CHART" toggleGroup="$menu" />
             <ToggleButton disable="true" mnemonicParsing="false" text="ToggleButton" toggleGroup="$menu" visible="false" />
          </children>
          <BorderPane.margin>
@@ -60,7 +60,7 @@
    </top>
    <center>
       <TabPane fx:id="tabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
-        <tabs>
+         <tabs>
             <Tab text="HOME">
                <content>
                   <BorderPane>
@@ -73,7 +73,7 @@
                      </center></BorderPane>
                </content>
             </Tab>
-          <Tab text="POST">
+            <Tab text="POST">
                <content>
                   <BorderPane>
                      <top>
@@ -109,7 +109,7 @@
                      </padding>
                   </BorderPane>
                </content>
-          </Tab>
+            </Tab>
             <Tab text="HOME">
                <content>
                   <BorderPane>
@@ -130,7 +130,7 @@
                   </BorderPane>
                </content>
             </Tab>
-          <Tab text="HOT TAGS">
+            <Tab text="HOT TAGS">
                <content>
                   <BorderPane>
                      <center>
@@ -148,7 +148,7 @@
                         </ScrollPane>
                      </center></BorderPane>
                </content>
-          </Tab>
+            </Tab>
             <Tab text="TRENDING">
                <content>
                   <BorderPane>
@@ -180,8 +180,8 @@
                         <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                            <center>
                               <TabPane fx:id="trendingTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
-                                <tabs>
-                                  <Tab text="Opensea">
+                                 <tabs>
+                                    <Tab text="Opensea">
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
@@ -193,8 +193,8 @@
                                              </content>
                                           </ScrollPane>
                                        </content>
-                                  </Tab>
-                                  <Tab text="Binance">
+                                    </Tab>
+                                    <Tab text="Binance">
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
@@ -206,7 +206,7 @@
                                              </content>
                                           </ScrollPane>
                                        </content>
-                                  </Tab>
+                                    </Tab>
                                     <Tab text="Nifty">
                                        <content>
                                           <ScrollPane fitToWidth="true">
@@ -233,7 +233,7 @@
                                           </ScrollPane>
                                        </content>
                                     </Tab>
-                                </tabs>
+                                 </tabs>
                                  <BorderPane.margin>
                                     <Insets bottom="5.0" right="5.0" />
                                  </BorderPane.margin>
@@ -305,8 +305,8 @@
                         <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
                            <center>
                               <TabPane fx:id="topTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
-                                <tabs>
-                                  <Tab text="Opensea">
+                                 <tabs>
+                                    <Tab text="Opensea">
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
@@ -318,8 +318,8 @@
                                              </content>
                                           </ScrollPane>
                                        </content>
-                                  </Tab>
-                                  <Tab text="Binance">
+                                    </Tab>
+                                    <Tab text="Binance">
                                        <content>
                                           <ScrollPane fitToWidth="true">
                                              <content>
@@ -331,7 +331,7 @@
                                              </content>
                                           </ScrollPane>
                                        </content>
-                                  </Tab>
+                                    </Tab>
                                     <Tab text="Nifty">
                                        <content>
                                           <ScrollPane fitToWidth="true">
@@ -358,7 +358,7 @@
                                           </ScrollPane>
                                        </content>
                                     </Tab>
-                                </tabs>
+                                 </tabs>
                                  <BorderPane.margin>
                                     <Insets bottom="5.0" right="5.0" />
                                  </BorderPane.margin>
@@ -387,29 +387,144 @@
                      </center></BorderPane>
                </content>
             </Tab>
-            <Tab text="ANALYZE">
+            <Tab text="CHART">
                <content>
                   <BorderPane>
-                     <center>
-                        <ScrollPane fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+                     <left>
+                        <VBox prefHeight="277.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuAnalysis" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuAnalysis" />
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuAnalysis">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rarible" toggleGroup="$menuAnalysis" />
+                           </children>
                            <BorderPane.margin>
-                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="8.0" />
                            </BorderPane.margin>
-                           <content>
-                              <LineChart fx:id="lineChart">
-                                <xAxis>
-                                  <NumberAxis side="BOTTOM" />
-                                </xAxis>
-                                <yAxis>
-                                  <NumberAxis side="LEFT" />
-                                </yAxis>
-                              </LineChart>
-                           </content>
-                        </ScrollPane>
-                     </center></BorderPane>
+                        </VBox>
+                     </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="analysisTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                 <tabs>
+                                    <Tab text="Opensea">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="openseaAnalysisView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Binance">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="binanceAnalysisView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Nifty">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="niftyAnalysisView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                    <Tab text="Rarible">
+                                       <content>
+                                          <ScrollPane fitToWidth="true">
+                                             <content>
+                                                <VBox fx:id="raribleAnalysisView" alignment="TOP_CENTER" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;">
+                                                   <padding>
+                                                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                                   </padding>
+                                                </VBox>
+                                             </content>
+                                          </ScrollPane>
+                                       </content>
+                                    </Tab>
+                                 </tabs>
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" right="5.0" />
+                                 </BorderPane.margin>
+                              </TabPane>
+                           </center>
+                        </BorderPane>
+                     </center>
+                  </BorderPane>
                </content>
             </Tab>
-        </tabs>
+            <Tab text="CORRELATION">
+               <content>
+                  <BorderPane>
+                     <left>
+                        <VBox prefHeight="277.0" prefWidth="100.0" spacing="20.0" style="-fx-background-color: #9AE1EF; -fx-background-radius: 20;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Opensea">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="menuCorrelation" />
+                                 </toggleGroup>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Binance" toggleGroup="$menuAnalysis" />
+                              <ToggleButton mnemonicParsing="false" prefWidth="100.0" styleClass="tg" text="Nifty" toggleGroup="$menuAnalysis">
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </ToggleButton>
+                              <ToggleButton mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" styleClass="tg" text="Rarible" toggleGroup="$menuAnalysis" />
+                           </children>
+                           <BorderPane.margin>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="8.0" />
+                           </BorderPane.margin>
+                        </VBox>
+                     </left>
+                     <center>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <center>
+                              <TabPane fx:id="correlationTabPane" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+                                 <BorderPane.margin>
+                                    <Insets bottom="5.0" right="5.0" />
+                                 </BorderPane.margin>
+                              </TabPane>
+                           </center>
+                        </BorderPane>
+                     </center>
+                  </BorderPane>
+               </content>
+            </Tab>
+         </tabs>
       </TabPane>
    </center>
 </BorderPane>
+

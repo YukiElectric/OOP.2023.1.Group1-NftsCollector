@@ -35,7 +35,7 @@ public class JsonUtil<T> {
      * Phương thức này dùng để lưu json
      * @param data json được xuất ra sẽ lưu ở đây
      */
-    private void saveDataToJson(List<T> data) {
+    public void saveDataToJson(List<T> data) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         try (FileWriter writer = new FileWriter(filePath)) {
             gson.toJson(data, writer);
