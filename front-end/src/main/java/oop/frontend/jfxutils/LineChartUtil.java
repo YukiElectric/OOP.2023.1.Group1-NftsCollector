@@ -8,6 +8,7 @@ import javafx.scene.control.ToggleGroup;
 import javafx.scene.layout.VBox;
 import oop.frontend.common.Constants;
 import oop.frontend.common.TaskRequest;
+import oop.frontend.controller.EPlatformController;
 import oop.frontend.controller.LoadingController;
 
 import java.util.List;
@@ -47,7 +48,7 @@ public class LineChartUtil {
         }
         new Thread(taskRequest).start();
     }
-    public void setViewChart(ToggleGroup toggleGroup, VBox openseaView, VBox binanceView, VBox niftyView, VBox raribleView) {
+    public void setViewChart(ToggleGroup toggleGroup, VBox openseaView, VBox binanceView, VBox niftyView, VBox raribleView, VBox positiveView) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
                 ToggleButton selectedButton = (ToggleButton) toggleGroup.getSelectedToggle();
@@ -60,6 +61,7 @@ public class LineChartUtil {
                     case 1 -> setView(binanceView,Constants.API_URL, "binance");
                     case 2 -> setView(niftyView, Constants.API_URL, "nifty");
                     case 3 -> setView(raribleView, Constants.API_URL, "rarible");
+                    case 4 -> VboxViewUtil.setViewVBox(positiveView,Constants.API_URL, "positive", EPlatformController.class, 1);
                 }
             }
         });

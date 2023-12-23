@@ -101,6 +101,9 @@ public class HomeController implements Initializable {
     private VBox raribleAnalyze;
 
     @FXML
+    private VBox positiveAnalyze;
+
+    @FXML
     void returnHome(MouseEvent event) {
         tabPane.getSelectionModel().select(0);
         menu.getToggles().get(6).setSelected(true);
@@ -150,7 +153,7 @@ public class HomeController implements Initializable {
         ComboBoxUtil.resetComboBoxItem(topComboBox, menuTop);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menu);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menuTrending);
-        LineChartUtil.getInstance().setViewChart(menuAnalyze, openseaAnalyze, binanceAnalyze, niftyAnalyze, raribleAnalyze);
+        LineChartUtil.getInstance().setViewChart(menuAnalyze, openseaAnalyze, binanceAnalyze, niftyAnalyze, raribleAnalyze, positiveAnalyze);
         try {
             homeView.setContent(WebViewUtil.setView("/html/GioiThieu.txt"));
         } catch (Exception e) {
