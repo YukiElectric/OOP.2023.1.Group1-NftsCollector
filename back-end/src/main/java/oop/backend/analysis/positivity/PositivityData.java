@@ -1,4 +1,4 @@
-package oop.backend.analysis.dtos;
+package oop.backend.analysis.positivity;
 
 
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Positivity {
+public class PositivityData {
     private String collection;
     private int positive;
     private int negative;

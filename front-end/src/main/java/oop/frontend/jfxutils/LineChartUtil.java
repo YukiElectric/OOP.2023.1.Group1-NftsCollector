@@ -57,11 +57,11 @@ public class LineChartUtil {
                     /*
                     * Từ case 0->3 thay bằng / để lấy phân tích
                     * */
-                    case 0 -> setView(openseaView,Constants.API_URL, "opensea");
-                    case 1 -> setView(binanceView,Constants.API_URL, "binance");
-                    case 2 -> setView(niftyView, Constants.API_URL, "nifty");
-                    case 3 -> setView(raribleView, Constants.API_URL, "rarible");
-                    case 4 -> VboxViewUtil.setViewVBox(positiveView,Constants.API_URL, "positive", EPlatformController.class, 1);
+                    case 0 -> setView(openseaView,Constants.API_URL, "analysis/top/opensea");
+                    case 1 -> setView(binanceView,Constants.API_URL, "analysis/top/binance");
+                    case 2 -> setView(niftyView, Constants.API_URL, "analysis/top/niftygateway");
+                    case 3 -> setView(raribleView, Constants.API_URL, "analysis/top/rarible");
+                    case 4 -> VboxViewUtil.setViewVBox(positiveView,Constants.API_URL, "analysis/positivity/opensea", EPlatformController.class, 1);
                 }
             }
         });

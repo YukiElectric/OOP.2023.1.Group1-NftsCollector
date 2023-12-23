@@ -4,9 +4,7 @@ import com.google.gson.Gson;
 import lombok.Getter;
 import oop.backend.App;
 import oop.backend.analysis.Analyzer;
-import oop.backend.analysis.dtos.PostData;
-import oop.backend.analysis.dtos.Positivity;
-import oop.backend.analysis.dtos.ResponseDTO;
+import oop.backend.analysis.dataset.PostData;
 import oop.backend.analysis.utils.JsonReader;
 import oop.backend.analysis.utils.ContentFilter;
 import oop.backend.config.Openai;
@@ -34,13 +32,13 @@ import java.util.List;
 @RestController
 @RequestMapping("${api.v1}/analysis")
 @Getter
-public class GPTRequest extends Analyzer{
+public class SentimentAnalyzer extends Analyzer{
 
     private static final String REQUEST_BODY = """
             { 
                 "model": "gpt-3.5-turbo", 
                 "max_tokens": 50, 
-                "messages" : [{"role":"user", "content":"Label sentiment(index+only positive|neutral|negative): %s"}]
+                "messages" : [{"role":"user", "content":"Label sentiment(only positive|neutral|negative foreach content): %s"}]
             }
             """;
 
@@ -48,10 +46,10 @@ public class GPTRequest extends Analyzer{
 
     /* handleData() */
     @Override
-    public List<Positivity> handleData(String selection) throws Exception {
+    public List<PositivityData> handleData(String selection) throws Exception {
         System.out.println("GPTRequest");
         List<PostData> loadDataset = loadData(selection);
-        List<Positivity> res = new ArrayList<>();
+        List<PositivityData> res = new ArrayList<>();
         for (PostData element : loadDataset) {
             String marketplace = element.getMarketplace();
             String collection = element.getCollection();
@@ -63,14 +61,15 @@ public class GPTRequest extends Analyzer{
             for (TwitterDTO t : postList) {
                 contentList.add(ContentFilter.removeSpecialCharacters(t.getContent()));
             }
+            PositivityData positivity = new PositivityData(collection, 0,0,0);
             List<String> response = getGPTResponse(contentList);
             for (String r : response) {
-                Positivity positivity = ContentFilter.countRating(collection, r);
-                res.add(positivity);
+                PositivityData p = ContentFilter.countRating(collection, r);
+                positivity.setPositive(positivity.getPositive() + p.getPositive());
+                positivity.setNeutral(positivity.getNeutral() + p.getNeutral());
+                positivity.setNegative(positivity.getNegative() + p.getNegative());
             }
-            String PATH = PathFixUtil.fix(App.class.getResource(PathFile.PATH_POSITIVITY).getPath()) + marketplace + ".json";
-            JsonUtil<Positivity> jsonHandler = new JsonUtil<>(PATH);
-            jsonHandler.saveDataToJson(res);
+            res.add(positivity);
         }
         return res;
     }
@@ -78,10 +77,12 @@ public class GPTRequest extends Analyzer{
 
 
     // Gửi resonse
-    @GetMapping("/positivity/{selection}/AllTime")
+    @GetMapping("/positivity/{selection}")
     public ResponseEntity<?> response(@PathVariable String selection) {
         try {
-            return ResponseEntity.ok(handleData(selection));
+            String SAVE_PATH = PathFixUtil.fix(App.class.getResource(PathFile.PATH_POSITIVITY).getPath()) + selection + ".json";
+            JsonUtil<PositivityData> jsonHandler = new JsonUtil<>(SAVE_PATH);
+            return jsonHandler.handleJsonOperation(() -> handleData(selection));
         } catch (Exception e) {
             e.printStackTrace();
             return ResponseEntity.badRequest().body("Error");
@@ -114,7 +115,7 @@ public class GPTRequest extends Analyzer{
                     String restring = sendRequest(Openai.API, input, key);
 
                     System.out.println(restring);
-                    ResponseDTO response = gson.fromJson(restring , ResponseDTO.class);
+                    ResponseGPT response = gson.fromJson(restring , ResponseGPT.class);
                     System.out.println(response.getChoices().get(0).getMessage().getContent());
                     res.add(response.getChoices().get(0).getMessage().getContent());
 
