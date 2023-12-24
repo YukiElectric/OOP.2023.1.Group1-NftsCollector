@@ -1,4 +1,4 @@
-package oop.backend.analysis.correlation;
+package oop.backend.analysis.dtos;
 
 
 import lombok.AllArgsConstructor;

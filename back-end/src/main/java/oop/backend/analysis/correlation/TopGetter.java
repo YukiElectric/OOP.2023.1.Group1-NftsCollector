@@ -1,8 +1,9 @@
-package oop.backend.analysis.relation;
+package oop.backend.analysis.correlation;
 
 import oop.backend.App;
 import oop.backend.analysis.Analyzer;
-import oop.backend.analysis.dataset.PostData;
+import oop.backend.analysis.dtos.PostData;
+import oop.backend.analysis.relation.DataElement;
 import oop.backend.analysis.utils.JsonReader;
 import oop.backend.dtos.post.TwitterDTO;
 import oop.backend.utils.fix.PathFixUtil;
@@ -17,20 +18,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+
 @Component
 @RestController
 @RequestMapping("${api.v1}/analysis")
-public class ChartDatasetMaker extends Analyzer {
+public class TopGetter extends Analyzer {
 
 
     /* List<DataElement> loadData() ... */
 
     /* handleData() */
     @Override
-    public List<ChartDataElement> handleData(String selection) {
+    public List<DataElement> handleData(String selection) {
         List<PostData> loadDataset = loadData(selection);
-        List<ChartDataElement> dataset = new ArrayList<>();
-
+        List<DataElement> dataset = new ArrayList<>();
         for (PostData element : loadDataset) {
             String marketplace = element.getMarketplace();
             String collection = element.getCollection();
@@ -43,19 +44,18 @@ public class ChartDatasetMaker extends Analyzer {
             System.out.println("Loading post data of " + collection + " in " + LOAD_PATH);
             List<TwitterDTO> postList = JsonReader.jsonToObjectList(LOAD_PATH, TwitterDTO.class);
             int numberOfPost = postList.size();
-            dataset.add(new ChartDataElement(marketplace, collection, volume, currency, numberOfPost));
-
+            dataset.add(new DataElement(marketplace, collection, volume, currency, numberOfPost));
         }
+
         return dataset;
     }
 
     // Gửi response
     @Override
-    @GetMapping("/top/{selection}")
+    @GetMapping("/top/{selection}/AllTime")
     public ResponseEntity<?> response(@PathVariable String selection) {
         try {
-            List<ChartDataElement> dataset = handleData(selection);
-            return ResponseEntity.ok(dataset);
+            return ResponseEntity.ok(handleData(selection));
         } catch (Exception e) {
             e.printStackTrace();
             return ResponseEntity.badRequest().body("Error");

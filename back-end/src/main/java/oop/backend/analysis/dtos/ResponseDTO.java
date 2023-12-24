@@ -1,4 +1,4 @@
-package oop.backend.analysis.positivity;
+package oop.backend.analysis.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,7 +11,7 @@ import java.util.List;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ResponseGPT {
+public class ResponseDTO {
     private List<Choice> choices;
     @Getter
     public static class Choice {

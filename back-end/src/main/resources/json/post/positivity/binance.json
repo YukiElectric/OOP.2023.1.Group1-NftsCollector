@@ -1,152 +1,152 @@
 [
   {
     "collection": "Bored Ape Yacht Club",
-    "positive": 9,
-    "negative": 2,
-    "neutral": 7
+    "positive": 5,
+    "negative": 1,
+    "neutral": 4
   },
   {
     "collection": "Bored Ape Yacht Club",
-    "positive": 9,
+    "positive": 3,
+    "negative": 1,
+    "neutral": 4
+  },
+  {
+    "collection": "Pudgy Penguins",
+    "positive": 3,
     "negative": 2,
-    "neutral": 7
+    "neutral": 5
   },
   {
     "collection": "Pudgy Penguins",
-    "positive": 9,
+    "positive": 4,
     "negative": 0,
-    "neutral": 7
+    "neutral": 6
   },
   {
     "collection": "Pudgy Penguins",
-    "positive": 9,
+    "positive": 3,
     "negative": 0,
-    "neutral": 7
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "positive": 9,
-    "negative": 0,
-    "neutral": 7
+    "neutral": 1
   },
   {
     "collection": "Mutant Ape Yacht Club",
     "positive": 7,
-    "negative": 3,
-    "neutral": 5
+    "negative": 0,
+    "neutral": 3
   },
   {
     "collection": "Mutant Ape Yacht Club",
-    "positive": 7,
-    "negative": 3,
+    "positive": 1,
+    "negative": 0,
+    "neutral": 0
+  },
+  {
+    "collection": "Azuki",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 10
+  },
+  {
+    "collection": "Azuki",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 10
+  },
+  {
+    "collection": "Azuki",
+    "positive": 0,
+    "negative": 0,
+    "neutral": 1
+  },
+  {
+    "collection": "DeGods",
+    "positive": 3,
+    "negative": 2,
     "neutral": 5
   },
   {
-    "collection": "Azuki",
-    "positive": 0,
+    "collection": "DeGods",
+    "positive": 4,
     "negative": 0,
-    "neutral": 11
-  },
-  {
-    "collection": "Azuki",
-    "positive": 0,
-    "negative": 0,
-    "neutral": 11
-  },
-  {
-    "collection": "Azuki",
-    "positive": 0,
-    "negative": 0,
-    "neutral": 11
+    "neutral": 6
   },
   {
     "collection": "DeGods",
-    "positive": 8,
-    "negative": 3,
-    "neutral": 11
-  },
-  {
-    "collection": "DeGods",
-    "positive": 8,
-    "negative": 3,
-    "neutral": 11
-  },
-  {
-    "collection": "DeGods",
-    "positive": 8,
-    "negative": 3,
-    "neutral": 11
+    "positive": 1,
+    "negative": 1,
+    "neutral": 0
   },
   {
     "collection": "Milady Maker",
-    "positive": 13,
-    "negative": 7,
-    "neutral": 9
-  },
-  {
-    "collection": "Milady Maker",
-    "positive": 13,
-    "negative": 7,
-    "neutral": 9
-  },
-  {
-    "collection": "Milady Maker",
-    "positive": 13,
-    "negative": 7,
-    "neutral": 9
-  },
-  {
-    "collection": "Lil Pudgys",
-    "positive": 2,
-    "negative": 1,
-    "neutral": 15
-  },
-  {
-    "collection": "Lil Pudgys",
-    "positive": 2,
-    "negative": 1,
-    "neutral": 15
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "positive": 14,
-    "negative": 1,
+    "positive": 4,
+    "negative": 2,
     "neutral": 4
   },
   {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "positive": 14,
+    "collection": "Milady Maker",
+    "positive": 3,
+    "negative": 6,
+    "neutral": 1
+  },
+  {
+    "collection": "Milady Maker",
+    "positive": 6,
+    "negative": 0,
+    "neutral": 3
+  },
+  {
+    "collection": "Lil Pudgys",
+    "positive": 1,
     "negative": 1,
+    "neutral": 8
+  },
+  {
+    "collection": "Lil Pudgys",
+    "positive": 1,
+    "negative": 1,
+    "neutral": 7
+  },
+  {
+    "collection": "CLONE X - X TAKASHI MURAKAMI",
+    "positive": 4,
+    "negative": 0,
+    "neutral": 5
+  },
+  {
+    "collection": "CLONE X - X TAKASHI MURAKAMI",
+    "positive": 6,
+    "negative": 1,
+    "neutral": 3
+  },
+  {
+    "collection": "Pixelmon - Generation 1",
+    "positive": 7,
+    "negative": 0,
+    "neutral": 3
+  },
+  {
+    "collection": "Pixelmon - Generation 1",
+    "positive": 7,
+    "negative": 1,
+    "neutral": 0
+  },
+  {
+    "collection": "Moonbirds",
+    "positive": 4,
+    "negative": 2,
     "neutral": 4
   },
   {
-    "collection": "Pixelmon - Generation 1",
-    "positive": 9,
-    "negative": 0,
-    "neutral": 9
-  },
-  {
-    "collection": "Pixelmon - Generation 1",
-    "positive": 9,
-    "negative": 0,
-    "neutral": 9
+    "collection": "Moonbirds",
+    "positive": 2,
+    "negative": 5,
+    "neutral": 3
   },
   {
     "collection": "Moonbirds",
-    "positive": 10,
-    "negative": 6,
-    "neutral": 13
-  },
-  {
-    "collection": "Moonbirds",
-    "positive": 10,
-    "negative": 6,
-    "neutral": 13
-  },
-  {
-    "collection": "Moonbirds",
-    "positive": 10,
-    "negative": 6,
-    "neutral": 13
+    "positive": 3,
+    "negative": 2,
+    "neutral": 4
   }
 ]

@@ -1,7 +1,7 @@
 package oop.backend.analysis;
 
 import oop.backend.App;
-import oop.backend.analysis.dataset.PostData;
+import oop.backend.analysis.dtos.PostData;
 import oop.backend.analysis.utils.CurrencyHandler;
 import oop.backend.analysis.utils.JsonReader;
 import oop.backend.dtos.BaseDTO;
@@ -25,7 +25,6 @@ public abstract class Analyzer {
             System.out.println("-Loading data from " + selection);
             String readPath = PathFixUtil.fix(App.class.getResource("/json/top/" + selection + ".json").getPath());
             // Lấy ra 10 nft đứng đầu của từng sàn
-
             for (int i = 0; i < 10; i++) {
                 List<BaseDTO> baseDTOList = JsonReader.jsonToObjectList(readPath, BaseDTO.class);
                 BaseDTO nft = baseDTOList.get(i);

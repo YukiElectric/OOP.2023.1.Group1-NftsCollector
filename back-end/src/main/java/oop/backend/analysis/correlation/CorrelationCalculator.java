@@ -1,8 +1,8 @@
 package oop.backend.analysis.correlation;
 
 import oop.backend.analysis.Analyzer;
-import oop.backend.analysis.relation.ChartDatasetMaker;
-import oop.backend.analysis.relation.ChartDataElement;
+import oop.backend.analysis.dtos.MarketplaceStatistics;
+import oop.backend.analysis.relation.DataElement;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -26,21 +26,19 @@ public class CorrelationCalculator extends Analyzer{
     /* List<DataElement> loadData() ... */
 
     @Override
-    public List<MarketplaceStatistics> handleData(String selection) throws Exception {
+    public List<?> handleData(String selection) throws Exception {
         List<MarketplaceStatistics> res = new ArrayList<>();
-        ChartDatasetMaker chartDataset = new ChartDatasetMaker();
-        List<ChartDataElement> dataset = (List<ChartDataElement>) chartDataset.handleData(selection);
+        TopGetter topGetter = new TopGetter();
+        List<DataElement> dataset = topGetter.handleData(selection);
 
         double coefPearson = calPearson(dataset);
         double coefSpearman = calSpearman(dataset);
-        
         res.add(new MarketplaceStatistics(selection, coefPearson, coefSpearman));
-        
         return res;
     }
 
     @Override
-    @GetMapping("/correlation/{selection}")
+    @GetMapping("/correlation/{selection}/AllTime")
     public ResponseEntity<?> response(@PathVariable String selection) {
         try {
             return ResponseEntity.ok(handleData(selection));
@@ -51,11 +49,11 @@ public class CorrelationCalculator extends Analyzer{
     }
 
     // Pearson correlation coefficient:  r = ((∑ XY)-(∑X)(∑Y)) / sqrt [n(∑X^2)-(∑X)^2)*(n(∑Y^2)-(∑Y)^2]
-    private double calPearson(List<ChartDataElement> corList) {
+    private double calPearson(List<DataElement> corList) {
         double coefPearson = 0.0;
         double sumX = 0.0, sumY = 0.0, sumXY = 0.0, sumX2 = 0.0, sumY2 = 0.0;
         int n = corList.size();
-        for (ChartDataElement o : corList) {
+        for (DataElement o : corList) {
             double x = o.getVolume();
             double y = o.getNumberOfPost();
             sumX += x;
@@ -74,7 +72,7 @@ public class CorrelationCalculator extends Analyzer{
 
 
     // Spearman correlation coefficient: r = 1 - (6*∑di^2)/ (n*(n^2-1))
-    private double calSpearman(List<ChartDataElement> corList){
+    private double calSpearman(List<DataElement> corList){
         double coefSpearman = 0.0;
         int n = corList.size();
         double[] arrNFT = new double[corList.size()];
@@ -82,7 +80,7 @@ public class CorrelationCalculator extends Analyzer{
 
 
         int i = 0;
-        for (ChartDataElement o : corList){
+        for (DataElement o : corList){
             arrNFT[i] = o.getVolume();
             arrTweet[i] = o.getNumberOfPost();
             i++;
