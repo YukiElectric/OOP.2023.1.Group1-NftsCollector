@@ -12,4 +12,5 @@ public class PathFile {
     public final static String PATH_HOTTAG = "/json/hottag/hot_tag.json";
     public final static String PATH_BLOG = "/json/blog/blog.json";
     public final static String PATH_POST = "/json/post/twitter.json";
+    public final static String PATH_POSITIVITY = "/json/analysis/positivity/";
 }

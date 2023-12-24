@@ -89,7 +89,26 @@ public class HomeController implements Initializable {
     private JFXTextField search;
 
     @FXML
-    private LineChart<Number, Number> lineChart;
+    private ToggleGroup menuAnalyze;
+
+    @FXML
+    private TabPane analyzeTabpane;
+
+
+    @FXML
+    private VBox openseaAnalyze;
+
+    @FXML
+    private VBox binanceAnalyze;
+
+    @FXML
+    private VBox niftyAnalyze;
+
+    @FXML
+    private VBox raribleAnalyze;
+
+    @FXML
+    private VBox positiveAnalyze;
 
     @FXML
     void returnHome(MouseEvent event) {
@@ -130,17 +149,18 @@ public class HomeController implements Initializable {
         TabPaneUtil.setSelection(menu, tabPane, 1);
         TabPaneUtil.setSelection(menuTrending, trendingTabPane);
         TabPaneUtil.setSelection(menuTop, topTabPane);
-        TabPaneUtil.resetIndexTabPane(menu, menuTop, menuTrending);
-        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, blogView,0,"");
-        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, raribleTrendingView, null,1,"trending");
-        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, raribleTopView, null,1,"top");
+        TabPaneUtil.setSelection(menuAnalyze, analyzeTabpane);
+        TabPaneUtil.resetIndexTabPane(menu, menuTop, menuTrending, menuAnalyze);
+        TabPaneUtil.setViewChange(menu, postView, hotTagsView, openseaTrendingView, openseaTopView, blogView,openseaAnalyze,0,"");
+        TabPaneUtil.setViewChange(menuTrending, openseaTrendingView, binanceTrendingView, niftyTrendingView, raribleTrendingView, null,null,1,"trending");
+        TabPaneUtil.setViewChange(menuTop, openseaTopView, binanceTopView, niftyTopView, raribleTopView, null,null,1,"top");
         ComboBoxUtil.setItem(topComboBox);
         ComboBoxUtil.setItem(trendingComboBox);
         ComboBoxUtil.resetComboBoxItem(topComboBox, menu);
         ComboBoxUtil.resetComboBoxItem(topComboBox, menuTop);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menu);
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menuTrending);
-        LineChartUtil.createChart(lineChart);
+        LineChartUtil.getInstance().setViewChart(menuAnalyze, openseaAnalyze, binanceAnalyze, niftyAnalyze, raribleAnalyze, positiveAnalyze);
         try {
             VBox vBox = new VBox();
             vBox.setFillWidth(true);

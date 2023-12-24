@@ -33,16 +33,17 @@ public class TabPaneUtil {
         setTabPane(menu, tabPane, index);
     }
 
-    public static void resetIndexTabPane(ToggleGroup menu, ToggleGroup topMenu, ToggleGroup trendingMenu) {
+    public static void resetIndexTabPane(ToggleGroup menu, ToggleGroup topMenu, ToggleGroup trendingMenu, ToggleGroup analyzeMenu) {
         menu.selectedToggleProperty().addListener(((observable, oldValue, newValue) -> {
             if (newValue != null) {
                 topMenu.getToggles().get(0).setSelected(true);
                 trendingMenu.getToggles().get(0).setSelected(true);
+                analyzeMenu.getToggles().get(0).setSelected(true);
             }
         }));
     }
 
-    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, int index, String url) {
+    public static void setViewChange(ToggleGroup toggleGroup, VBox postView, VBox hotTagView, VBox trendingView, VBox topView, VBox blogView, VBox analyzeView ,int index, String url) {
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
             if (toggleGroup.getSelectedToggle() != null) {
                 ToggleButton selectedButton = (ToggleButton) toggleGroup.getSelectedToggle();
@@ -54,6 +55,7 @@ public class TabPaneUtil {
                         case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "hottag", EPlatformController.class, 1);
                         case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "trending/opensea/AllTime", EPlatformController.class, 1);
                         case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "top/opensea/AllTime", EPlatformController.class, 1);
+                        case 5 -> LineChartUtil.getInstance().setView(analyzeView,Constants.API_URL, "analysis/top/opensea"); /// thay cái này bằng api để lấy phân tích của opensea
                         default -> {
                         }
                     }
