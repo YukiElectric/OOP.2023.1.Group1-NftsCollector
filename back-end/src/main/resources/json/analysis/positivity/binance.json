@@ -1,152 +1,62 @@
 [
   {
     "collection": "Bored Ape Yacht Club",
-    "positive": 9,
-    "negative": 2,
-    "neutral": 7
-  },
-  {
-    "collection": "Bored Ape Yacht Club",
-    "positive": 9,
-    "negative": 2,
+    "positive": 8,
+    "negative": 3,
     "neutral": 7
   },
   {
     "collection": "Pudgy Penguins",
-    "positive": 9,
+    "positive": 0,
     "negative": 0,
-    "neutral": 7
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "positive": 9,
-    "negative": 0,
-    "neutral": 7
-  },
-  {
-    "collection": "Pudgy Penguins",
-    "positive": 9,
-    "negative": 0,
-    "neutral": 7
+    "neutral": 0
   },
   {
     "collection": "Mutant Ape Yacht Club",
-    "positive": 7,
-    "negative": 3,
-    "neutral": 5
-  },
-  {
-    "collection": "Mutant Ape Yacht Club",
-    "positive": 7,
-    "negative": 3,
-    "neutral": 5
+    "positive": 0,
+    "negative": 0,
+    "neutral": 0
   },
   {
     "collection": "Azuki",
     "positive": 0,
     "negative": 0,
-    "neutral": 11
+    "neutral": 0
   },
   {
-    "collection": "Azuki",
+    "collection": "DeGods",
     "positive": 0,
     "negative": 0,
-    "neutral": 11
+    "neutral": 0
   },
   {
-    "collection": "Azuki",
+    "collection": "Milady Maker",
     "positive": 0,
     "negative": 0,
-    "neutral": 11
-  },
-  {
-    "collection": "DeGods",
-    "positive": 8,
-    "negative": 3,
-    "neutral": 11
-  },
-  {
-    "collection": "DeGods",
-    "positive": 8,
-    "negative": 3,
-    "neutral": 11
-  },
-  {
-    "collection": "DeGods",
-    "positive": 8,
-    "negative": 3,
-    "neutral": 11
-  },
-  {
-    "collection": "Milady Maker",
-    "positive": 13,
-    "negative": 7,
-    "neutral": 9
-  },
-  {
-    "collection": "Milady Maker",
-    "positive": 13,
-    "negative": 7,
-    "neutral": 9
-  },
-  {
-    "collection": "Milady Maker",
-    "positive": 13,
-    "negative": 7,
-    "neutral": 9
+    "neutral": 0
   },
   {
     "collection": "Lil Pudgys",
-    "positive": 2,
-    "negative": 1,
-    "neutral": 15
-  },
-  {
-    "collection": "Lil Pudgys",
-    "positive": 2,
-    "negative": 1,
-    "neutral": 15
+    "positive": 0,
+    "negative": 0,
+    "neutral": 0
   },
   {
     "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "positive": 14,
-    "negative": 1,
-    "neutral": 4
-  },
-  {
-    "collection": "CLONE X - X TAKASHI MURAKAMI",
-    "positive": 14,
-    "negative": 1,
-    "neutral": 4
+    "positive": 0,
+    "negative": 0,
+    "neutral": 0
   },
   {
     "collection": "Pixelmon - Generation 1",
-    "positive": 9,
+    "positive": 7,
     "negative": 0,
-    "neutral": 9
+    "neutral": 3
   },
   {
-    "collection": "Pixelmon - Generation 1",
-    "positive": 9,
+    "collection": "Moonbirds",
+    "positive": 0,
     "negative": 0,
-    "neutral": 9
-  },
-  {
-    "collection": "Moonbirds",
-    "positive": 10,
-    "negative": 6,
-    "neutral": 13
-  },
-  {
-    "collection": "Moonbirds",
-    "positive": 10,
-    "negative": 6,
-    "neutral": 13
-  },
-  {
-    "collection": "Moonbirds",
-    "positive": 10,
-    "negative": 6,
-    "neutral": 13
+    "neutral": 0
   }
 ]

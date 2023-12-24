@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -29,53 +30,50 @@ import java.util.concurrent.Semaphore;
 
 public class DatasetUpdater extends Analyzer {
     private static final TwitterCrawler twitterCrawler = new TwitterCrawler();
-    private String SAVE_PATH = PathFixUtil.fix(App.class.getResource("/json/analysis/dataset/").getPath());
     private static Map<String, List<TwitterDTO>> dataset = null;
 
-    @AllArgsConstructor
-    public class getTwitter extends Thread {
-        private String collection;
-
-        @Override
-        public void run() {
-            try {
-                List<TwitterDTO> data = twitterCrawler.getData(collection);
-                dataset.put(collection, data);
-            } catch (Exception e) {
-                throw new RuntimeException(e);
-            }
-        }
-    }
 
     /* List<DataElement> loadData() ... */
 
     /* handleData() */
     @Override
-    public List<Map<String, List<TwitterDTO>>> handleData(String selection) throws Exception {
+    public List<PostData> handleData(String selection) throws Exception {
+        int count = 1;
         List<PostData> loadDataset = loadData(selection);
+        List<PostData> dataset = new ArrayList<>();
+        for (PostData element : loadDataset) {
+            String marketplace = element.getMarketplace();
+            String collection = element.getCollection();
 
-        for (PostData o : loadDataset){
-            List<TwitterDTO> postList = twitterCrawler.getData(o.getCollection());
-            dataset.put(o.getCollection(), postList);
+            List<TwitterDTO> postList = new ArrayList<>();
+            // Lưu vào json/post/top/{marketplace}/{collection}.json
+            String SAVE_PATH = PathFixUtil.fix(App.class.getResource("/json/post/").getPath() + "top/" + marketplace + "/" + collection + ".json");
+            File f = new File(SAVE_PATH);
+            if (f.exists()) {
+                System.out.println("Post data of " + collection + " in " + marketplace + " is already existed");
+                System.out.println("(" + count++ + "/40)");
+            } else {
+                JsonUtil<TwitterDTO> jsonHandler = new JsonUtil<>(SAVE_PATH);
+                System.out.println("Processing " + collection + " from " + marketplace);
+
+                jsonHandler.handleJsonOperation(() -> twitterCrawler.getData(collection));
+                System.out.println(collection + " saved to path " + SAVE_PATH);
+                System.out.println("(" + count++ + "/10)");
+            }
         }
 
-        List<Map<String, List<TwitterDTO>>> res = new ArrayList<>();
-        res.add(dataset);
-        return res;
+        return null;
     }
-
 
     // Gửi response
     @Override
     @GetMapping("/update-post-dataset/{selection}/AllTime")
     public ResponseEntity<?> response(@PathVariable String selection) {
         try {
-            JsonUtil<Map<String, List<TwitterDTO>>> jsonHandler = new JsonUtil<>(SAVE_PATH + selection + ".json");
-            return jsonHandler.handleJsonOperation(()-> handleData(selection));
+            return ResponseEntity.ok(handleData(selection));
         } catch (Exception e) {
             e.printStackTrace();
             return ResponseEntity.badRequest().body("Error");
         }
     }
-
 }

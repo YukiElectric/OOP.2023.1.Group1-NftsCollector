@@ -61,7 +61,7 @@ public class LineChartUtil {
                     case 1 -> setView(binanceView,Constants.API_URL, "analysis/top/binance");
                     case 2 -> setView(niftyView, Constants.API_URL, "analysis/top/niftygateway");
                     case 3 -> setView(raribleView, Constants.API_URL, "analysis/top/rarible");
-                    case 4 -> VboxViewUtil.setViewVBox(positiveView,Constants.API_URL, "analysis/positivity/opensea", EPlatformController.class, 1);
+                    case 4 -> VboxViewUtil.setViewVBox(positiveView,Constants.API_URL, "analysis/positivity/all", EPlatformController.class, 1);
                 }
             }
         });
