@@ -1,8 +1,8 @@
-package oop.backend.analysis.crawler;
+package oop.backend.analysis.dataset;
 
+import lombok.AllArgsConstructor;
 import oop.backend.App;
 import oop.backend.analysis.Analyzer;
-import oop.backend.analysis.dtos.PostData;
 import oop.backend.crawler.post.TwitterCrawler;
 import oop.backend.dtos.post.TwitterDTO;
 import oop.backend.utils.fix.PathFixUtil;
@@ -17,18 +17,20 @@ import org.springframework.web.bind.annotation.RestController;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.Semaphore;
 
 
 @Component
 @RestController
 @RequestMapping("${api.v1}/analysis")
 
-/* Đào data về các post trên twitter có hashtag là tên các top nft (top 10)
+/* Thu thập data về các post trên twitter có hashtag là tên các top nft (top 10)
    trên từng sàn nft để phục vụ cho việc phân tích */
 
-public class TopCrawler extends Analyzer {
+public class DatasetUpdater extends Analyzer {
     private static final TwitterCrawler twitterCrawler = new TwitterCrawler();
-//    private static final List<String> processedNames = new ArrayList<>();
+    private static Map<String, List<TwitterDTO>> dataset = null;
 
 
     /* List<DataElement> loadData() ... */
@@ -45,26 +47,19 @@ public class TopCrawler extends Analyzer {
 
             List<TwitterDTO> postList = new ArrayList<>();
             // Lưu vào json/post/top/{marketplace}/{collection}.json
-            String SAVE_PATH = PathFixUtil.fix(App.class.getResource("/json/post/").getPath() + "top/" + marketplace +"/" + collection + ".json");
+            String SAVE_PATH = PathFixUtil.fix(App.class.getResource("/json/post/").getPath() + "top/" + marketplace + "/" + collection + ".json");
             File f = new File(SAVE_PATH);
-            if(f.exists()){
+            if (f.exists()) {
                 System.out.println("Post data of " + collection + " in " + marketplace + " is already existed");
                 System.out.println("(" + count++ + "/40)");
-            }
-            else {
+            } else {
                 JsonUtil<TwitterDTO> jsonHandler = new JsonUtil<>(SAVE_PATH);
                 System.out.println("Processing " + collection + " from " + marketplace);
-//                if(!processedNames.contains(collection)){
-//                    processedNames.add(collection);
-                    jsonHandler.handleJsonOperation(()->twitterCrawler.getData(collection));
-                    System.out.println(collection + " saved to path " + SAVE_PATH);
-                    System.out.println("(" + count++ + "/10)");
-                }
-//                else {
-//                    System.out.println("Post data of " + collection + " is already existed in other marketplace directory.");
-//                    System.out.println("(" + count++ + "/40)");
-//                }
-//            }
+
+                jsonHandler.handleJsonOperation(() -> twitterCrawler.getData(collection));
+                System.out.println(collection + " saved to path " + SAVE_PATH);
+                System.out.println("(" + count++ + "/10)");
+            }
         }
 
         return null;
@@ -81,5 +76,4 @@ public class TopCrawler extends Analyzer {
             return ResponseEntity.badRequest().body("Error");
         }
     }
-
 }

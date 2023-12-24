@@ -55,7 +55,7 @@ public class TabPaneUtil {
                         case 2 -> VboxViewUtil.setViewVBox(hotTagView, Constants.API_URL, "hottag", EPlatformController.class, 1);
                         case 3 -> VboxViewUtil.setViewVBox(trendingView, Constants.API_URL, "trending/opensea/AllTime", EPlatformController.class, 1);
                         case 4 -> VboxViewUtil.setViewVBox(topView, Constants.API_URL, "top/opensea/AllTime", EPlatformController.class, 1);
-                        case 5 -> LineChartUtil.getInstance().setView(analyzeView,Constants.API_URL, "opensea"); /// thay cái này bằng api để lấy phân tích của opensea
+                        case 5 -> LineChartUtil.getInstance().setView(analyzeView,Constants.API_URL, "analysis/top/opensea");
                         default -> {
                         }
                     }
