@@ -4,20 +4,12 @@ import com.jfoenix.controls.JFXTextField;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.geometry.Pos;
-import javafx.scene.chart.LineChart;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.ToggleGroup;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import oop.frontend.App;
 import oop.frontend.jfxutils.*;
 
 import java.net.URL;
@@ -162,22 +154,7 @@ public class HomeController implements Initializable {
         ComboBoxUtil.resetComboBoxItem(trendingComboBox, menuTrending);
         LineChartUtil.getInstance().setViewChart(menuAnalyze, openseaAnalyze, binanceAnalyze, niftyAnalyze, raribleAnalyze, positiveAnalyze);
         try {
-            VBox vBox = new VBox();
-            vBox.setFillWidth(true);
-            vBox.setAlignment(Pos.CENTER);
-            vBox.getChildren().add(WebViewUtil.setView("/html/GioiThieu.txt"));
-
-            ImageView imageView = new ImageView(new Image(App.class.getResource("/html/master.jpg").openStream()));
-            imageView.setPreserveRatio(true);
-            imageView.setFitWidth(557);
-//            imageView.setPreserveRatio(true);
-//            imageView.fitWidthProperty().bind(((AnchorPane)imageView.getParent()).widthProperty());
-            vBox.getChildren().add(imageView);
-
-
-            homeView.setContent(vBox);
-
-//            homeView.setContent(WebViewUtil.setView("/html/GioiThieu.txt"));
+            homeView.setContent(WebViewUtil.setView("/html/GioiThieu.txt"));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
