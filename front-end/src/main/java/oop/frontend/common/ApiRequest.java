@@ -1,3 +1,7 @@
+/**
+ * Lớp ApiRequest cung cấp các phương thức để thực hiện các yêu cầu HTTP GET
+ * và lấy dữ liệu từ địa chỉ API được chỉ định.
+ */
 package oop.frontend.common;
 
 import com.google.gson.Gson;
@@ -12,6 +16,15 @@ import java.util.List;
 import java.util.Map;
 
 public class ApiRequest {
+
+    /**
+     * Gửi một yêu cầu HTTP GET đến địa chỉ apiURL
+     *
+     * @param apiUrl    URL đã cung cấp.
+     * @param request   Yêu cầu cụ thể được nối thêm vào URL cơ sở GET.
+     * @return          Danh sách các bản đồ chứa dữ liệu được lấy từ phản hồi của API.
+     * @throws Exception nếu có vấn đề xảy ra trong quá trình xử lý yêu cầu hoặc phản hồi.
+     */
     public static List<Map<String,String>> getRequest(String apiUrl, String request) throws Exception{
         String urlWithParams = request.isEmpty() ? apiUrl : apiUrl+"/"+request;
         URL url = new URL(urlWithParams);

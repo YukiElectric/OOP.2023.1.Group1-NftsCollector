@@ -1,3 +1,6 @@
+/**
+ * Đây là lớp BlogController điều khiển giao diện blog.
+ */
 package oop.frontend.controller;
 
 import javafx.fxml.FXML;
@@ -20,20 +23,42 @@ import java.net.URL;
 import java.util.Map;
 
 public class BlogController extends VBox {
+
+    /**
+     * Đối tượng ImageView hiển thị hình ảnh của blog.
+     */
     @FXML
     private ImageView imageView;
+
+    /**
+     * Đối tượng Label hiển thị tiêu đề của blog.
+     */
     @FXML
     private Label title;
 
+    /**
+     * Đối tượng Label hiển thị thời gian của blog.
+     */
     @FXML
     private Label time;
 
+    /**
+     * Đối tượng Label hiển thị nội dung của blog.
+     */
     @FXML
     private Label article;
 
+    /**
+     * Đối tượng Hyperlink chứa liên kết đến blog.
+     */
     @FXML
     private Hyperlink link;
 
+    /**
+     * Phương thức mở trình duyệt web với đường dẫn được cung cấp.
+     *
+     * @param url Đường dẫn của trang web .
+     */
     private void openWebpage(String url) {
         try {
             if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE))
@@ -48,7 +73,13 @@ public class BlogController extends VBox {
         }
     }
 
-    private void setItem(Map<String, String> data) throws Exception{
+    /**
+     * Phương thức thiết lập thông tin của blog từ dữ liệu được cung cấp.
+     *
+     * @param data Dữ liệu của blog bao gồm hình ảnh, tiêu đề, thời gian, nội dung và liên kết.
+     * @throws Exception Ngoại lệ nếu có lỗi xảy ra trong quá trình thiết lập.
+     */
+    private void setItem(Map<String, String> data) throws Exception {
         imageView.setFitWidth(400);
         imageView.setFitHeight(400);
         String urlImage = data.get("image");
@@ -64,6 +95,12 @@ public class BlogController extends VBox {
         link.setOnAction(event -> openWebpage(link.getText()));
     }
 
+    /**
+     * Constructor của BlogController với dữ liệu blog được cung cấp.
+     *
+     * @param data Dữ liệu của blog bao gồm hình ảnh, tiêu đề, thời gian, nội dung và liên kết.
+     * @throws Exception Ngoại lệ nếu có lỗi xảy ra trong quá trình khởi tạo.
+     */
     public BlogController(Map<String, String> data) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource(Constants.BLOG_VIEW_SOURCE));
         fxmlLoader.setController(this);

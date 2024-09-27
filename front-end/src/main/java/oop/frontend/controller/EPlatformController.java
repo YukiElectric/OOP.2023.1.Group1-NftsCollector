@@ -1,3 +1,6 @@
+/**
+ * Lớp EPlatformController điều khiển giao diện hiển thị dữ liệu EPlatform.
+ */
 package oop.frontend.controller;
 
 import javafx.geometry.HPos;
@@ -7,11 +10,18 @@ import javafx.scene.layout.ColumnConstraints;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.RowConstraints;
 import javafx.scene.layout.VBox;
+
 import java.util.Map;
 import java.util.Set;
 
 public class EPlatformController extends VBox {
-    public EPlatformController(Map<String , String> data) {
+
+    /**
+     * Constructor của EPlatformController với dữ liệu EPlatform được cung cấp.
+     *
+     * @param data
+     */
+    public EPlatformController(Map<String, String> data) {
         GridPane gridPane = new GridPane();
         gridPane.setAlignment(javafx.geometry.Pos.CENTER);
         gridPane.setGridLinesVisible(true);
@@ -38,4 +48,3 @@ public class EPlatformController extends VBox {
         this.getChildren().add(gridPane);
     }
 }
-
